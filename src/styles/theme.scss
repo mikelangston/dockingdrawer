@@ -26,3 +26,9 @@
 /*================ MODULES ================*/
 @import url('modules/site-header.scss');
 @import url('modules/gift-card-template.scss');
+
+
+#header-nav-container{
+  background: rgba(35,35,35,.95);
+  padding: 10px 0;
+}
