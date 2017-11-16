@@ -26,32 +26,11 @@
         {% endif %}
       </a>
     </div>
-    <div class="collapse navbar-collapse col-md-7" id="main-navigation">
-      <ul class="nav navbar-nav site-nav">
-        {% for link in linklists[section.settings.main_linklist].links %}
-          {%- assign child_list_handle = link.title | handleize -%}
-          {% if menus[child_list_handle].links != blank %}
-            <li class="site-nav--has-submenu{% if link.active %} site-nav--active{% endif %}">
-              <a href="{{ link.url }}" class="site-nav__link">
-                {{ link.title }}
-                {% include 'icon-arrow-down' %}
-              </a>
-              <ul class="dropdown-menu site-nav__submenu">
-                {% for childlink in menus[child_list_handle].links %}
-                  <li {% if childlink.active %}class="site-nav--active"{% endif %}>
-                    <a href="{{ childlink.url }}" class="site-nav__link">{{ childlink.title | escape }}</a>
-                  </li>
-                {% endfor %}
-              </ul>
-            </li>
-          {% else %}
-            <li {% if link.active %}class="site-nav--active"{% endif %}>
-              <a href="{{ link.url }}" class="site-nav__link">{{ link.title }}</a>
-            </li>
-          {% endif %}
-        {% endfor %}
-      </ul>
+
+    <div class="col-md-7">
+      {% include 'main-navigation' %}
     </div>
+
     <div class="col-md-2">
       <a href="/cart">
         {% include 'icon-cart' %}
