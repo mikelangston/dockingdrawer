@@ -27,14 +27,52 @@
 @import url('modules/site-header.scss');
 @import url('modules/gift-card-template.scss');
 
-//=============== Variables/Fonts ===================
+//=============== Variables/Fonts/Pages ===================
 @import url('variables.scss');
+@import url('pages/home.scss');
 
 //=============== Navigation Styles =================
+body{
+  padding-top: 60px;
+  font-size: 16px;
+}
+header{
+  margin: 0 !important;
+  padding: 20px;
+  text-align: center;
+}
+.main-content{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  header{
+    padding: 0;
+  }
+}
+header{
+  margin-bottom: 30px;
+}
+.gray-btn{
+  color: $third;
+  font-family: $body-font;
+  font-size: 14px;
+  text-transform: uppercase;
+  padding: 8px 20px;
+  border: 2px solid #a1a1a1;
+  background: #a1a1a1;
+  &:hover{
+    color: $third;
+    border-color: $third;
+    background: transparent;
+  }
+}
+
+//================ Navigation Styles =====================
 #header-nav-container{
   background: rgba(35,35,35,.95);
   padding: 10px 0;
+  max-height: 60px;
   &.navbar-default{
+    border: none;
     .navbar-nav{
       margin-top: 10px;
       float: right;
@@ -94,6 +132,7 @@ footer{
   background: #232323;
   padding: 20px 0;
   color: $third;
+  font-size: 14px;
   .row{
     margin-bottom: 10px;
   }

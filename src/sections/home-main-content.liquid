@@ -1,0 +1,59 @@
+<section id="main-content" {% if section.settings.bg_color %}style="background-color:{{ section.settings.bg_color }}"{% endif %}>
+  <div class="container main-content">
+    <header>
+      <h1>{{ section.settings.heading_1 }}</h1>
+    </header>
+    <div class="row">
+      <div class="col-md-6">
+        {{ section.settings.content_left }}
+      </div>
+      <div class="col-md-6">
+        {{ section.settings.content_right }}
+      </div>
+    </div>
+  </div>
+</section>
+<style>
+#main-content{
+  color: {{ section.settings.font_color }};
+}
+</style>
+
+{% schema %}
+  {
+    "name": "Homepage Main Content",
+    "settings": [
+      {
+        "type": "color",
+        "id": "bg_color",
+        "label": "Background Color"
+      },
+      {
+        "type": "color",
+        "id": "font_color",
+        "label": "Font Color"
+      },
+      {
+        "type": "text",
+        "id": "heading_1",
+        "label": "H1 Heading"
+      },
+      {
+        "type": "textarea",
+        "id": "content_left",
+        "label": "Content Left"
+      },
+      {
+        "type": "textarea",
+        "id": "content_right",
+        "label": "Content Right"
+      }
+    ],
+    "presets": [
+      {
+        "name": "Homepage Main Content",
+        "category": "Homepage"
+      }
+    ]
+  }
+{% endschema %}
