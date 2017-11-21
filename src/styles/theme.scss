@@ -27,8 +27,61 @@
 @import url('modules/site-header.scss');
 @import url('modules/gift-card-template.scss');
 
+//=============== Variables/Fonts ===================
+@import url('variables.scss');
 
+//=============== Navigation Styles =================
 #header-nav-container{
   background: rgba(35,35,35,.95);
   padding: 10px 0;
+  &.navbar-default{
+    .navbar-nav{
+      margin-top: 10px;
+      float: right;
+      li{
+        margin: 0 5px;
+        ul{
+          background: rgba(35,35,35,.95);
+          li{
+            a{
+              &:hover{
+                background: #000;
+                border-color: #000;
+              }
+            }
+          }
+        }
+        &.active{
+          a{
+            background: none;
+          }
+        }
+        &.open{
+          background: none;
+          a{
+            background: none;
+          }
+        }
+        a{
+          color: $third;
+          font-family: $heading-font;
+          font-size: 16px;
+          border: 2px solid transparent;
+          border-radius: 3px;
+          padding: 3px 10px;
+          text-transform: uppercase;
+          &:hover{
+            color: $third;
+            border-color: $third;
+          }
+        }
+      }
+    }
+  }
+  .shopping-cart-container{
+    padding-top: 10px;
+    a{
+      color: $third;
+    }
+  }
 }
