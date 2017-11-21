@@ -1,25 +1,49 @@
 <footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-2 schema">
+        <h3>Contact Us:</h3>
+        <strong>{{ shop.name }}</strong>
+        {{ section.settings.address }}
+      </div>
+      <div class="col-md-6">
+        <h3>Business Hours:</h3>
+        {{ section.settings.hours }}
+      </div>
+      <div class="col-md-4">
+        {% include 'search-form' %}
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-3">
+        {%- assign social_accounts = 'Facebook, Twitter, Pinterest, Instagram, Snapchat, Tumblr, YouTube, Vimeo,' | split: ', ' -%}
+        <ul class="social">
+          {% for social in social_accounts %}
+            {%- assign social_handle = social | handleize -%}
+            {% capture social_link %}social_{{ social_handle }}_link{% endcapture %}
+            {% capture social_icon %}icon-{{ social_handle }}{% endcapture %}
 
-  {%- assign social_accounts = 'Facebook, Twitter, Pinterest, Instagram, Snapchat, Tumblr, YouTube, Vimeo,' | split: ', ' -%}
-  <ul>
-    {% for social in social_accounts %}
-      {%- assign social_handle = social | handleize -%}
-      {% capture social_link %}social_{{ social_handle }}_link{% endcapture %}
-      {% capture social_icon %}icon-{{ social_handle }}{% endcapture %}
+            {% if settings[social_link] != blank %}
+              <li>
+                <a href="{{ settings[social_link] }}" title="{{ 'layout.footer.social_platform' | t: name: shop.name, platform: social }}">
+                  {% include social_icon %}
+                  <span class="icon-fallback-text">{{ social }}</span>
+                </a>
+              </li>
+            {% endif %}
 
-      {% if settings[social_link] != blank %}
-        <li>
-          <a href="{{ settings[social_link] }}" title="{{ 'layout.footer.social_platform' | t: name: shop.name, platform: social }}">
-            {% include social_icon %}
-            <span class="icon-fallback-text">{{ social }}</span>
-          </a>
-        </li>
-      {% endif %}
+          {% endfor %}
+        </ul>
+      </div>
+      <div class="col-md-9">
+        <small>{{ 'layout.footer.copyright' | t }} &copy; {{ 'now' | date: "%Y" }}, {{ shop.name | link_to: '/' }}. </small>
+      </div>
+    </div>
+  </div>
 
-    {% endfor %}
-  </ul>
 
-  {% if section.settings.show_payment_icons %}
+
+  <!--{% if section.settings.show_payment_icons %}
     {% unless shop.enabled_payment_types == empty %}
       {%- assign payment_icons_available = 'amazon_payments,american_express,apple_pay,bitcoin,cirrus,dankort,diners_club,discover,dogecoin,dwolla,forbrugsforeningen,interac,jcb,litecoin,maestro,master,paypal,visa' | split: ',' -%}
 
@@ -45,17 +69,23 @@
         <li><a href="{{ link.url }}">{{ link.title }}</a></li>
       {% endfor %}
     </ul>
-  {% endif %}
-
-  <div>
-    <small>{{ 'layout.footer.copyright' | t }} &copy; {{ 'now' | date: "%Y" }}, {{ shop.name | link_to: '/' }}. {{ powered_by_link }}</small>
-  </div>
+  {% endif %}-->
 </footer>
 
 {% schema %}
   {
     "name": "Footer",
     "settings": [
+      {
+        "type": "textarea",
+        "id": "address",
+        "label": "Formatted Address"
+      },
+      {
+        "type": "text",
+        "id": "hours",
+        "label": "Formatted Hours"
+      },
       {
         "type": "link_list",
         "id": "footer_linklist",
