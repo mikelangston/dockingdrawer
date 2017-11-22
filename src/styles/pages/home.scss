@@ -2,24 +2,54 @@
   font-size: 18px;
   header{
     text-align: center;
-    h1{
+    h2{
       font-size: 27px;
+      margin-bottom: 20px;
     }
   }
 }
 #homepage-outlets{
+  overflow: hidden;
   .outlet-type{
+    padding: 0;
     text-align: center;
-    padding: 100px 50px;
     background: rgba(0,0,0,.8);
-    h3{
-      font-size: 30px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    @include prefix(background-size, cover, spec webkit moz);
+    .gradient{
+      background: rgba(0,0,0,0.3);
+      padding: 150px 50px;
+      h3{
+        font-size: 30px;
+      }
+      p{
+        font-size: 16px;
+        font-weight: 700;
+        max-width: 50%;
+        margin: 0 auto 30px auto;
+      }
     }
-    p{
-      font-size: 16px;
-      font-weight: 700;
-      max-width: 50%;
-      margin: 0 auto 30px auto;
+  }
+}
+#home-resources{
+  h2{
+    margin-top: 80px;
+    font-size: 35px;
+  }
+  h3{
+    margin-bottom: 20px;
+  }
+  p{
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  .library{
+    min-height: 350px;
+    position: relative;
+    .gray-btn{
+      position: absolute;
+      bottom: 0;
     }
   }
 }

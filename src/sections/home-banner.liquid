@@ -1,0 +1,40 @@
+<section id="video-bg">
+  <video autoplay loop>
+    <source type="video/mp4" src="https://cdn.shopify.com/s/files/1/2349/7495/files/dockingdrawer_banner2_194.mp4?1927191568509511314"/>
+  </video>
+  <div class="banner">
+    <div class="container">
+      <div class="col-md-12 text-center">
+        <h1>{{ section.settings.heading }}</h1>
+      </div>
+    </div>
+  </div>
+</section>
+<style>
+.banner h1{
+  color: {{ section.settings.text_color }};
+}
+</style>
+{% schema %}
+  {
+    "name": "Homepage Banner",
+    "settings": [
+      {
+        "type": "color",
+        "id": "text_color",
+        "label": "Text Color"
+      },
+      {
+        "type": "text",
+        "id": "heading",
+        "label": "Banner Text"
+      }
+    ],
+    "presets": [
+      {
+        "name": "Homepage Banner",
+        "category": "Homepage"
+      }
+    ]
+  }
+{% endschema %}

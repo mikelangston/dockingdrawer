@@ -59,11 +59,59 @@ header{
   padding: 8px 20px;
   border: 2px solid #a1a1a1;
   background: #a1a1a1;
+  transition-duration: .3s;
   &:hover{
     color: $third;
     border-color: $third;
     background: transparent;
+    text-decoration: none;
   }
+}
+
+//================ Video Banner Styles ===================
+#video-bg{
+  position: relative;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+  margin-top: -60px;
+  padding-top: 200px;
+	overflow: hidden;
+	height: 560px;
+  & > video{
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+	}
+  .banner{
+    h1{
+      font-size: 50px;
+    }
+  }
+}
+@media (min-aspect-ratio: 16/9){
+	#video-bg > video{
+		height: 300%;
+		top: -100%;
+	}
+}
+@media(max-aspect-ratio: 16/9){
+	#video-bg > video{
+		width: 300%;
+		left: -100%;
+	}
+}
+@supports (object-fit: cover){
+	#video-bg > video{
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+	}
 }
 
 //================ Navigation Styles =====================

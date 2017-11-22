@@ -5,10 +5,12 @@
   <div class="coontainer-fluid">
     <div class="row">
       {% for block in section.blocks %}
-        <div class="col-md-6 outlet-type">
-          <h3>{{ block.settings.heading }}</h3>
-          <p>{{ block.settings.details }}</p>
-          <a href="{{ block.settings.link_url }}" class="gray-btn">{{ block.settings.link_text }}</a>
+        <div class="col-md-6 outlet-type" {% if block.settings.bg_image %}style="background-image: url('{{ block.settings.bg_image | img_url: 'original' }}')"{% endif %}>
+          <div class="gradient">
+            <h3>{{ block.settings.heading }}</h3>
+            <p>{{ block.settings.details }}</p>
+            <a href="{{ block.settings.link_url }}" class="gray-btn">{{ block.settings.link_text }}</a>
+          </div>
         </div>
       {% endfor %}
     </div>
