@@ -1,0 +1,122 @@
+<section
+  id="hero"
+  class="literature-library"
+  {% if section.settings.banner_image %}
+    style="background-image: url({{ section.settings.banner_image | img_url: 'original' }});"
+  {% endif %}>
+  <h1>{{ page.title }}</h1>
+</section>
+<header
+  {% if section.settings.header_bg_color %}
+    style="background-color: {{ section.settings.header_bg_color }}"
+  {% endif %}>
+  <h2
+    {% if section.settings.header_color %}
+      style="color:{{ section.settings.header_color }}"
+    {% endif %}>{{ section.settings.header_text }}</h2>
+</header>
+<div class="container-fluid">
+  <div class="row">
+    {% for block in section.blocks %}
+      <div
+        class="col-md-4 literature-block"
+        {% if block.settings.bg_image %}
+          style="background-image: url({{ block.settings.bg_image | img_url: 'original' }});"
+        {% endif %}>
+        <h3>{{ block.settings.header_text }}</h3>
+        <a href="{{ block.settings.link_url }}" class="blk-btn">{{ block.settings.link_text }}</a>
+      </div>
+    {% endfor %}
+  </div>
+</div>
+<header
+  {% if section.settings.header_bg_color_2 %}
+    style="background-color: {{ section.settings.header_bg_color_2 }}"
+  {% endif %}>
+  <h2
+  {% if section.settings.header_color_2 %}
+    style="color:{{ section.settings.header_color_2 }}"
+  {% endif %}>{{ section.settings.header_text_2 }}</h2>
+  <a href="{{ section.settings.link_url }}" class="gray-btn">{{ section.settings.link_text }}</a>
+</header>
+
+{% schema %}
+  {
+    "name": "Literature Library",
+    "settings": [
+      {
+        "type": "image_picker",
+        "id": "banner_image",
+        "label": "Banner Image"
+      },
+      {
+        "type": "color",
+        "id": "header_bg_color",
+        "label": "Header Background"
+      },
+      {
+        "type": "color",
+        "id": "header_color",
+        "label": "Header Font Color"
+      },
+      {
+        "type": "text",
+        "id": "header_text",
+        "label": "Header Text"
+      },
+      {
+        "type": "color",
+        "id": "header_bg_color_2",
+        "label": "2nd Header Background"
+      },
+      {
+        "type": "color",
+        "id": "header_color_2",
+        "label": "2nd Header Font Color"
+      },
+      {
+        "type": "text",
+        "id": "header_text_2",
+        "label": "2nd Header Text"
+      },
+      {
+        "type": "url",
+        "id": "link_url",
+        "label": "Button URL"
+      },
+      {
+        "type": "text",
+        "id": "link_text",
+        "label": "Button Text"
+      }
+    ],
+    "blocks": [
+      {
+        "name": "Literature",
+        "type": "literature_block",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "bg_image",
+            "label": "Block Background Image"
+          },
+          {
+            "type": "text",
+            "id": "header_text",
+            "label": "Literature Text"
+          },
+          {
+            "type": "url",
+            "id": "link_url",
+            "label": "Button URL"
+          },
+          {
+            "type": "text",
+            "id": "link_text",
+            "label": "Button Text"
+          }
+        ]
+      }
+    ]
+  }
+{% endschema %}
