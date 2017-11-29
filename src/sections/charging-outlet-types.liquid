@@ -1,0 +1,74 @@
+<header
+  {% if section.settings.header_bg %}
+    style="background: {{ section.settings.header_bg }};"
+  {% endif %}>
+  <h2
+  {% if section.settings.header_color %}
+    style="color: {{ section.settings.header_color }}"
+  {% endif %}>{{ section.settings.heading }}</h2>
+</header>
+<div class="container-fluid">
+  <div class="row">
+    {% for block in section.blocks %}
+      <div class="col-md-4 charging-outlet-types"
+      {% if block.settings.block_bg %}
+        style="background: {{ block.settings.block_bg }}"
+      {% endif %}>
+        <h3>{{ block.settings.outlet_name }}</h3>
+        <img src="{{ block.settings.outlet_image | img_url: 'original' }}" />
+        {{ block.settings.outlet_content }}
+      </div>
+    {% endfor %}
+  </div>
+</div>
+
+{% schema %}
+  {
+    "name": "Charging Outlet Types",
+    "settings": [
+      {
+        "type": "color",
+        "id": "header_bg",
+        "label": "Header Background Color"
+      },
+      {
+        "type": "color",
+        "id": "header_color",
+        "label": "Heading Color"
+      },
+      {
+        "type": "text",
+        "id": "heading",
+        "label": "Heading Text"
+      }
+    ],
+    "blocks": [
+      {
+        "name": "Outlet Type",
+        "type": "outlet_type",
+        "settings": [
+          {
+            "type": "color",
+            "id": "block_bg",
+            "label": "Background Color"
+          },
+          {
+            "type": "text",
+            "id": "outlet_name",
+            "label": "Outlet Type Name"
+          },
+          {
+            "type": "image_picker",
+            "id": "outlet_image",
+            "label": "Outlet Image"
+          },
+          {
+            "type": "textarea",
+            "id": "outlet_content",
+            "label": "Outlet Details"
+          }
+        ]
+      }
+    ]
+  }
+{% endschema %}

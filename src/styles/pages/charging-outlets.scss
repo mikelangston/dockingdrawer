@@ -18,3 +18,17 @@
     }
   }
 }
+.charging-outlet-types{
+  min-height: 980px;
+  padding: 50px;
+  color: $third;
+  h3{
+    color: $third;
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+  }
+  h4, ul, li{
+    color: $third;
+  }
+}
