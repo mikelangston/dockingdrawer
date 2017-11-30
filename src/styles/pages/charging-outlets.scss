@@ -32,3 +32,18 @@
     color: $third;
   }
 }
+.how-to-specify{
+  h2{
+    font-weight: 700;
+  }
+  h3{
+    font-weight: 400;
+    margin-bottom: 30px;
+  }
+  .specify-block{
+    p{
+      font-size: 18px;
+      margin: 20px 0;
+    }
+  }
+}

@@ -1,0 +1,52 @@
+<div class="container main-content how-to-specify">
+  <div class="row">
+    <div class="col-md-8 col-md-offset-2 text-center">
+      <h2>{{ section.settings.heading }}</h2>
+      <h3>{{ section.settings.sub_heading }}</h3>
+    </div>
+  </div>
+  <div class="row">
+    {% for block in section.blocks %}
+      <div class="col-md-4 specify-block text-center">
+        <img src="{{ block.settings.specify_image | img_url: 'original' }}" />
+        <p>{{ block.settings.details }}</p>
+      </div>
+    {% endfor %}
+  </div>
+</div>
+
+{% schema %}
+  {
+    "name": "How to Specify",
+    "settings": [
+      {
+        "type": "text",
+        "id": "heading",
+        "label": "Heading"
+      },
+      {
+        "type": "text",
+        "id": "sub_heading",
+        "label": "Sub Heading"
+      }
+    ],
+    "blocks": [
+      {
+        "name": "Specify Block",
+        "type": "specify_block",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "specify_image",
+            "label": "Specify Image"
+          },
+          {
+            "type": "textarea",
+            "id": "details",
+            "label": "Specify Details"
+          }
+        ]
+      }
+    ]
+  }
+{% endschema %}
