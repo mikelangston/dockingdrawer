@@ -36,7 +36,7 @@
         </ul>
       </div>
       <div class="col-md-9">
-        <small>{{ 'layout.footer.copyright' | t }} &copy; {{ 'now' | date: "%Y" }}, {{ shop.name | link_to: '/' }}. <a href="{{ section.settings.privacy_link }}">{{ section.settings.privacy_text }}</a></small>
+        <small>{{ 'layout.footer.copyright' | t }} &copy; {{ 'now' | date: "%Y" }}, {{ shop.name | link_to: '/' }}. <a href="{{ section.settings.privacy_link }}">{{ section.settings.privacy_text }}</a> &bull; <a href="{{ section.settings.terms_url }}" target="_blank">{{ section.settings.terms_text }}</a></small>
       </div>
     </div>
   </div>
@@ -95,6 +95,16 @@
         "type": "text",
         "id": "privacy_text",
         "label": "Privacy Policy Link Text"
+      },
+      {
+        "type": "url",
+        "id": "terms_link",
+        "label": "Terms & Conditions Link"
+      },
+      {
+        "type": "text",
+        "id": "terms_text",
+        "label": "Terms & Conditions Text"
       },
       {
         "type": "link_list",
