@@ -1,0 +1,129 @@
+<div class="container main-content">
+  <div class="row">
+    <div class="col-md-4">
+      <img src="{{ section.settings.dist_image | img_url: 'original' }}" />
+    </div>
+    <div class="col-md-8">
+      {{ section.settings.dist_content }}
+    </div>
+  </div>
+</div>
+<header
+{% if section.settings.header_bg %}
+  style="background: {{ section.settings.header_bg }};"
+{% endif %}>
+  <h2
+  {% if section.settings.header_color %}
+    style="color: {{ section.settings.header_color }}"
+  {% endif %}>{{ section.settings.header }}</h2>
+</header>
+{% for block in section.blocks %}
+<div class="part-number-ref"
+{% if block.settings.bg_color %}
+  style="background: {{ block.settings.bg_color }}"
+{% endif %}>
+  <div class="container main-content">
+    <div class="row">
+      <div class="col-md-12">
+        <h3>{{ block.settings.part_type }}</h3>
+        <h4>{{ block.settings.part_name }}</h4>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-3">
+        <img src="{{ block.settings.part_image | img_url: 'compact' }}" />
+      </div>
+      <div class="col-md-9">
+        {{ block.settings.part_content }}
+      </div>
+    </div>
+  </div>
+</div>
+{% endfor %}
+<div class="container main-content">
+  <div class="col-md-12 text-center">
+    <h2>{{ section.settings.pdf_header }}</h2>
+    <a href="{{ section.settings.pdf_link }}" target="_blank"><img src="{{ section.settings.pdf_image | img_url: 'original' }}" /></a>
+  </div>
+</div>
+
+{% schema %}
+  {
+    "name": "Distributor Info",
+    "settings": [
+      {
+        "type": "image_picker",
+        "id": "dist_image",
+        "label": "Distributor Logo"
+      },
+      {
+        "type": "textarea",
+        "id": "dist_content",
+        "label": "Distributor Content"
+      },
+      {
+        "type": "color",
+        "id": "header_bg",
+        "label": "Header Background"
+      },
+      {
+        "type": "color",
+        "id": "header_color",
+        "label": "Header Color"
+      },
+      {
+        "type": "text",
+        "id": "header",
+        "label": "Reference Header"
+      },
+      {
+        "type": "text",
+        "id": "pdf_header",
+        "label": "PDF Header"
+      },
+      {
+        "type": "url",
+        "id": "pdf_link",
+        "label": "PDF Link"
+      },
+      {
+        "type": "image_picker",
+        "id": "pdf_image",
+        "label": "PDF Image"
+      }
+    ],
+    "blocks": [
+      {
+        "name": "Part Reference",
+        "type": "part_ref",
+        "settings": [
+          {
+            "type": "color",
+            "id": "bg_color",
+            "label": "Background Color"
+          },
+          {
+            "type": "text",
+            "id": "part_type",
+            "label": "Part Type"
+          },
+          {
+            "type": "text",
+            "id": "part_name",
+            "label": "Part Name"
+          },
+          {
+            "type": "image_picker",
+            "id": "part_image",
+            "label": "Part Image"
+          },
+          {
+            "type": "textarea",
+            "id": "part_content",
+            "label": "Part Reference Content"
+          }
+        ]
+      }
+    ]
+  }
+{% endschema %}
