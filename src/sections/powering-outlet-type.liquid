@@ -1,0 +1,54 @@
+<div class="powering-outlet-types-container"
+{% if section.settings.bg_color %}
+  style="background: {{ section.settings.bg_color }};"
+{% endif %}>
+  <div class="container main-content">
+    <div class="row">
+      {% for block in section.blocks %}
+        <div class="col-md-4 powering-outlet-types">
+          <h3>{{ block.settings.outlet_name }}</h3>
+          <img src="{{ block.settings.outlet_image | img_url: 'original' }}" />
+        </div>
+        <div class="col-md-8">
+          {{ block.settings.outlet_content }}
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
+{% schema %}
+  {
+    "name": "Charging Outlet Types",
+    "settings": [
+      {
+        "type": "color",
+        "id": "bg_color",
+        "label": "Background Color"
+      }
+    ],
+    "blocks": [
+      {
+        "name": "Outlet Type",
+        "type": "outlet_type",
+        "settings": [
+          {
+            "type": "text",
+            "id": "outlet_name",
+            "label": "Outlet Type Name"
+          },
+          {
+            "type": "image_picker",
+            "id": "outlet_image",
+            "label": "Outlet Image"
+          },
+          {
+            "type": "textarea",
+            "id": "outlet_content",
+            "label": "Outlet Details"
+          }
+        ]
+      }
+    ]
+  }
+{% endschema %}
