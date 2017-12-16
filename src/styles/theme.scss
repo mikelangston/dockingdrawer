@@ -190,7 +190,7 @@ header{
           font-size: 14px;
           border: 2px solid transparent;
           border-radius: 3px;
-          padding: 3px 10px;
+          padding: 3px 7px;
           text-transform: uppercase;
           &:hover{
             color: $third;
@@ -201,11 +201,21 @@ header{
     }
   }
   .shopping-cart-container{
-    padding-top: 10px;
     a{
       color: $third;
       &:hover{
         color: $primary;
+      }
+    }
+  }
+  .customer-account-links{
+    ul{
+      margin: 0;
+      padding: 0;
+      li{
+        list-style: none;
+        display: inline-block;
+        margin: 0 15px 0 0;
       }
     }
   }
