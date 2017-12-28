@@ -10,7 +10,7 @@
         {% assign grand_child_list_handle = child_link.title | handle %}
         {% if linklists[grand_child_list_handle] and linklists[grand_child_list_handle].links.size > 0 %}
         <li class="dropdown-submenu">
-          <a href="{{ child_link.url }}" class="dropdown-toggle" data-toggle="dropdown">{{ child_link.title }}<b class="caret"></b></a>
+          <a href="{{ child_link.url }}" class="dropdown-toggle" data-toggle="dropdown">{{ child_link.title }}</a>
           <ul class="dropdown-menu">
             {% for grand_child_link in linklists[grand_child_list_handle].links %}
             <li>

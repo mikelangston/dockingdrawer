@@ -6,7 +6,7 @@
         <strong>{{ shop.name }}</strong>
         {{ section.settings.address }}
       </div>
-      <div class="col-md-6">
+      <div class="col-md-5 col-md-offset-1">
         <h3>Business Hours:</h3>
         {{ section.settings.hours }}
       </div>
@@ -16,7 +16,7 @@
     </div>
     <div class="row">
       <div class="col-md-3">
-        {%- assign social_accounts = 'Facebook, Twitter, Pinterest, Instagram, Snapchat, Tumblr, YouTube, Vimeo,' | split: ', ' -%}
+        {%- assign social_accounts = 'Pinterest, Instagram, Facebook, Twitter, Snapchat, Tumblr, YouTube, Vimeo,' | split: ', ' -%}
         <ul class="social">
           {% for social in social_accounts %}
             {%- assign social_handle = social | handleize -%}
@@ -36,7 +36,7 @@
         </ul>
       </div>
       <div class="col-md-9">
-        <small>{{ 'layout.footer.copyright' | t }} &copy; {{ 'now' | date: "%Y" }}, {{ shop.name | link_to: '/' }}. <a href="{{ section.settings.privacy_link }}">{{ section.settings.privacy_text }}</a> &bull; <a href="{{ section.settings.terms_url }}" target="_blank">{{ section.settings.terms_text }}</a></small>
+        <small>{{ 'layout.footer.copyright' | t }} &copy; {{ 'now' | date: "%Y" }} JTech Solutions Inc., {{ shop.name | link_to: '/' }}. <a href="{{ section.settings.privacy_link }}">{{ section.settings.privacy_text }}</a> &bull; <a href="{{ section.settings.terms_link }}" target="_blank">{{ section.settings.terms_text }}</a></small>
       </div>
     </div>
   </div>

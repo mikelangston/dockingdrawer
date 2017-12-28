@@ -239,7 +239,7 @@
     },
     "footer": {
       "social_platform": "{{ name }} on {{ platform }}",
-      "copyright": "Copyright",
+      "copyright": "All Content",
       "payment_methods": "Payment methods accepted"
     }
   },
