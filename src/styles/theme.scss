@@ -35,6 +35,7 @@
 @import url('pages/distributors.scss');
 @import url('pages/powering-outlets.scss');
 
+
 //=============== Navigation Styles =================
 body{
   padding-top: 60px;
@@ -159,7 +160,6 @@ header{
 #header-nav-container{
   background: rgba(35,35,35,.95);
   padding: 7px 0;
-  max-height: 60px;
   &.navbar-default{
     border: none;
     .navbar-nav{
@@ -225,10 +225,10 @@ header{
     }
   }
 }
+//Third level dropdown//
 .dropdown-submenu {
     position: relative;
 }
-//Third level dropdown//
 .dropdown-submenu>.dropdown-menu {
     top: 0;
     left: 100%;
@@ -347,3 +347,4 @@ footer{
     padding-bottom: 5px;
   }
 }
+@import url('responsive.scss');

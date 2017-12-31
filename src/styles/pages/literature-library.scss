@@ -1,5 +1,6 @@
 .literature-block{
   padding: 150px 30px;
+  min-height: 460px;
   text-align: center;
   @include prefix(background-size, cover, spec webkit moz);
   h3{

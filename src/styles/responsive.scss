@@ -1,0 +1,55 @@
+@media only screen and (max-width: 1200px) {
+
+}
+@media only screen and (max-width: 1025px) {
+  #header-nav-container{
+    &.navbar-default{
+      .navbar-nav{
+        li{
+          margin: 0 3px;
+          a{
+            padding: 3px 5px;
+          }
+        }
+      }
+    }
+    .customer-account-links{
+      ul{
+        li{
+          margin: 0 7px 0 0;
+          a{
+            font-size: 12px;
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 990px) {
+  #header-nav-container{
+    max-height: none;
+    .shopping-cart-container{
+      text-align: center;
+    }
+    .customer-account-links{
+      ul{
+        text-align: center;
+        li{
+          margin: 0 10px;
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 768px) {
+
+}
+@media only screen and (max-width: 767px) {
+
+}
+@media only screen and (max-width: 700px) {
+
+}
+@media only screen and (max-width: 550px) {
+
+}
