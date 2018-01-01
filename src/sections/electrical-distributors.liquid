@@ -1,0 +1,96 @@
+<section id="hero" class="electrical-distributors"
+{% if section.settings.banner_image %}
+  style="background-image: url({{ section.settings.banner_image | img_url: 'original' }});"
+{% endif %}>
+</section>
+<section class="container main-content electrical-distributor-logos">
+  <header>
+    <h1>{{ section.settings.heading }}</h1>
+  </header>
+  <div class="row">
+    {% for block in section.blocks %}
+      {% if block.type == 'large_distributor' %}
+        {% assign large_offset = forloop.index | modulo: 2 %}
+        <div class="{% if large_offset == 1 %}col-md-offset-2{% endif %} col-md-4 text-center">
+          {% if block.settings.logo_link %}
+            <a href="{{ block.settings.large_logo_link }}" target="_blank"><img src="{{ block.settings.large_image | img_url: 'original' }}" /></a>
+          {% else %}
+            <img src="{{ block.settings.large_image | img_url: 'original' }}" />
+          {% endif %}
+        </div>
+        {% assign by_two = forloop.index | modulo: 2 %}
+        {% if by_two == 0 %}
+          </div><div class="row">
+        {% endif %}
+      {% endif %}
+
+
+      {% if block.type == 'distributor' %}
+        {% assign offset = forloop.index | modulo: 13 %}
+        <div class="{% if offset == 0 %}col-md-offset-3{% endif %} col-md-3 text-center electrical-distributor">
+          {% if block.settings.logo_link %}
+            <a href="{{ block.settings.logo_link }}" target="_blank"><img src="{{ block.settings.image | img_url: 'original' }}" /></a>
+          {% else %}
+            <img src="{{ block.settings.image | img_url: 'original' }}" />
+          {% endif %}
+        </div>
+        {% assign by_four = forloop.index | modulo: 4 %}
+        {% if by_four == 0 %}
+          </div><div class="row">
+        {% endif %}
+      {% endif %}
+    {% endfor %}
+  </div>
+</section>
+
+{% schema %}
+  {
+    "name": "Electrical Distributor",
+    "settings": [
+      {
+        "type": "image_picker",
+        "id": "banner_image",
+        "label": "Banner Background"
+      },
+      {
+        "type": "text",
+        "id": "heading",
+        "label": "Heading 1"
+      }
+    ],
+    "blocks": [
+      {
+        "name": "Large Distributor",
+        "type": "large_distributor",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "large_image",
+            "label": "Distributor Logo"
+          },
+          {
+            "type": "url",
+            "id": "large_logo_link",
+            "label": "Link to Distributor"
+          }
+        ]
+      },
+      {
+        "name": "Distributor",
+        "type": "distributor",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Distributor Logo"
+          },
+          {
+            "type": "url",
+            "id": "logo_link",
+            "label": "Link to Distributor"
+          }
+        ]
+      }
+    ]
+  }
+{% endschema %}

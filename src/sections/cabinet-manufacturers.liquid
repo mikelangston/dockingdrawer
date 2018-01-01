@@ -1,0 +1,61 @@
+<section id="hero" class="cabinet_manufacturers"
+{% if section.settings.banner_image %}
+  style="background-image: url({{ section.settings.banner_image | img_url: 'original' }});"
+{% endif %}>
+</section>
+<section class="container main-content cabinet-manufacturer-logos">
+  <header>
+    <h1>{{ section.settings.heading }}</h1>
+  </header>
+  <div class="row">
+    {% for block in section.blocks %}
+      <div class="col-md-3 text-center cabinet-manufacturer">
+        {% if block.settings.logo_link %}
+          <a href="{{ block.settings.logo_link }}" target="_blank"><img src="{{ block.settings.image | img_url: 'original' }}" /></a>
+        {% else %}
+          <img src="{{ block.settings.image | img_url: 'original' }}" />
+        {% endif %}
+      </div>
+      {% assign by_four = forloop.index | modulo: 4 %}
+      {% if by_four == 0 %}
+        </div><div class="row">
+      {% endif %}
+    {% endfor %}
+  </div>
+</section>
+
+{% schema %}
+  {
+    "name": "Cabinet Manufacturers",
+    "settings": [
+      {
+        "type": "image_picker",
+        "id": "banner_image",
+        "label": "Banner Background"
+      },
+      {
+        "type": "text",
+        "id": "heading",
+        "label": "Heading 1"
+      }
+    ],
+    "blocks": [
+      {
+        "name": "Manufacturer",
+        "type": "manufacturer",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Manufacturer Logo"
+          },
+          {
+            "type": "url",
+            "id": "logo_link",
+            "label": "Link to Manufacturer"
+          }
+        ]
+      }
+    ]
+  }
+{% endschema %}
