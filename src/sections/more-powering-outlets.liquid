@@ -1,0 +1,52 @@
+<header
+style="background-color: {{ section.settings.heading_bg }}; color: {{ section.settings.heading_color }}">
+  <h2>{{ section.settings.heading }}</h2>
+  <div class="container">
+    {% for block in section.blocks %}
+      <div class="col-md-4 col-md-offset-4 text-center">
+        <a href="{{ block.settings.button_link }}" class="gray-btn">{{ block.settings.button_text}}</a>
+      </div>
+    {% endfor %}
+  </div>
+</header>
+
+{% schema %}
+  {
+    "name": "More Outlets",
+    "settings": [
+      {
+        "type": "color",
+        "id": "heading_bg",
+        "label": "Heading Background Color"
+      },
+      {
+        "type": "color",
+        "id": "heading_color",
+        "label": "Heading Color"
+      },
+      {
+        "type": "text",
+        "id": "heading",
+        "label": "Heading"
+      }
+    ],
+    "blocks": [
+      {
+        "name": "More Outlets",
+        "type": "powering_outlet",
+        "settings": [
+          {
+            "type": "text",
+            "id": "button_text",
+            "label": "Button Text"
+          },
+          {
+            "type": "url",
+            "id": "button_link",
+            "label": "Button Link"
+          }
+        ]
+      }
+    ]
+  }
+{% endschema %}
