@@ -1,0 +1,94 @@
+<section class="container main-content">
+  <header>
+    <h2>{{ section.settings.heading }}</h2>
+    <p>{{ section.settings.sub_heading }}</p>
+  </header>
+  <div class="col-md-12 table-responsive">
+    <table class="table table-bordered">
+      <thead>
+        <tr>
+          <th>Product</th>
+          <th>1. Cabinet Depth</th>
+          <th>2. Min width behind drawer box</th>
+          <th>3. Min space behind drawer box</th>
+          <th>4. Outlet Configuration</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for block in section.blocks %}
+          <tr class="text-center">
+            <td><a href="{{ block.settings.product_link }}">{{ block.settings.product_name }}</a></td>
+            <td>{{ block.settings.cabinet_depth }}</td>
+            <td>{{ block.settings.width }}</td>
+            <td>{{ block.settings.space }}</td>
+            <td>{{ block.settings.configuration }}</td>
+          </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+  <div class="col-md-12">
+    <p class="text-center">{{ section.settings.details }}</p>
+  </div>
+</section>
+
+{% schema %}
+  {
+    "name": "Powering Outlets Table",
+    "settings": [
+      {
+        "type": "text",
+        "id": "heading",
+        "label": "Table Heading"
+      },
+      {
+        "type": "textarea",
+        "id": "sub_heading",
+        "label": "Table Sub Heading"
+      },
+      {
+        "type": "textarea",
+        "id": "details",
+        "label": "Table Outlet Details"
+      }
+    ],
+    "blocks": [
+      {
+        "name": "Product",
+        "type": "table_product",
+        "settings": [
+          {
+            "type": "text",
+            "id": "product_name",
+            "label": "Product Name"
+          },
+          {
+            "type": "url",
+            "id": "product_link",
+            "label": "Product Link"
+          },
+          {
+            "type": "text",
+            "id": "cabinet_depth",
+            "label": "Cabinet Depth"
+          },
+          {
+            "type": "text",
+            "id": "width",
+            "label": "Width behind drawer"
+          },
+          {
+            "type": "text",
+            "id": "space",
+            "label": "Space behind drawer"
+          },
+          {
+            "type": "text",
+            "id": "configuration",
+            "label": "Outlet Configuration"
+          }
+        ]
+      }
+    ]
+  }
+{% endschema %}
