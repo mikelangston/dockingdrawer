@@ -33,6 +33,9 @@
   }
 }
 .how-to-specify{
+  &.main-content{
+    padding-bottom: 0;
+  }
   h2{
     font-weight: 700;
   }
@@ -44,6 +47,16 @@
     p{
       font-size: 18px;
       margin: 20px 0;
+    }
+  }
+}
+.table-bordered{
+  thead{
+    background: #000;
+    tr{
+      th{
+        color: $third;
+      }
     }
   }
 }

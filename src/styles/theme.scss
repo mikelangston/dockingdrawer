@@ -161,14 +161,14 @@ header{
 //================ Navigation Styles =====================
 #header-nav-container{
   background: rgba(35,35,35,.95);
-  padding: 7px 0;
+  padding: 10px 0;
   &.navbar-default{
     border: none;
     .navbar-nav{
-      margin-top: 10px;
+      margin-top: 7px;
       float: right;
       li{
-        margin: 0 5px;
+        margin: 0px 4px;
         ul{
           background: rgba(35,35,35,.95);
           li{
@@ -183,6 +183,7 @@ header{
         &.active{
           a{
             background: none;
+            border: 2px solid $third;
           }
         }
         &.open{
@@ -196,8 +197,8 @@ header{
           font-family: $heading-font;
           font-size: 14px;
           border: 2px solid transparent;
-          border-radius: 3px;
-          padding: 3px 7px;
+          border-radius: 2px;
+          padding: 8px 12px;
           text-transform: uppercase;
           &:hover{
             color: $third;
@@ -208,10 +209,18 @@ header{
     }
   }
   .shopping-cart-container{
+    padding-top: 15px;
     a{
       color: $third;
+      font-size: 14px;
+      padding: 8px 12px;
+      border-radius: 2px;
+      border: 2px solid transparent;
+      text-transform: uppercase;
       &:hover{
-        color: $primary;
+        color: $third;
+        border: 2px solid $third;
+        text-decoration: none;
       }
     }
   }
@@ -273,7 +282,7 @@ header{
 //================= Footer Styles ==================
 footer{
   background: #232323;
-  padding: 20px 0;
+  padding: 20px 0 50px 0;
   color: $third;
   font-size: 14px;
   .row{
@@ -330,6 +339,9 @@ footer{
         }
       }
     }
+  }
+  small{
+    color: #999999;
   }
 }
 //Product Styles//
