@@ -1,0 +1,94 @@
+<header
+{% if section.settings.heading_bg %}
+  style="background: {{ section.settings.heading_bg }}"
+{% endif %}>
+  <h2
+  {% if section.settings.heading_color %}
+    style="color: {{ section.settings.heading_color}}"
+  {% endif %}>{{ section.settings.heading }}</h2>
+</header>
+<section class="container-fluid main-content">
+  <div class="row">
+    <div class="col-md-12">
+      <div class="col-md-6 charging-gallery text-center">
+        <h3>{{ section.settings.charging_heading }}</h3>
+        {% for block in section.blocks %}
+          {% if block.type == "charging" %}
+            <div class="col-md-6 gallery-image-block"
+            style="background-image: url({{ block.settings.image | img_url: 'original' }})">
+              <a href="{{ block.settings.image | img_url: 'original' }}" data-lightbox="charging"></a>
+            </div>
+          {% endif %}
+        {% endfor %}
+      </div>
+      <div class="col-md-6 powering-gallery text-center">
+        <h3>{{ section.settings.powering_heading }}</h3>
+        {% for block in section.blocks %}
+          {% if block.type == "powering" %}
+            <div class="col-md-6 gallery-image-block"
+            style="background-image: url({{ block.settings.image | img_url: 'original' }})">
+              <a href="{{ block.settings.image | img_url: 'original' }}" data-lightbox="powering"></a>
+            </div>
+          {% endif %}
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>
+
+{% schema %}
+  {
+    "name": "Idea Gallery",
+    "settings": [
+      {
+        "type": "color",
+        "id": "heading_bg",
+        "label": "Heading Background Color"
+      },
+      {
+        "type": "color",
+        "id": "heading_color",
+        "label": "Heading Font Color"
+      },
+      {
+        "type": "text",
+        "id": "heading",
+        "label": "Heading Text"
+      },
+      {
+        "type": "text",
+        "id": "charging_heading",
+        "label": "Charging Project Heading"
+      },
+      {
+        "type": "text",
+        "id": "powering_heading",
+        "label": "Powering Project Heading"
+      }
+    ],
+    "blocks": [
+      {
+        "name": "Charging Project",
+        "type": "charging",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Charging Project Image"
+          }
+        ]
+      },
+      {
+        "name": "Powering Project",
+        "type": "powering",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Powering Project Image"
+          }
+        ]
+      }
+    ]
+  }
+{% endschema %}

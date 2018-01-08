@@ -1,0 +1,86 @@
+<section class="idea-videos"
+{% if section.settings.video_bg %}
+  style="background: {{ section.settings.video_bg }}"
+{% endif %}>
+  <div class="container-fluid main-content">
+    <div class="col-md-4">
+
+    </div>
+    <div class="col-md-4">
+      {{ section.settings.youtube_video }}
+    </div>
+    <div class="col-md-4">
+
+    </div>
+  </div>
+</section>
+<header
+{% if section.settings.header_bg %}
+  style="background: {{ section.settings.header_bg }}"
+{% endif %}>
+  <div class="container">
+    <h3
+    {% if section.settings.header_color %}
+      style="color: {{ section.settings.header_color }}"
+    {% endif %}>{{ section.settings.possibilities_heading }}</h3>
+    <div class="col-md-4 col-md-offset-2 text-center">
+      <a href="{{ section.settings.charging_link }}" class="gray-btn">{{ section.settings.charging_button }}</a>
+    </div>
+    <div class="col-md-4 text-center">
+      <a href="{{ section.settings.powering_link }}" class="gray-btn">{{ section.settings.powering_button }}</a>
+    </div>
+  </div>
+</header>
+
+{% schema %}
+  {
+    "name": "Idea Videos",
+    "settings": [
+      {
+        "type": "color",
+        "id": "video_bg",
+        "label": "Video Background Color"
+      },
+      {
+        "type": "color",
+        "id": "header_bg",
+        "label": "Heading Background Color"
+      },
+      {
+        "type": "color",
+        "id": "header_color",
+        "label": "Heading Font Color"
+      },
+      {
+        "type": "textarea",
+        "id": "youtube_video",
+        "label": "Youtube Video"
+      },
+      {
+        "type": "text",
+        "id": "possibilities_heading",
+        "label": "More Links Heading"
+      },
+      {
+        "type": "url",
+        "id": "charging_link",
+        "label": "Charging Link"
+      },
+      {
+        "type": "text",
+        "id": "charging_button",
+        "label": "Charging Button"
+      },
+      {
+        "type": "url",
+        "id": "powering_link",
+        "label": "Powering Link"
+      },
+      {
+        "type": "text",
+        "id": "powering_button",
+        "label": "Powering Button"
+      }
+    ]
+  }
+{% endschema %}
