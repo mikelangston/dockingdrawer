@@ -4,13 +4,24 @@
 {% endif %}>
   <div class="container-fluid main-content">
     <div class="col-md-4">
-
+      {% if section.settings.left_video %}
+        <video controls poster="{{ section.settings.left_poster | img_url: 'original' }}">
+          <source src="{{ section.settings.left_video }}" type="video/mp4" />
+        </video>
+        <p class="details">{{ section.settings.left_details }}</p>
+      {% endif %}
     </div>
     <div class="col-md-4">
       {{ section.settings.youtube_video }}
+      <p class="details">{{ section.settings.youtube_details }}</p>
     </div>
     <div class="col-md-4">
-
+      {% if section.settings.right_video %}
+        <video controls poster="{{ section.settings.right_poster | img_url: 'original' }}">
+          <source src="{{ section.settings.right_video }}" type="video/mp4" />
+        </video>
+        <p class="details">{{ section.settings.right_details }}</p>
+      {% endif %}
     </div>
   </div>
 </section>
@@ -52,9 +63,44 @@
         "label": "Heading Font Color"
       },
       {
+        "type": "image_picker",
+        "id": "left_poster",
+        "label": "Video Poster"
+      },
+      {
+        "type": "url",
+        "id": "left_video",
+        "label": "Video URL"
+      },
+      {
+        "type": "textarea",
+        "id": "left_details",
+        "label": "Video Details"
+      },
+      {
         "type": "textarea",
         "id": "youtube_video",
         "label": "Youtube Video"
+      },
+      {
+        "type": "textarea",
+        "id": "youtube_details",
+        "label": "Video Details"
+      },
+      {
+        "type": "image_picker",
+        "id": "right_poster",
+        "label": "Video Poster"
+      },
+      {
+        "type": "url",
+        "id": "right_video",
+        "label": "Video URL"
+      },
+      {
+        "type": "textarea",
+        "id": "right_details",
+        "label": "Video Details"
       },
       {
         "type": "text",

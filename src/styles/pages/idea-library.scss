@@ -9,3 +9,17 @@
     height: 280px;
   }
 }
+.idea-videos{
+  video{
+    max-width: 100%;
+    height: 315px;
+  }
+  iframe{
+    max-width: 100%;
+    height: 315px;
+  }
+  .details{
+    text-align: center;
+    color: $third;
+  }
+}
