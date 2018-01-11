@@ -167,9 +167,6 @@ header{
     font-weight: 700;
     font-size: 50px;
   }
-  &.contact{
-    background: url({{ 'banner-contact.jpg' | asset_url }});
-  }
 }
 
 //================ Navigation Styles =====================
@@ -376,6 +373,30 @@ footer{
   }
 }
 //Contact Styles//
+.overlay{
+  display: none;
+  position: fixed;
+  overflow: scroll;
+  z-index: 9999;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding-top: 60px;
+  background: rgba(0,0,0,0.7);
+  .wht-block{
+    background: $third;
+    padding: 40px;
+    border-radius: 7px;
+    position: relative;
+    .close{
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      cursor: pointer;
+    }
+  }
+}
 .contact-page{
   header{
     margin-bottom: 60px;

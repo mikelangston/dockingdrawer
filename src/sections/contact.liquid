@@ -1,0 +1,83 @@
+<section class="overlay exchange-content">
+  <div class="container">
+    <div class="col-md-8 col-md-offset-2 wht-block">
+      <span class="close">X</span>
+      <h3>Make an Exchange</h3>
+      {{ section.settings.exchange_content }}
+    </div>
+  </div>
+</section>
+<section class="overlay return-content">
+  <div class="container">
+    <div class="col-md-8 col-md-offset-2 wht-block">
+      <span class="close">X</span>
+      <h3>Make a Return</h3>
+      {{ section.settings.return_content }}
+    </div>
+  </div>
+</section>
+<section id="hero" class="contact"
+{% if section.settings.banner %}
+  style="background-image: url({{ section.settings.banner | img_url: 'original' }})"
+{% endif %}></section>
+<section class="container main-content contact-page">
+  <header>
+    <h1>{{ page.title }}</h1>
+    <p class="lg">{{ section.settings.sub_heading }}</p>
+  </header>
+  <div class="col-md-8 col-md-push-4 contact-form-container">
+    {{ page.content }}
+  </div>
+  <div class="col-md-3 col-md-pull-8">
+    <ul class="info">
+      <li><i class="fa fa-phone"></i>{{ section.settings.phone }}</li>
+      <li><i class="fa fa-home"></i>{{ section.settings.address }}</li>
+      <li><i class="fa fa-envelope"></i>{{ section.settings.email }}</li>
+    </ul>
+    <a href="#" class="blk-btn block exchange-btn"><i class="fa fa-refresh"></i>Make an Exchange</a>
+    <a href="#" class="blk-btn block return-btn"><i class="fa fa-sign-in"></i>Make a Return</a>
+  </div>
+</section>
+
+{% schema %}
+  {
+    "name": "Contact",
+    "settings": [
+      {
+        "type": "image_picker",
+        "id": "banner",
+        "label": "Banner Image"
+      },
+      {
+        "type": "textarea",
+        "id": "sub_heading",
+        "label": "Sub Heading"
+      },
+      {
+        "type": "text",
+        "id": "phone",
+        "label": "Phone Number"
+      },
+      {
+        "type": "textarea",
+        "id": "address",
+        "label": "Address"
+      },
+      {
+        "type": "text",
+        "id": "email",
+        "label": "Email Address"
+      },
+      {
+        "type": "textarea",
+        "id": "exchange_content",
+        "label": "Exchange Content"
+      },
+      {
+        "type": "textarea",
+        "id": "return_content",
+        "label": "Return Content"
+      }
+    ]
+  }
+{% endschema %}
