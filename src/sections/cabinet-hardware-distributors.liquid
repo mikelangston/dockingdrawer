@@ -1,0 +1,69 @@
+<section id="hero"
+{% if section.settings.banner %}
+  style="background-image: url({{ section.settings.banner | img_url: 'original' }})"
+{% endif %}>
+  <h1>{{ section.settings.banner_text }}</h1>
+</section>
+<section class="container main-content ch-dist">
+  <header>
+    <h2>{{ section.settings.heading_1 }}</h2>
+    <p>{{ section.settings.sub_heading }}</p>
+  </header>
+  <div class="row">
+    {% for block in section.blocks %}
+      {% assign by_four = forloop.index | modulo: 4 %}
+      <div class="col-md-3 distributor">
+        <a href="{{ block.settings.link }}"><img src="{{ block.settings.logo | img_url: 'original' }}" /></a>
+      </div>
+      {% if by_four == 0 %}
+      </div><div class="row">
+      {% endif %}
+    {% endfor %}
+  </div>
+</section>
+
+{% schema %}
+  {
+    "name": "Cabinet HD",
+    "settings": [
+      {
+        "type": "image_picker",
+        "id": "banner",
+        "label": "Banner Image"
+      },
+      {
+        "type": "text",
+        "id": "banner_text",
+        "label": "Banner Text"
+      },
+      {
+        "type": "text",
+        "id": "heading_1",
+        "label": "Heading 1"
+      },
+      {
+        "type": "textarea",
+        "id": "sub_heading",
+        "label": "Sub Heading"
+      }
+    ],
+    "blocks": [
+      {
+        "name": "Distributor",
+        "type": "distributor",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "logo",
+            "label": "Distributor Logo"
+          },
+          {
+            "type": "url",
+            "id": "link",
+            "label": "Distributor Page Link"
+          }
+        ]
+      }
+    ]
+  }
+{% endschema %}
