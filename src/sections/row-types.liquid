@@ -1,0 +1,106 @@
+<header
+{% if section.settings.header_bg %}
+  style="background: {{ section.settings.header_bg }};"
+{% endif %}>
+  <div class="container">
+    <div class="col-md-12 text-center">
+      <h2
+      {% if section.settings.header_color %}
+        style="color: {{ section.settings.header_color }};"
+      {% endif %}>{{ section.settings.top_heading }}</h2>
+    </div>
+  </div>
+</header>
+<div class="container-fluid">
+  <div class="row">
+    {% for block in section.blocks %}
+      <div class="col-md-6 row-type"
+      {% if block.settings.type_bg %}
+        style="background: {{ block.settings.type_bg }}"
+      {% endif %}>
+        <h3>{{ block.settings.type_heading }}</h3>
+        <img src="{{ block.settings.type_image | img_url: 'original' }}" />
+        {{ block.settings.type_details }}
+      </div>
+    {% endfor %}
+  </div>
+</div>
+<header
+{% if section.settings.header_bg %}
+  style="background: {{ section.settings.header_bg }};"
+{% endif %}>
+  <div class="container">
+    <div class="col-md-12 text-center">
+      <h2
+      {% if section.settings.header_color %}
+        style="color: {{ section.settings.header_color }};"
+      {% endif %}>{{ section.settings.bottom_heading }} <a href="{{ section.settings.button_link }}" class="gray-btn">{{ section.settings.button_text }}</a></h2>
+    </div>
+  </div>
+</header>
+
+{% schema %}
+  {
+    "name": "Rest World Types",
+    "settings": [
+      {
+        "type": "color",
+        "id": "header_bg",
+        "label": "Header Background Color"
+      },
+      {
+        "type": "color",
+        "id": "header_color",
+        "label": "Header Font Color"
+      },
+      {
+        "type": "text",
+        "id": "top_heading",
+        "label": "Top Heading"
+      },
+      {
+        "type": "text",
+        "id": "bottom_heading",
+        "label": "Bottom Heading"
+      },
+      {
+        "type": "url",
+        "id": "button_link",
+        "label": "Button Link"
+      },
+      {
+        "type": "text",
+        "id": "button_text",
+        "label": "Button Text"
+      }
+    ],
+    "blocks": [
+      {
+        "name": "Rest World Types",
+        "type": "row_type",
+        "settings": [
+          {
+            "type": "color",
+            "id": "type_bg",
+            "label": "Type Background Color"
+          },
+          {
+            "type": "text",
+            "id": "type_heading",
+            "label": "Type Heading"
+          },
+          {
+            "type": "image_picker",
+            "id": "type_image",
+            "label": "Type Image"
+          },
+          {
+            "type": "textarea",
+            "id": "type_details",
+            "label": "Type Details"
+          }
+        ]
+      }
+    ]
+  }
+{% endschema %}

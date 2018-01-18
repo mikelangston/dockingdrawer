@@ -1,0 +1,58 @@
+<section id="hero" class="charging-outlets rest-of-world-banner"
+  {% if section.settings.banner_image %}
+    style="background-image: url({{ section.settings.banner_image | img_url: 'original' }});"
+  {% endif %}>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-6 wht-gradient">
+        <h1>{{ page.title }}</h1>
+        <p>{{ section.settings.banner_paragraph_1 }}</p>
+        <p>{{ section.settings.banner_paragraph_2 }}</p>
+        <div class="row">
+          <div class="col-md-4">
+            <p>{{ section.settings.banner_paragraph_3 }}</p>
+          </div>
+          <div class="col-md-4">
+            <p>{{ section.settings.banner_paragraph_4 }}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% schema %}
+  {
+    "name": "Charging Outlets Banner",
+    "settings": [
+      {
+        "type": "image_picker",
+        "id": "banner_image",
+        "label": "Banner Image"
+      },
+      {
+        "type": "textarea",
+        "id": "banner_paragraph_1",
+        "label": "Banner Paragraph 1"
+      },
+      {
+        "type": "textarea",
+        "id": "banner_paragraph_2",
+        "label": "Banner Paragraph 2"
+      },
+      {
+        "type": "textarea",
+        "id": "banner_paragraph_3",
+        "label": "Banner Paragraph 3"
+      },
+      {
+        "type": "textarea",
+        "id": "banner_paragraph_4",
+        "label": "Banner Paragraph 4"
+      }
+    ],
+    "blocks": [
+
+    ]
+  }
+{% endschema %}

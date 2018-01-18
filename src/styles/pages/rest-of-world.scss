@@ -1,0 +1,40 @@
+#hero{
+  &.rest-of-world-banner{
+    padding: 0;
+    .wht-gradient{
+      background: rgba(255,255,255,0.7);
+      padding: 100px 50px;
+      text-align: left;
+      h1, h2, p{
+        color: #000;
+      }
+      p{
+        font-size: 18px;
+      }
+      ul{
+        color: #000;
+        font-size: 16px;
+      }
+    }
+  }
+}
+.row-type{
+  padding: 50px;
+  min-height: 1050px;
+  h3{
+    color: $third;
+    font-size: 30px;
+    text-align: center;
+  }
+  img{
+    display: block;
+    margin: 10px auto;
+  }
+  ul{
+    li{
+      font-size: 18px;
+      color: $third;
+      margin: 3px 0;
+    }
+  }
+}

@@ -1,3 +1,12 @@
+<header
+{% if section.settings.header_bg %}
+  style="background: {{ section.settings.header_bg }};"
+{% endif %}>
+  <h2
+  {% if section.settings.header_color %}
+    style="color: {{ section.settings.header_color }}"
+  {% endif %}>{{ section.settings.header }}</h2>
+</header>
 <div class="container main-content">
   <div class="row">
     <div class="col-md-4">
@@ -8,15 +17,9 @@
     </div>
   </div>
 </div>
-<header
-{% if section.settings.header_bg %}
-  style="background: {{ section.settings.header_bg }};"
-{% endif %}>
-  <h2
-  {% if section.settings.header_color %}
-    style="color: {{ section.settings.header_color }}"
-  {% endif %}>{{ section.settings.header }}</h2>
-</header>
+<div class="container">
+  <hr/>
+</div>
 {% for block in section.blocks %}
 <div class="part-number-ref"
 {% if block.settings.bg_color %}
