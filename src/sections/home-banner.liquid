@@ -1,4 +1,7 @@
-<section id="video-bg">
+<section id="video-bg"
+{% if section.settings.banner_bg %}
+  style="background-image: url({{ section.settings.banner_bg | img_url: 'original' }});"
+{% endif %}>
   <video autoplay loop>
     <source type="video/mp4" src="{{ section.settings.video_url }}"/>
   </video>
@@ -33,6 +36,11 @@
         "type": "url",
         "id": "video_url",
         "label": "Video URL"
+      },
+      {
+        "type": "image_picker",
+        "id": "banner_bg",
+        "label": "Banner Background Image"
       }
     ],
     "presets": [
