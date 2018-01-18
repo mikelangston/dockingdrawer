@@ -1,0 +1,28 @@
+<section id="hero" class="collections"
+{% if section.settings.banner %}
+  style="background-image: url({{ section.settings.banner | img_url: 'original' }});"
+{% endif %}>
+  <div class="container">
+    <div class="col-md-12 text-center">
+      <h1>{{ section.settings.banner_text }}</h1>
+    </div>
+  </div>
+</section>
+
+{% schema %}
+  {
+    "name": "Collections Banner",
+    "settings": [
+      {
+        "type": "image_picker",
+        "id": "banner",
+        "label": "Banner Image"
+      },
+      {
+        "type": "text",
+        "id": "banner_text",
+        "label": "Banner Text"
+      }
+    ]
+  }
+{% endschema %}

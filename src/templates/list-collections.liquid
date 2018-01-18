@@ -1,7 +1,51 @@
 {% comment %}
   This page represents the /collections and /products pages.
 {% endcomment %}
-<div class="container main-content">
+{% section 'collections-banner' %}
+<section class="container main-content product-collections">
+  <div class="row">
+    <div class="col-md-6">
+      <div class="row">
+        {% section 'blade-series' %}
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="row">
+        {% section 'style-drawer-series' %}
+      </div>
+    </div>
+  </div>
+  <hr />
+  <div class="row">
+    <div class="col-md-6">
+      <div class="row">
+        {% section 'slim-series' %}
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="row">
+        {% section 'usb-narrow' %}
+      </div>
+    </div>
+  </div>
+  <hr />
+  <div class="row">
+    <div class="col-md-12">
+      <div class="row">
+        {% section 'row-series' %}
+      </div>
+    </div>
+  </div>
+  <hr />
+  <div class="row">
+    <div class="col-md-12">
+      <div class="row">
+        {% section 'accessories' %}
+      </div>
+    </div>
+  </div>
+</section>
+<!--<div class="container main-content">
   <header>
     <h1>{{ page_title }}</h1>
   </header>
@@ -27,4 +71,4 @@
       </div>
     {% endfor %}
   </div>
-</div>
+</div>-->

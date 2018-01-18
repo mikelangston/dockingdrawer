@@ -1,0 +1,41 @@
+<div class="col-md-9">
+  <img src="{{ section.settings.image | img_url: 'original' }}" />
+</div>
+<div class="col-md-3">
+  <h4>{{ section.settings.type }}</h4>
+  <h3>{{ section.settings.series }}</h3>
+  <a href="{{ section.settings.button_link}}" class="blk-btn">{{ section.settings.button_text }}</a>
+</div>
+
+{% schema %}
+  {
+    "name": "Accessories",
+    "settings": [
+      {
+        "type": "image_picker",
+        "id": "image",
+        "label": "Product Image"
+      },
+      {
+        "type": "text",
+        "id": "type",
+        "label": "Product Type"
+      },
+      {
+        "type": "text",
+        "id": "series",
+        "label": "Product Series"
+      },
+      {
+        "type": "url",
+        "id": "button_link",
+        "label": "Product Link"
+      },
+      {
+        "type": "text",
+        "id": "button_text",
+        "label": "Button Text"
+      }
+    ]
+  }
+{% endschema %}

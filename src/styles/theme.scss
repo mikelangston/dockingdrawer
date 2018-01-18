@@ -170,6 +170,7 @@ header{
   @include prefix(background-size, cover, spec webkit moz);
   h1{
     color: $third;
+    font-family: $alt-font;
     font-weight: 700;
     font-size: 50px;
   }
@@ -362,6 +363,28 @@ footer{
   }
 }
 //Product Styles//
+.product-collections{
+  .row{
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  h3{
+    margin: 0 0 20px 0;
+  }
+  h4{
+    font-size: 14px;
+    text-transform: uppercase;
+    margin: 30px 0 5px 0;
+  }
+  hr{
+    margin: 30px auto;
+  }
+  .blk-btn{
+    display: inline-block;
+    width: 200px;
+    text-align: center;
+  }
+}
 .product-images{
   margin: 0;
   padding: 0;
