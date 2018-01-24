@@ -1,0 +1,95 @@
+<section id="hero" class="spec"
+{% if section.settings.banner %}
+  style="background-image: url({{ section.settings.banner | img_url: 'original' }})"
+{% endif %}>
+  <div class="container text-center">
+    <h1>{{ page.title }}</h1>
+  </div>
+</section>
+<div class="container main-content text-center">
+  <h2>{{ section.settings.sub_heading }}</h2>
+  {{ section.settings.content }}
+</div>
+<header
+{% if section.settings.heading_bg %}
+  style="background: {{ section.settings.heading_bg }}"
+{% endif %}>
+  <h2
+  {% if section.settings.heading_color %}
+    style="color: {{ section.settings.heading_color }}"
+  {% endif %}>{{ section.settings.ho_heading }}</h2>
+</header>
+<section
+{% if section.settings.ho_bg %}
+  style="background: {{ section.settings.ho_bg }}"
+{% endif %}>
+  <div class="container main-content homeowner">
+    <div class="row">
+      <div class="col-md-3">
+        <h3>{{ section.settings.ho_sub_heading }}</h3>
+        <p>{{ section.settings.ho_heading_3 }}</p>
+      </div>
+      <div class="col-md-9">
+        {{ section.settings.ho_content }}
+      </div>
+    </div>
+  </div>
+</section>
+
+{% schema %}
+  {
+    "name": "Specification Top",
+    "settings": [
+      {
+        "type": "color",
+        "id": "heading_bg",
+        "label": "Heading Background Color"
+      },
+      {
+        "type": "color",
+        "id": "heading_color",
+        "label": "Heading Color"
+      },
+      {
+        "type": "color",
+        "id": "ho_bg",
+        "label": "Homeowner Background Color"
+      },
+      {
+        "type": "image_picker",
+        "id": "banner",
+        "label": "Banner Background"
+      },
+      {
+        "type": "text",
+        "id": "sub_heading",
+        "label": "Sub Heading"
+      },
+      {
+        "type": "textarea",
+        "id": "content",
+        "label": "Top Content"
+      },
+      {
+        "type": "text",
+        "id": "ho_heading",
+        "label": "Homeowner Heading"
+      },
+      {
+        "type": "text",
+        "id": "ho_sub_heading",
+        "label": "Homeowner Sub Heading"
+      },
+      {
+        "type": "text",
+        "id": "ho_heading_3",
+        "label": "Homeowner Heading 3"
+      },
+      {
+        "type": "textarea",
+        "id": "ho_content",
+        "label": "Homeowner Content"
+      }
+    ]
+  }
+{% endschema %}

@@ -1,0 +1,41 @@
+.homeowner{
+  h3{
+    font-size: 20px;
+  }
+}
+.resource{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+.na-outlets{
+  .na-outlet{
+    padding: 50px;
+    h3{
+      text-align: center;
+      font-size: 30px;
+    }
+    img{
+      display: block;
+      margin: 0 auto;
+    }
+    .cta_button{
+      @extend .blk-btn;
+    }
+    .blk-btn, .cta_button{
+      display: block;
+      width: 100%;
+      max-width: 350px;
+      margin: 4px 0;
+      text-align: center;
+      font-weight: 700;
+      &:hover{
+        background: #000;
+        color: #fff;
+      }
+    }
+    p{
+      margin-top: 30px;
+    }
+  }
+}
