@@ -18,7 +18,7 @@
         <ul class="product-images">
           {% for image in product.images %}
             <li>
-              <a href="{{ image.src | img_url: '480x480' }}" data-product-single-thumbnail>
+              <a href="{{ image.src | img_url: '480x480' }}" data-lightbox="product-img" data-product-single-thumbnail>
                 <img src="{{ image.src | img_url: '160x160' }}" alt="{{ image.alt | escape }}">
               </a>
             </li>
