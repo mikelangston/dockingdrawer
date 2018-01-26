@@ -245,14 +245,19 @@ header{
       }
     }
   }
-  .customer-account-links{
-    ul{
-      margin: 0;
-      padding: 0;
-      li{
-        list-style: none;
-        display: inline-block;
-        margin: 0 15px 0 0;
+}
+.customer-account-links{
+  ul{
+    margin: 0;
+    padding: 0;
+    li{
+      list-style: none;
+      display: block;
+      margin: 3px 0;
+      a{
+        color: $third;
+        font-size: 13px;
+        text-transform: uppercase;
       }
     }
   }

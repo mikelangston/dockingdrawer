@@ -26,7 +26,7 @@
       </a>
     </div>
 
-    <div class="col-md-8">
+    <div class="col-md-7">
       {% include 'main-navigation' %}
     </div>
 
@@ -38,9 +38,11 @@
           ({{ cart.item_count }} {{ 'layout.cart.items_count' | t: count: cart.item_count }})
         </a>
       </div>
+    </div>
 
+    <div class="col-md-1">
       <!-- Customer Account Links -->
-      <!--<div class="row customer-account-links">
+      <div class="row customer-account-links">
         {% if shop.customer_accounts_enabled %}
           <ul>
             {% if customer %}
@@ -65,7 +67,7 @@
             {% endif %}
           </ul>
         {% endif %}
-      </div>-->
+      </div>
     </div>
   </div>
   <!--<header role="banner">
