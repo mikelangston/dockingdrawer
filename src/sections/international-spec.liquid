@@ -16,9 +16,11 @@
       {% endif %}>
         <h3>{{ block.settings.heading }}</h3>
         <img src="{{ block.settings.ina_image | img_url: 'original' }}" />
-        {{ block.settings.hubspot_links }}
-        <a href="{{ block.settings.ina_link }}" class="blk-btn">{{ block.settings.ina_button_text }}</a>
-        <p>{{ block.settings.content }}</p>
+        <div class="buttons-container">
+          {{ block.settings.hubspot_links }}
+          <a href="{{ block.settings.ina_link }}" class="blk-btn">{{ block.settings.ina_button_text }}</a>
+          <p>{{ block.settings.content }}</p>
+        </div>
       </div>
     {% endfor %}
   </div>
