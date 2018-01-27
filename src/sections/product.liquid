@@ -124,10 +124,6 @@
 
       </div>
 
-      <div class="rte">
-        {{ product.description }}
-      </div>
-
       {% if section.settings.show_share_buttons %}
         {% include 'social-sharing', share_title: product.title, share_permalink: product.url, share_image: product %}
       {% endif %}
@@ -139,6 +135,13 @@
       {% endunless %}
     </div>
     </div>
+</div>
+<div class="gray product-details">
+  <div class="container main-content">
+    <div class="row">
+      {{ product.description }}
+    </div>
+  </div>
 </div>
 
 

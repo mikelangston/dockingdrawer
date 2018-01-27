@@ -93,6 +93,7 @@ header{
 .blk-btn{
   color: $third;
   font-family: $body-font;
+  font-weight: 700;
   font-size: 14px;
   text-transform: uppercase;
   padding: 8px 20px;
@@ -408,6 +409,9 @@ footer{
     padding-top: 5px;
     padding-bottom: 5px;
   }
+}
+.product-details{
+  background: #f0f4f7;
 }
 //Contact Styles//
 .overlay{

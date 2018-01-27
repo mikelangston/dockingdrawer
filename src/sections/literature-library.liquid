@@ -19,7 +19,7 @@
   <div class="row">
     {% for block in section.blocks %}
       <div
-        class="col-md-4 literature-block"
+        class="col-md-6 literature-block"
         {% if block.settings.bg_image %}
           style="background-image: url({{ block.settings.bg_image | img_url: 'original' }});"
         {% endif %}>
