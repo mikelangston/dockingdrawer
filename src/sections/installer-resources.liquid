@@ -14,7 +14,7 @@
       {% if block.settings.resource_bg %}
         style="background: {{ block.settings.resource_bg }}"
       {% endif %}>
-        <a href="{{ block.settings.resource_link }}"><img src="{{ block.settings.resource_image | img_url: 'original' }}" /></a>
+        {{ block.settings.hubspot_link }}
         <h3>{{ block.settings.heading }}</h3>
         <p>{{ block.settings.content }}</p>
       </div>
@@ -53,14 +53,9 @@
             "label": "Resource Background Color"
           },
           {
-            "type": "url",
-            "id": "resource_link",
-            "label": "Resource Link"
-          },
-          {
-            "type": "image_picker",
-            "id": "resource_image",
-            "label": "Resource Image"
+            "type": "textarea",
+            "id": "hubspot_link",
+            "label": "HubSpot CTA"
           },
           {
             "type": "text",
