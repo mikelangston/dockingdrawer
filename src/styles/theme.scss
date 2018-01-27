@@ -422,6 +422,23 @@ footer{
 .product-details{
   background: #f0f4f7;
 }
+.product-row{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  border-bottom: 1px solid #b3b3b3;
+  &:last-of-type{
+    border: none;
+  }
+  h4{
+    margin-bottom: 20px;
+  }
+  .blk-btn{
+    display: block;
+    width: 85%;
+    margin: 0 auto;
+    text-align: center;
+  }
+}
 //Contact Styles//
 .overlay{
   display: none;
