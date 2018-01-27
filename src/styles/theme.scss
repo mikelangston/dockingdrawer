@@ -410,6 +410,15 @@ footer{
     padding-bottom: 5px;
   }
 }
+.product-type{
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.price{
+  font-family: $alt-font;
+  font-size: 20px;
+  padding-top: 20px;
+}
 .product-details{
   background: #f0f4f7;
 }
