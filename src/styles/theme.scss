@@ -559,6 +559,15 @@ footer{
     }
   }
 }
+.cta_button{
+  @extend .blk-btn;
+  text-transform: uppercase !important;
+  &:hover{
+    color: #000 !important;
+    text-shadow: none !important;
+    background: none !important;
+  }
+}
 
 
 @import url('responsive.scss');

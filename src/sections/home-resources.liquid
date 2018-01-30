@@ -6,7 +6,7 @@
     </div>
     {% for block in section.blocks %}
       <div class="col-md-3 library">
-        <img src="{{ block.settings.icon | img_url: 'original' }}" />
+        <a href="{{ block.settings.link_url }}"><img src="{{ block.settings.icon | img_url: 'original' }}" /></a>
         <h3>{{ block.settings.title }}</h3>
         <p>{{ block.settings.details }}</p>
         <a href="{{ block.settings.link_url }}" class="gray-btn">{{ block.settings.link_text }}</a>

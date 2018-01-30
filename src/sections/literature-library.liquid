@@ -25,6 +25,9 @@
         {% endif %}>
         <h3>{{ block.settings.header_text }}</h3>
         <a href="{{ block.settings.link_url }}" class="blk-btn">{{ block.settings.link_text }}</a>
+        <div>
+          {{ block.settings.hubspot_links }}
+        </div>
       </div>
     {% endfor %}
   </div>
@@ -114,6 +117,11 @@
             "type": "text",
             "id": "link_text",
             "label": "Button Text"
+          },
+          {
+            "type": "textarea",
+            "id": "hubspot_links",
+            "label": "HubSpot CTA's"
           }
         ]
       }
