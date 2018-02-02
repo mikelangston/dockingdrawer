@@ -16,6 +16,7 @@ function exchange_return(){
   });
 }
 
+
 $(document).ready(function(){
   new_window();
   exchange_return();
