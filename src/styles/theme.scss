@@ -514,12 +514,24 @@ footer{
   h3{
     font-size: 20px;
   }
+  a{
+    color: #333;
+    text-decoration: underline;
+  }
 }
 .resource{
   padding-top: 50px;
   padding-bottom: 50px;
   text-align: center;
   min-height: 430px;
+}
+.installer-resources{
+  .resource{
+    .cta_button{
+      border: none !important;
+      background: none !important;
+    }
+  }
 }
 .na-outlets, .ina-outlets{
   .na-outlet, .ina-outlet{
@@ -550,8 +562,7 @@ footer{
       text-align: center;
       font-weight: 700;
       &:hover{
-        background: #000;
-        color: #fff;
+        background: transparent;
       }
     }
     p{
