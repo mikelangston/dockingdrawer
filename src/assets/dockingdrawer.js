@@ -18,7 +18,7 @@ function exchange_return(){
 
 
 $(document).ready(function(){
-  new_window();
+  //new_window();
   exchange_return();
   lightbox.option({
     'wrapAround': true,
