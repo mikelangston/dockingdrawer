@@ -31,7 +31,7 @@
     </div>
 
     <div class="col-md-2 shopping-cart-container">
-      <div class="row">
+      <div class="row hidden-xs">
         <a href="/cart">
           {% include 'icon-cart' %}
           {{ 'layout.cart.title' | t }}
@@ -42,7 +42,7 @@
 
     <div class="col-md-1">
       <!-- Customer Account Links -->
-      <div class="row customer-account-links">
+      <div class="row customer-account-links hidden-xs">
         {% if shop.customer_accounts_enabled %}
           <ul>
             {% if customer %}

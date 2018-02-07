@@ -12,7 +12,7 @@
       {% if block.type == 'large_distributor' %}
         {% assign large_offset = forloop.index | modulo: 2 %}
         <div class="{% if large_offset == 1 %}col-md-offset-2{% endif %} col-md-4 text-center">
-          {% if block.settings.logo_link %}
+          {% if block.settings.large_logo_link %}
             <a href="{{ block.settings.large_logo_link }}" target="_blank">
               <img src="{{ block.settings.large_image | img_url: 'original' }}" />
               <p>{{ block.settings.vendor_number }}</p>

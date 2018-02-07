@@ -331,6 +331,9 @@ footer{
       font-size: 16px;
     }
   }
+  .search-container{
+    padding: 15px 0;
+  }
   form{
     input{
       color: $third;
@@ -356,7 +359,7 @@ footer{
   }
   .social{
     margin: 0;
-    padding: 0;
+    padding: 0 0 15px 0;
     li{
       display: inline;
       margin: 0 3px;

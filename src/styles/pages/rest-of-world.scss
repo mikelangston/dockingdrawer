@@ -20,7 +20,7 @@
 }
 .row-type{
   padding: 50px;
-  min-height: 1100px;
+  min-height: 1150px;
   h3{
     color: $third;
     font-size: 30px;
@@ -36,5 +36,16 @@
       color: $third;
       margin: 3px 0;
     }
+  }
+  .row-button-container{
+    max-width: 350px;
+    margin: 0 auto;
+    position: absolute;
+    bottom: 40px;
+    left: 50px;
+    right: 50px;
+  }
+  .blk-btn{
+
   }
 }
