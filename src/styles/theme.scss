@@ -413,6 +413,9 @@ footer{
     padding-top: 5px;
     padding-bottom: 5px;
   }
+  select{
+    background-image: url({{ 'ico-select.svg' | asset_url }});
+  }
 }
 .product-type{
   text-transform: uppercase;
