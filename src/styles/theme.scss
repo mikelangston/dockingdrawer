@@ -117,6 +117,40 @@ header{
     max-width: 500px;
     text-align: center;
     margin: 10px 0;
+    &.lg{
+      max-width: 100%;
+    }
+  }
+}
+.clear-btn{
+  color: #000;
+  font-family: $body-font;
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: uppercase;
+  padding: 8px 20px;
+  border: 2px solid #000;
+  background: transparent;
+  transition-duration: .3s;
+  i{
+    margin-right: 10px;
+    font-size: 17px;
+  }
+  &:hover{
+    color: $third;
+    border-color: #000;
+    background: #000;
+    text-decoration: none;
+  }
+  &.block{
+    display: block;
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+    margin: 10px 0;
+    &.lg{
+      max-width: 100%;
+    }
   }
 }
 
@@ -587,6 +621,24 @@ footer{
     color: #000 !important;
     text-shadow: none !important;
     background: none !important;
+  }
+}
+.login-form, .register-form, .address-form{
+  header{
+    margin: 30px 0;
+  }
+  p{
+    margin-bottom: 30px;
+    a{
+      color: #000;
+      text-decoration: underline;
+    }
+  }
+  .blk-btn.block, .clear-btn.block{
+    margin-bottom: 30px;
+  }
+  input.form-control{
+    margin-bottom: 20px;
   }
 }
 

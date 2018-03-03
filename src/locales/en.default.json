@@ -113,7 +113,7 @@
     "account": {
       "title": "My Account",
       "details": "Account Details",
-      "view_addresses": "View Addresses",
+      "view_addresses": "View & Edit Addresses",
       "return": "Return to Account Details"
     },
     "activate_account": {
@@ -148,11 +148,11 @@
       "delete_confirm": "Are you sure you wish to delete this address?"
     },
     "login": {
-      "title": "Login",
-      "email": "Email",
+      "title": "Log In to Your Account",
+      "email": "Email Address",
       "password": "Password",
       "forgot_password": "Forgot your password?",
-      "sign_in": "Sign In",
+      "sign_in": "Log In",
       "cancel": "Return to Store",
       "guest_title": "Continue as a guest",
       "guest_continue": "Continue"
@@ -206,12 +206,12 @@
       "submit": "Reset Password"
     },
     "register": {
-      "title": "Create Account",
+      "title": "Create an Account",
       "first_name": "First Name",
       "last_name": "Last Name",
-      "email": "Email",
+      "email": "Email Address",
       "password": "Password",
-      "submit": "Create",
+      "submit": "Create Account",
       "cancel": "Return to Store"
     }
   },
@@ -232,7 +232,7 @@
     },
     "customer": {
       "account": "Account",
-      "logged_in_as_html": "Logged in as {{ first_name }}",
+      "logged_in_as_html": "{{ first_name }}",
       "log_out": "Log out",
       "log_in": "Log in",
       "create_account": "Create account"
