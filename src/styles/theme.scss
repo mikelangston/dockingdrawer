@@ -641,6 +641,26 @@ footer{
     margin-bottom: 20px;
   }
 }
+.page-404{
+  .row{
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+}
+.power-plug{
+  background: url({{ '404-bg.jpg' | asset_url }}) no-repeat center center;
+  background-size: 100%;
+  min-height: 415px;
+  h1{
+    font-size: 60px;
+    small{
+      display: block;
+      color: #000;
+      font-weight: 700;
+      font-size: 30px;
+    }
+  }
+}
 
 
 @import url('responsive.scss');
