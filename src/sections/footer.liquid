@@ -8,7 +8,7 @@
         {% for line in street %}
           {{ line }}<br>
         {% endfor %}
-          {{ shop.city }}, {{ shop.state }}
+          {{ shop.address.city }}, CA {{ shop.address.zip }}
         {% include 'click-to-call' %}
         <a href="mailto:{{ shop.email }}">{{ shop.email }}</a>
       </div>
