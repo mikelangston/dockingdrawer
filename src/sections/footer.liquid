@@ -1,10 +1,16 @@
+{% assign street = shop.address.street | split: ',' %}
 <footer>
   <div class="container">
     <div class="row">
       <div class="col-md-2 schema">
         <h3>Contact Us:</h3>
         <strong>{{ shop.name }}</strong>
-        {{ section.settings.address }}
+        {% for line in street %}
+          {{ line }}<br>
+        {% endfor %}
+          {{ shop.city }}, {{ shop.state }}
+        {% include 'click-to-call' %}
+        <a href="mailto:{{ shop.email }}">{{ shop.email }}</a>
       </div>
       <div class="col-md-5 col-md-offset-1">
         <h3>Business Hours:</h3>
