@@ -1,0 +1,2 @@
+{% assign phone = shop.phone | remove: '(' | remove: ')' | remove: '-' | strip | remove: ' ' %}
+<a class="click-to-call" href="tel:{{ phone }}">{{ shop.phone }}</a>
