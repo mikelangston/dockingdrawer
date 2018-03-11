@@ -1,5 +1,2110 @@
 {
-  "current": "Default",
+  "current": {
+    "type_base_size": "16px",
+    "color_primary": "#000",
+    "color_body_text": "#000",
+    "social_sharing_blog": true,
+    "share_facebook": true,
+    "share_twitter": true,
+    "share_pinterest": true,
+    "social_twitter_link": "https:\/\/twitter.com\/dockingdrawer",
+    "social_facebook_link": "https:\/\/www.facebook.com\/dockingdrawer",
+    "social_pinterest_link": "https:\/\/www.pinterest.com\/dockingdrawer\/",
+    "social_instagram_link": "https:\/\/www.instagram.com\/dockingdrawer\/?hl=en",
+    "social_snapchat_link": "",
+    "social_tumblr_link": "",
+    "social_youtube_link": "",
+    "social_vimeo_link": "",
+    "cart_notes_enable": true,
+    "favicon": "shopify:\/\/shop_images\/DD_Favicon_012418.png",
+    "checkout_header_image": "",
+    "checkout_logo_image": "shopify:\/\/shop_images\/Docking_Drawer_Logo_2017.jpg",
+    "checkout_logo_position": "left",
+    "checkout_logo_size": "medium",
+    "checkout_body_background_image": "",
+    "checkout_body_background_color": "#fff",
+    "checkout_input_background_color_mode": "white",
+    "checkout_sidebar_background_image": "",
+    "checkout_sidebar_background_color": "#fafafa",
+    "checkout_heading_font": "Helvetica Neue",
+    "checkout_body_font": "Helvetica Neue",
+    "checkout_accent_color": "#1990c6",
+    "checkout_button_color": "#1990c6",
+    "checkout_error_color": "#ff6d6d",
+    "sections": {
+      "header": {
+        "type": "header",
+        "settings": {
+          "logo": "shopify:\/\/shop_images\/docking-drawer-logo.png",
+          "logo_max_width": 200,
+          "main_linklist": "main-menu"
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "settings": {
+          "address": "12893 Alcosta Blvd<br>\nSuite M<br>\nSan Ramon, CA 94583<br>\n​(530) 205-3625<br>\n<a href=\"mailto:sales@dockingdrawer.com\">sales@dockingdrawer.com<\/a>",
+          "hours": "24\/7 - Just reach out. We are here to help.",
+          "privacy_link": "shopify:\/\/pages\/privacy-policy",
+          "privacy_text": "Docking Drawer Privacy Policy",
+          "terms_link": "https:\/\/cdn.shopify.com\/s\/files\/1\/2349\/7495\/files\/jtech_terms_and_conditions_v4_92b393fd-3847-490a-a172-274a7619c938.pdf?9630192515139414892",
+          "terms_text": "Terms & Conditions",
+          "footer_linklist": "footer",
+          "show_payment_icons": false
+        }
+      },
+      "1511233268541": {
+        "type": "home-main-content",
+        "settings": {
+          "bg_color": "#3e3f40",
+          "font_color": "#ffffff",
+          "heading_1": "At Docking Drawer, we’re committed to creating innovative electrical products with the highest levels of safety in mind. We started out that way, and we’re committed to continuing on that path.",
+          "content_left": "We are the market leader of in-drawer electrical outlets. Offering a full array of ETL Listed solutions, Docking Drawer is committed to charging and powering today’s connected lifestyle with innovative solutions. Our patented and simple-to-specify outlets offer a reliable way to add movable drawer outlets safely, while keeping your spaces organized. ​",
+          "content_right": "With a variety of charging and powering in-drawer outlet solutions designed to fit into all types of cabinets, Docking Drawer outlets can be installed in kitchen and bathroom cabinets - or in hospitality, campus and medical facilities - providing an innovative and functional power source with a clutter-free aesthetic."
+        }
+      },
+      "1511235384091": {
+        "type": "home-outlets",
+        "blocks": {
+          "1511235420959": {
+            "type": "outlet_type",
+            "settings": {
+              "heading": "Charging Outlets",
+              "details": "Cell phones, Tablets, Laptops<br>\nMax output 3 amps",
+              "link_url": "shopify:\/\/pages\/charging-outlets",
+              "link_text": "Choose A Charging Outlet",
+              "bg_image": "shopify:\/\/shop_images\/charging-outlet.jpg"
+            }
+          },
+          "1511235542448": {
+            "type": "outlet_type",
+            "settings": {
+              "heading": "Powering Outlets",
+              "details": "Hair dryers, Curling irons, ​Small kitchen appliances\nMax output 20 amps",
+              "link_url": "shopify:\/\/pages\/powering-outlets",
+              "link_text": "Choose A Powering Outlet",
+              "bg_image": "shopify:\/\/shop_images\/powering-outlet.jpg"
+            }
+          }
+        },
+        "block_order": [
+          "1511235420959",
+          "1511235542448"
+        ],
+        "settings": {
+          "header_bg": "#000000",
+          "font_color": "#ffffff",
+          "heading": "Get Started. Choose the type of outlet that fits your project."
+        }
+      },
+      "1511315858642": {
+        "type": "home-banner",
+        "settings": {
+          "text_color": "#1c63c9",
+          "heading": "Meet Docking Drawer ​<br> In-Drawer Electrical Outlets",
+          "video_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/2349\/7495\/files\/banner-video.mp4?13756070856754966187",
+          "banner_bg": "shopify:\/\/shop_images\/home-banner-still.jpg"
+        }
+      },
+      "literature-library": {
+        "type": "literature-library",
+        "blocks": {
+          "1511837550433": {
+            "type": "literature_block",
+            "settings": {
+              "bg_image": "shopify:\/\/shop_images\/literature-presentation-bg.jpg",
+              "header_text": "Company Presentation",
+              "link_url": "https:\/\/go.dockingdrawer.com\/hubfs\/2646953\/Docking%20Drawer%20-%20Company%20Presentation%20Deck.pdf?hsCtaTracking=d23b62e9-656e-4d1a-9954-9579eb3d7704%7Cc3d07d97-6530-4875-a71c-1c79894570e9",
+              "link_text": "View Presentation",
+              "hubspot_links": ""
+            }
+          },
+          "1511837641598": {
+            "type": "literature_block",
+            "settings": {
+              "bg_image": "shopify:\/\/shop_images\/literature-bg_58a79d54-bd88-40c2-b5c2-4de2fc35653c.jpg",
+              "header_text": "Literature",
+              "link_url": "https:\/\/cdn2.hubspot.net\/hubfs\/2646953\/Literature\/Docking%20Drawer%20Literature.pdf",
+              "link_text": "View Literature",
+              "hubspot_links": "<!--HubSpot Call-to-Action Code --><span class=\"hs-cta-wrapper\" id=\"hs-cta-wrapper-b02dea37-a898-4557-929b-8175b3916ac7\"><span class=\"hs-cta-node hs-cta-b02dea37-a898-4557-929b-8175b3916ac7\" id=\"hs-cta-b02dea37-a898-4557-929b-8175b3916ac7\"><!--[if lte IE 8]><div id=\"hs-cta-ie-element\"><\/div><![endif]--><a href=\"https:\/\/cta-redirect.hubspot.com\/cta\/redirect\/2646953\/b02dea37-a898-4557-929b-8175b3916ac7\" target=\"_blank\"><img class=\"hs-cta-img\" id=\"hs-cta-img-b02dea37-a898-4557-929b-8175b3916ac7\" style=\"border-width:0px;\" src=\"https:\/\/no-cache.hubspot.com\/cta\/default\/2646953\/b02dea37-a898-4557-929b-8175b3916ac7.png\" alt=\"View Literature\"><\/a><\/span><script charset=\"utf-8\" src=\"https:\/\/js.hscta.net\/cta\/current.js\"><\/script><script type=\"text\/javascript\"> hbspt.cta.load(2646953, 'b02dea37-a898-4557-929b-8175b3916ac7', {}); <\/script><\/span><!-- end HubSpot Call-to-Action Code -->"
+            }
+          },
+          "1517084707305": {
+            "type": "literature_block",
+            "settings": {
+              "bg_image": "shopify:\/\/shop_images\/blade-faq.jpg",
+              "header_text": "Blade FAQ",
+              "link_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/2349\/7495\/files\/DD_FAQBlade_Flyer_121417_RS.pdf?6721175612031907198",
+              "link_text": "View Presentation",
+              "hubspot_links": ""
+            }
+          },
+          "1511837705266": {
+            "type": "literature_block",
+            "settings": {
+              "bg_image": "shopify:\/\/shop_images\/literature-specs-bg.jpg",
+              "header_text": "All Outlets Specifications",
+              "link_url": "http:\/\/go.dockingdrawer.com\/hubfs\/Literature\/Specifications%20Book_07.22.2017.pdf?hsCtaTracking=972cfe9c-2c5c-4da3-9c85-e9ccbd728b16%7C2d15d8d9-1bab-494c-9eea-67ca91d8ffc5",
+              "link_text": "View Specifications",
+              "hubspot_links": ""
+            }
+          }
+        },
+        "block_order": [
+          "1511837550433",
+          "1511837641598",
+          "1517084707305",
+          "1511837705266"
+        ],
+        "settings": {
+          "banner_image": "shopify:\/\/shop_images\/DD_WebBanner_LitLibrary_011818.jpg",
+          "header_bg_color": "#3e3f40",
+          "header_color": "#ffffff",
+          "header_text": "Learn more about Docking Drawer in-drawer outlets with our helpful features and specification literature.",
+          "header_bg_color_2": "#000000",
+          "header_color_2": "#ffffff",
+          "header_text_2": "View our detailed specification library for measurements of all our outlet products.",
+          "link_url": "http:\/\/go.dockingdrawer.com\/docking-drawer-specification-library?hsCtaTracking=3b052f5c-e660-481a-b61c-13c861befd9c%7C59847d5c-0195-4617-a821-a7b12171134e",
+          "link_text": "Go To The Specification Library"
+        }
+      },
+      "home-resources": {
+        "type": "home-resources",
+        "blocks": {
+          "1515118800349": {
+            "type": "library_type",
+            "settings": {
+              "icon": "shopify:\/\/shop_images\/idea-library.png",
+              "title": "Idea Library",
+              "details": "Curious how people are using Docking Drawer in-drawer electrical outlets? Get ideas for how to declutter and organize your spaces.",
+              "link_url": "shopify:\/\/pages\/idea-library",
+              "link_text": "Go There Now"
+            }
+          },
+          "1511839515548": {
+            "type": "library_type",
+            "settings": {
+              "icon": "shopify:\/\/shop_images\/literature-library.png",
+              "title": "Literature Library",
+              "details": "Seeking to learn more about Docking Drawer in-drawer outlets? Spec and features? Download and print our literature.",
+              "link_url": "shopify:\/\/pages\/literature-library",
+              "link_text": "Go There Now"
+            }
+          },
+          "1511839586225": {
+            "type": "library_type",
+            "settings": {
+              "icon": "shopify:\/\/shop_images\/specification-library.png",
+              "title": "Specification Library",
+              "details": "Seeking details to plan out a project? Download mounting diagrams, installation instructions, or the electrical planning guide.",
+              "link_url": "http:\/\/go.dockingdrawer.com\/docking-drawer-specification-library",
+              "link_text": "Go There Now"
+            }
+          }
+        },
+        "block_order": [
+          "1515118800349",
+          "1511839515548",
+          "1511839586225"
+        ],
+        "settings": {
+          "bg_color": "#3e3f40",
+          "text_color": "#ffffff",
+          "heading": "Go to the Resources",
+          "res_details": "Whether you are starting your project installation or you just want to learn more about our products, we have all of the information that you need."
+        }
+      },
+      "charging-outlets-banner": {
+        "type": "charging-outlets-banner",
+        "settings": {
+          "banner_image": "shopify:\/\/shop_images\/DD_WebBanner_Charging_011818.jpg",
+          "banner_heading_2": "Smart. Simple. Safe.",
+          "banner_paragraph_1": "Charging series outlets are specifically designed to charge today's technology and feature a built-in circuit breaker preventing high power devices such as hair dryers from being used. ​",
+          "banner_paragraph_2": "Charging outlets are made for laptops, cell phones, tablets, fitness trackers, CPAP machines, and more.",
+          "banner_paragraph_3": "Max Current = 3 amps.",
+          "banner_paragraph_4": "<strong>Need More Power?<\/strong> Our Style Drawer <a href=\"https:\/\/dockingdrawer.com\/pages\/powering-outlets\">in-drawer powering outlets<\/a> deliver 20 amps via a GFCI outlets to power devices such as hairdryers, blenders, tools, etc.",
+          "banner_icons": "shopify:\/\/shop_images\/charging-icons.png"
+        }
+      },
+      "charging-outlet-types": {
+        "type": "charging-outlet-types",
+        "blocks": {
+          "1511976927977": {
+            "type": "outlet_type",
+            "settings": {
+              "block_bg": "#53585c",
+              "outlet_name": "Blade Series",
+              "outlet_image": "shopify:\/\/shop_images\/blade-drawing-2_orig.png",
+              "outlet_content": "<h4>Charging Outlet<\/h4>\n<ul>\n<li>4 versions - Blade, Blade USB,  Blade Duo, and Blade Duo USB<\/li>\n<li>5 sizes available<\/li>\n<\/ul>\n​Features:\n<ul>\n<li>2\" - The least amount of space needed behind the drawer box<\/li>\n<li>Eliminate the need to shorten drawer boxes<\/li>\n<li>Ideal for wider drawers<\/li>\n<li>Able to charge up to 8 devices at a time<\/li>\n<\/ul>\n​When to specify:\n<ul>\n<li>Can be specified during any phase of the project, whether it be at the beginning, middle or end.<\/li>\n<\/ul>\nWarranty:\n<ul>\n<li>2 Year Warranty<\/li>\n<\/ul>"
+            }
+          },
+          "1511977314804": {
+            "type": "outlet_type",
+            "settings": {
+              "block_bg": "#3a3d3f",
+              "outlet_name": "Slim Series",
+              "outlet_image": "shopify:\/\/shop_images\/slim-drawing-2_orig.png",
+              "outlet_content": "<h4>Charging Outlet<\/h4>\n<ul>\n<li>2 versions - Slim and Slim USB<\/li>\n<li>3 Sizes available<\/li>\n<\/ul>\nFeatures:\n<ul>\n<li>Requires 3\" of space behind the drawer box<\/li>\n<li>May require the drawer to be stepped down a drawer box size or shorted to make room for the outlet<\/li>\n<li>Ideal for narrower drawer specifications<\/li>\n<li>Able to charge up to 4 devices at a time<\/li>\n<\/ul>\nWhen to specify:\n<ul>\n<li>Typically specified in the beginning or middle phase of a project<\/li>\n<\/ul>\nWarranty:\n<ul>\n<li>1 Year Warranty<\/li>\n<\/ul>"
+            }
+          },
+          "1511977534703": {
+            "type": "outlet_type",
+            "settings": {
+              "block_bg": "#53585c",
+              "outlet_name": "USB Narrow Series",
+              "outlet_image": "shopify:\/\/shop_images\/usb-narrow-2_orig.png",
+              "outlet_content": "<h4>Charging Outlet<\/h4>\n<ul>\n<li>1 version - USB Narrow<\/li>\n<li>1 size available<\/li>\n<\/ul>\nFeatures:\n<ul>\n<li>Requires​ 5\" of space behind the drawer box<\/li>\n<li>May require the drawer to be stepped down a drawer box size or shorted to make room for the outlet<\/li>\n<li>Narrowest charging outlet specifications<\/li>\n<li>Able to charge up to 4 devices at a time<\/li>\n<\/ul>\nWhen to specify:\n<ul>\n<li>Typically specified in the beginning or middle phase of a project<\/li>\n<\/ul>\nWarranty\n<ul>\n<li>1 Year Warranty<\/li>\n<\/ul>"
+            }
+          }
+        },
+        "block_order": [
+          "1511976927977",
+          "1511977314804",
+          "1511977534703"
+        ],
+        "settings": {
+          "header_bg": "#000000",
+          "header_color": "#ffffff",
+          "heading": "Choose the best Charging Series outlet for your project"
+        }
+      },
+      "charging-outlet-specify": {
+        "type": "charging-outlet-specify",
+        "blocks": {
+          "1512012735370": {
+            "type": "specify_block",
+            "settings": {
+              "specify_image": "shopify:\/\/shop_images\/specify-step1_orig.png",
+              "details": "​Start your project by measuring the cabinets depth."
+            }
+          },
+          "1512012763813": {
+            "type": "specify_block",
+            "settings": {
+              "specify_image": "shopify:\/\/shop_images\/specify-step2_orig.png",
+              "details": "Measure the width of the space behind drawer box."
+            }
+          },
+          "1512012789230": {
+            "type": "specify_block",
+            "settings": {
+              "specify_image": "shopify:\/\/shop_images\/specify-step3_orig.png",
+              "details": "Then measure space available behind the drawer box."
+            }
+          }
+        },
+        "block_order": [
+          "1512012735370",
+          "1512012763813",
+          "1512012789230"
+        ],
+        "settings": {
+          "heading": "How to Specify​",
+          "sub_heading": "Docking Drawer in-drawer charging outlets come in a ​variety of sizes offering different ranges of extensions.  Here is how to find the size that works for you."
+        }
+      },
+      "cornerstone": {
+        "type": "cornerstone",
+        "blocks": {
+          "1512175539893": {
+            "type": "part_ref",
+            "settings": {
+              "bg_color": "#ffffff",
+              "part_type": "Charging Outlets",
+              "part_name": "Docking Drawer Slim Series",
+              "part_image": "shopify:\/\/shop_images\/docking-drawer-slim-series-white-1_7.jpg",
+              "part_content": "<h4>Black<\/h4>\n<p>Docking Drawer 24 Slim PN# - 0290-00031 - ​CHS PN# - <a href=\"http:\/\/www.cabinethardware.com\/Docking-Drawer-Slim-Charging-2-x-120V-3-Amps-2-p\/1527.htm\" target=\"_blank\">161104<\/a><\/p>\n<p>Docking Drawer 21 Slim PN# - 0290-00030 - CHS PN# - <a href=\"http:\/\/www.cabinethardware.com\/Docking-Drawer-Slim-21-Charging-p\/1526.htm\" target=\"_blank\">161100<\/a><\/p>\n<p>Docking Drawer 18 Slim PN# - 0290-00047 - CHS PN# - XXXXXX<\/p>\n<h4>White<\/h4>\n<p>Docking Drawer 24 Slim (White) PN# - 0290-00031W - CHS PN# - <a href=\"http:\/\/www.cabinethardware.com\/Docking-Drawer-Slim-Charging-2-x-120V-3-Amps-2-p\/1527.htm\" target=\"_blank\">161106<\/a><\/p>\n<p>Docking Drawer 21 Slim (White) PN# - 0290-00030W - CHS PN# - <a href=\"http:\/\/www.cabinethardware.com\/Docking-Drawer-Slim-21-Charging-p\/1526.htm\" target=\"_blank\">161102<\/a><\/p>\n<p>Docking Drawer 18 Slim (White) PN# - 0290-00047W - CHS PN# -  XXXXXX<\/p>"
+            }
+          },
+          "1512176648442": {
+            "type": "part_ref",
+            "settings": {
+              "bg_color": "#ffffff",
+              "part_type": "Powering Outlets",
+              "part_name": "Style Drawer Series",
+              "part_image": "shopify:\/\/shop_images\/style-drawer-series-white_3.jpg",
+              "part_content": "<h4>Black<\/h4>\n<p>Style Drawer 24 PN# - 0290-00013 - CHS PN# - <a href=\"http:\/\/www.cabinethardware.com\/Docking-Drawer-Mighty-24-Power-p\/1529.htm\" target=\"_blank\">161114<\/a><\/p>\n<p>​Style Drawer 21 PN# - 0290-00011 ​- CHS PN# - <a href=\"http:\/\/www.cabinethardware.com\/Docking-Drawer-Style-21-Power-p\/1528.htm\" target=\"_blank\">161110<\/a><\/p>\n<p>Style Drawer 18 PN# - 0290-00049 - ​CHS PN# - XXXXXX<\/p>\n<h4>White<\/h4>\n<p>Style Drawer 24 PN# - 0290-00013W - CHS PN# - <a href=\"http:\/\/www.cabinethardware.com\/Docking-Drawer-Mighty-24-Power-p\/1529.htm\" target=\"_blank\">161116<\/a><\/p>\n<p>Style Drawer 21 PN# - 0290-00011W - ​CHS PN# - <a href=\"http:\/\/www.cabinethardware.com\/Docking-Drawer-Style-21-Power-p\/1528.htm\" target=\"_blank\">161112<\/a><\/p>\n<p>Style Drawer 18 PN# - 0290-00049W - ​​CHS PN# - XXXXXX<\/p>"
+            }
+          },
+          "1512176945906": {
+            "type": "part_ref",
+            "settings": {
+              "bg_color": "#ffffff",
+              "part_type": "Powering Outlets",
+              "part_name": "Style Drawer Flush Series",
+              "part_image": "shopify:\/\/shop_images\/style-drawer-flush-series-white-1_6_orig.jpg",
+              "part_content": "<h4>Black<\/h4>\n<p>Style Drawer 24 Flush PN# - 0290-00033 - CHS PN# - <a href=\"http:\/\/www.cabinethardware.com\/Docking-Drawer-Mighty-24-Power-p\/1529.htm\" target=\"_blank\">161114<\/a><\/p>\n<p>​Style Drawer 21 Flush PN# - 0290-00032 ​- CHS PN# - <a href=\"http:\/\/www.cabinethardware.com\/Docking-Drawer-Style-21-Power-p\/1528.htm\" target=\"_blank\">161110<\/a><\/p>\n<p>Style Drawer 18 Flush PN# - 0290-00049 - ​CHS PN# - XXXXXX<\/p>\n<h4>White<\/h4>\n<p>Style Drawer 24 Flush PN# - 0290-00033W - CHS PN# - XXXXXX<\/p>\n<p>Style Drawer 21 Flush PN# - 0290-00032W - ​CHS PN# - XXXXXX<\/p>\n<p>Style Drawer 18 Flush PN# - 0290-00050W - ​​CHS PN# - XXXXXX<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "1512175539893",
+          "1512176648442",
+          "1512176945906"
+        ],
+        "settings": {
+          "dist_image": "shopify:\/\/shop_images\/5973549.png",
+          "dist_content": "<p>Docking Drawer in-drawer electrical outlets are now in stock and available from Cornerstone Hardware.  Please contact your local sales representative or customer service agent at - <\/p>\n<ul>\n<li>Phone - 800-788-4450​<\/li>\n<li>Email - sales@cabinethardware.com<\/li>\n\n<p>​Stocking Location: Houston, TX<\/p>\n<\/ul>",
+          "header_bg": "#ffffff",
+          "header_color": "",
+          "header": "Cornerstone Part Number Cross-Reference List"
+        }
+      },
+      "csh": {
+        "type": "csh",
+        "blocks": {
+          "1512178211668": {
+            "type": "part_ref",
+            "settings": {
+              "bg_color": "#ffffff",
+              "part_type": "Charging Outlets",
+              "part_name": "Docking Drawer Slim Series",
+              "part_image": "shopify:\/\/shop_images\/docking-drawer-slim-series-white-1_16.jpg",
+              "part_content": "<h4>Black<\/h4>\n<p>Docking Drawer 24 Slim PN# - 0290-00031 - ​DD.0290-00031<\/p>\n<p>Docking Drawer 21 Slim PN# - 0290-00030 - DD.0290-00030<\/p>\n<p>Docking Drawer 18 Slim PN# - 0290-00047 - DD.0290-00047<\/p>\n<h4>White<\/h4>\n<p>Docking Drawer 24 Slim PN# - 0290-00031W - DD.0290-00031W<\/p>\n<p>Docking Drawer 21 Slim PN# - 0290-00030W - DD.0290-00030W<\/p>\n<p>Docking Drawer 18 Slim PN# - 0290-00047W - DD.0290-00047W<\/p>\n<h4>Stainless Steel<\/h4>\n<p>Docking Drawer 24 Slim PN# - 0290-00031S - DD.0290-00031S<\/p>\n<p>Docking Drawer 21 Slim PN# - 0290-00030S - DD.0290-00030S<\/p>\n<p>Docking Drawer 18 Slim PN# - 0290-00047S - DD.0290-00047S<\/p>"
+            }
+          },
+          "1512178394786": {
+            "type": "part_ref",
+            "settings": {
+              "bg_color": "#ffffff",
+              "part_type": "Charging Outlets",
+              "part_name": "Docking Drawer Slim USB Series",
+              "part_image": "shopify:\/\/shop_images\/docking-drawer-slim-usb-series-white-1_15.jpg",
+              "part_content": "<h4>Black<\/h4>\n<p>Docking Drawer 24 Slim USB PN# - 0290-00046 - ​DD.0290-00046<\/p>\n<p>Docking Drawer 21 Slim USB PN# - 0290-00045 - DD.0290-00045<\/p>\n<p>Docking Drawer 18 Slim USB PN# - 0290-00048 - DD.0290-00048<\/p>\n<h4>White<\/h4>\n<p>Docking Drawer 24 Slim USB PN# - 0290-00046W - DD.0290-00046W​​<\/p>\n<p>Docking Drawer 21 Slim USB PN# - 0290-00045W - DD.0290-00045W<\/p>\n<p>Docking Drawer 18 Slim USB PN# - 0290-00048W - DD.0290-00048W<\/p>"
+            }
+          },
+          "1512178607293": {
+            "type": "part_ref",
+            "settings": {
+              "bg_color": "#ffffff",
+              "part_type": "​Powering Outlets",
+              "part_name": "Style Drawer Series",
+              "part_image": "shopify:\/\/shop_images\/style-drawer-series-white_13.jpg",
+              "part_content": "<h4>Black<\/h4>\n<p>Style Drawer 24 PN# - 0290-00013 - DD.0290-00013<\/p>\n<p>​Style Drawer 21 PN# - 0290-00011 ​- DD.0290-00011<\/p>\n<p>Style Drawer 18 PN# - 0290-00049 - ​DD.0290-00049<\/p>\n<h4>White<\/h4>\n<p>Style Drawer 24 PN# - 0290-00013W - DD.0290-00013W<\/p>\n<p>Style Drawer 21 PN# - 0290-00011W - ​DD.0290-00011W<\/p>\n<p>Style Drawer 18 PN# - 0290-00049W - ​​DD.0290-00049W<\/p>"
+            }
+          },
+          "1512178728399": {
+            "type": "part_ref",
+            "settings": {
+              "bg_color": "#ffffff",
+              "part_type": "Powering Outlets",
+              "part_name": "Style Drawer Flush Series",
+              "part_image": "shopify:\/\/shop_images\/style-drawer-flush-series-white-1_11_orig.jpg",
+              "part_content": "<h4>Black<\/h4>\n<p>Style Drawer 24 Flush PN# - 0290-00033 - DD.0290-00033<\/p>\n<p>​Style Drawer 21 Flush PN# - 0290-00032 ​- DD.0290-00032<\/p>\n<p>Style Drawer 18 Flush PN# - 0290-00050 - ​DD.0290-00050<\/p>\n<h4>White<\/h4>\n<p>Style Drawer 24 Flush PN# - 0290-00033W - DD.0290-00033W<\/p>\n<p>Style Drawer 21 Flush PN# - 0290-00032W - ​DD.0290-00032W<\/p>\n<p>Style Drawer 18 Flush PN# - 0290-00050W - ​​DD.0290-00050W<\/p>\n<h4>Stainless Steel<\/h4>\n<p>Style Drawer 24 Flush PN# - 0290-00033S - DD.0290-00033S<\/p>\n<p>Style Drawer 21 Flush PN# - 0290-00032S - ​DD.0290-00032S<\/p>\n<p>Style Drawer 18 Flush PN# - 0290-00050S - ​​DD.0290-00050S<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "1512178211668",
+          "1512178394786",
+          "1512178607293",
+          "1512178728399"
+        ],
+        "settings": {
+          "dist_image": "shopify:\/\/shop_images\/csh-logo-web_orig.png",
+          "dist_content": "<p>Docking Drawer in-drawer electrical outlets are now in stock and available from Custom Service Hardware.  Please contact your sales representative or customer service agent at - <\/p>\n<ul>\n<li>Phone - 800-882-0009<\/li>\n<li>Email - service@cshardware.com<\/li>\n<\/ul>\n<p>Stocking Location: Cedarburg, WI<\/p>",
+          "header_bg": "#ffffff",
+          "header_color": "",
+          "header": "Customer Service Hardware Part Number Cross-Reference List"
+        }
+      },
+      "eb-bradley": {
+        "type": "eb-bradley",
+        "blocks": {
+          "1517085621440": {
+            "type": "part_ref",
+            "settings": {
+              "bg_color": "",
+              "part_type": "Charging Outlets",
+              "part_name": "Docking Drawer Blade Series",
+              "part_image": "shopify:\/\/shop_images\/blade-series.jpg",
+              "part_content": "<h4>Black<\/h4>\n<table class=\"table product-table\">\n  <thead>\n    <tr>\n      <th>Docking Drawer Part Number<\/th>\n      <th>EB Bradley Part Number<\/th>\n      <th>Outlet Configuration<\/th>\n    <\/tr>\n  <\/thead>\n  <tbody>\n    <tr>\n      <td>Docking Drawer Blade 2419 -\t0290-10024<\/td>\n      <td>DD290-BLADE-2419-BK<\/td>\n      <td>2 AC & 2 USB<\/td>\n    <\/tr>\n    <tr>\n      <td>Docking Drawer Blade 2419 USB -\t0290-10124<\/td>\n      <td>DD290-BLADE-2419-USB-BK<\/td>\n      <td>4 USB<\/td>\n    <\/tr>\n    <tr>\n      <td>Docking Drawer Blade 2118 -\t0290-10021<\/td>\n      <td>DD290-BLADE-2118-BK<\/td>\n      <td>2 AC & 2 USB<\/td>\n    <\/tr>\n    <tr>\n      <td>Docking Drawer Blade 2118 USB - 0290-10121<\/td>\n      <td>DD290-BLADE-2118-BK<\/td>\n      <td>4 USB<\/td>\n    <\/tr>\n    <tr>\n      <td>Docking Drawer Blade 1817 -\t0290-10018<\/td>\n      <td>DD290-BLADE-1817-BK<\/td>\n      <td>2 AC & 2 USB<\/td>\n    <\/tr>\n    <tr>\n      <td>Docking Drawer Blade 1817 USB -\t0290-10118<\/td>\n      <td>DD290-BLADE-1817-USB-BK<\/td>\n      <td>4 USB<\/td>\n    <\/tr>\n    <tr>\n      <td>Docking Drawer Blade 2422 Duo -\t0290-10224<\/td>\n      <td>DD290-BLADE-DUO-BK<\/td>\n      <td>2 AC & 6 USB<\/td>\n    <\/tr>\n    <tr>\n      <td>Docking Drawer Blade 2422 Duo USB -\t0290-10324<\/td>\n      <td>DD290-BLADE-DUO-BK<\/td>\n      <td>8 USB<\/td>\n    <\/tr>\n  <\/tbody>\n<\/table>\n<h4>White<\/h4>\n<table class=\"table product-table\">\n  <thead>\n    <tr>\n      <th>Docking Drawer Part Number<\/th>\n      <th>EB Bradley Part Number<\/th>\n      <th>Outlet Configuration<\/th>\n    <\/tr>\n  <\/thead>\n  <tbody>\n    <tr>\n      <td>Docking Drawer Blade 2419 -\t0290-10024W<\/td>\n      <td>DD290-BLADE-2419-WH<\/td>\n      <td>2 AC & 2 USB<\/td>\n    <\/tr>\n    <tr>\n      <td>Docking Drawer Blade 2419 USB -\t0290-10124W<\/td>\n      <td>DD290-BLADE-2419-USB-WH<\/td>\n      <td>4 USB<\/td>\n    <\/tr>\n    <tr>\n      <td>Docking Drawer Blade 2118 -\t0290-10021W<\/td>\n      <td>DD290-BLADE-2118-WH<\/td>\n      <td>2 AC & 2 USB<\/td>\n    <\/tr>\n    <tr>\n      <td>Docking Drawer Blade 2118 USB -\t0290-10121W<\/td>\n      <td>DD290-BLADE-2118-WH<\/td>\n      <td>4 USB<\/td>\n    <\/tr>\n    <tr>\n      <td>Docking Drawer Blade 1817 -\t0290-10018W<\/td>\n      <td>DD290-BLADE-1817-WH<\/td>\n      <td>2 AC & 2 USB<\/td>\n    <\/tr>\n    <tr>\n      <td>Docking Drawer Blade 1817 USB -\t0290-10118W<\/td>\n      <td>DD290-BLADE-1817-USB-WH<\/td>\n      <td>4 USB<\/td>\n    <\/tr>\n    <tr>\n      <td>Docking Drawer Blade 2422 Duo -\t0290-10224W<\/td>\n      <td>DD290-BLADE-DUO-WH<\/td>\n      <td>2 AC & 6 USB<\/td>\n    <\/tr>\n    <tr>\n      <td>Docking Drawer Blade 2422 Duo USB -\t0290-10324W<\/td>\n      <td>DD290-BLADE-DUO-WH<\/td>\n      <td>8 USB<\/td>\n    <\/tr>\n  <\/tbody>\n<\/table>\n<h4>Stainless Steel<\/h4>\n<table class=\"table product-table\">\n  <thead>\n    <tr>\n      <th>Docking Drawer Part Number<\/th>\n      <th>EB Bradley Part Number<\/th>\n      <th>Outlet Configuration<\/th>\n    <\/tr>\n  <\/thead>\n  <tbody>\n    <tr>\n      <td>Docking Drawer Blade 2419 - 0290-10024S<\/td>\n      <td>DD290-BLADE-2419-SS<\/td>\n      <td>2 AC & 2 USB<\/td>\n    <\/tr>\n    <tr>\n      <td>Docking Drawer Blade 2419 USB -\t0290-10124S<\/td>\n      <td>DD290-BLADE-2419-USB-SS<\/td>\n      <td>4 USB<\/td>\n    <\/tr>\n    <tr>\n      <td>Docking Drawer Blade 2118 -\t0290-10021S<\/td>\n      <td>DD290-BLADE-2118-SS<\/td>\n      <td>2 AC & 2 USB<\/td>\n    <\/tr>\n    <tr>\n      <td>Docking Drawer Blade 2118 USB -\t0290-10121S<\/td>\n      <td>DD290-BLADE-2118-SS<\/td>\n      <td>4 USB<\/td>\n    <\/tr>\n    <tr>\n      <td>Docking Drawer Blade 1817 -\t0290-10018S<\/td>\n      <td>DD290-BLADE-1817-SS<\/td>\n      <td>2 AC & 2 USB<\/td>\n    <\/tr>\n    <tr>\n      <td>Docking Drawer Blade 1817 USB -\t0290-10118S<\/td>\n      <td>DD290-BLADE-1817-USB-SS<\/td>\n      <td>4 USB<\/td>\n    <\/tr>\n    <tr>\n      <td>Docking Drawer Blade 2422 Duo -\t0290-10224S<\/td>\n      <td>DD290-BLADE-DUO-SS<\/td>\n      <td>2 AC & 6 USB<\/td>\n    <\/tr>\n    <tr>\n      <td>Docking Drawer Blade 2422 Duo USB -\t0290-10324S<\/td>\n      <td>DD290-BLADE-DUO-SS<\/td>\n      <td>8 USB<\/td>\n    <\/tr>\n  <\/tbody>\n<\/table>"
+            }
+          },
+          "1512179700682": {
+            "type": "part_ref",
+            "settings": {
+              "bg_color": "#ffffff",
+              "part_type": "Charging Outlets",
+              "part_name": "Docking Drawer Slim Series",
+              "part_image": "shopify:\/\/shop_images\/slim-series.jpg",
+              "part_content": "<h4>Black<\/h4>\n<table class=\"table product-table\">\n  <thead>\n    <tr>\n      <th>Docking Drawer Part Number<\/th>\n      <th>EB Bradley Part Number<\/th>\n      <th>Outlet Configuration<\/th>\n    <\/tr>\n  <\/thead>\n  <tbody>\n    <tr>\n      <td>Docking Drawer 24 Slim -\t0290-00031<\/td>\n      <td>DD290-24-SLIM-BK<\/td>\n      <td>2 AC & 2 USB<\/td>\n    <\/tr>\n    <tr>\n      <td>Docking Drawer 24 Slim USB -\t0290-00046<\/td>\n      <td>DD290-24-SLIM-USB-BK<\/td>\n      <td>4 USB<\/td>\n    <\/tr>\n    <tr>\n      <td>Docking Drawer 21 Slim -\t0290-00030<\/td>\n      <td>DD290-21-SLIM-BK<\/td>\n      <td>2 AC & 2 USB<\/td>\n    <\/tr>\n    <tr>\n      <td>Docking Drawer 21 Slim USB -\t0290-00045<\/td>\n      <td>DD290-21-SLIM-USB-BK<\/td>\n      <td>4 USB<\/td>\n    <\/tr>\n    <tr>\n      <td>Docking Drawer 18 Slim -\t0290-00047<\/td>\n      <td>DD290-18-SLIM-BK<\/td>\n      <td>2 AC & 2 USB<\/td>\n    <\/tr>\n    <tr>\n      <td>Docking Drawer 18 Slim USB -\t0290-00048<\/td>\n      <td>DD290-18-SLIM-USB-BK<\/td>\n      <td>4 USB<\/td>\n    <\/tr>\n  <\/tbody>\n<\/table>\n<h4>White<\/h4>\n<table class=\"table product-table\">\n  <thead>\n    <tr>\n      <th>Docking Drawer Part Number<\/th>\n      <th>EB Bradley Part Number<\/th>\n      <th>Outlet Configuration<\/th>\n    <\/tr>\n  <\/thead>\n  <tbody>\n    <tr>\n      <td>Docking Drawer 24 Slim -\t0290-00031W<\/td>\n      <td>DD290-24-SLIM-WH<\/td>\n      <td>2 AC & 2 USB<\/td>\n    <\/tr>\n    <tr>\n      <td>Docking Drawer 24 Slim USB -\t0290-00046W<\/td>\n      <td>DD290-24-SLIM-USB-WH<\/td>\n      <td>4 USB<\/td>\n    <\/tr>\n    <tr>\n      <td>Docking Drawer 21 Slim -\t0290-00030W<\/td>\n      <td>DD290-21-SLIM-WH<\/td>\n      <td>2 AC & 2 USB<\/td>\n    <\/tr>\n    <tr>\n      <td>Docking Drawer 21 Slim USB -\t0290-00045W<\/td>\n      <td>DD290-21-SLIM-USB-WH<\/td>\n      <td>4 USB<\/td>\n    <\/tr>\n    <tr>\n      <td>Docking Drawer 18 Slim -\t0290-00047W<\/td>\n      <td>DD290-18-SLIM-WH<\/td>\n      <td>2 AC & 2 USB<\/td>\n    <\/tr>\n    <tr>\n      <td>Docking Drawer 18 Slim USB -\t0290-00048W<\/td>\n      <td>DD290-18-SLIM-USB-WH<\/td>\n      <td>4 USB<\/td>\n    <\/tr>\n  <\/tbody>\n<\/table>\n<h4>Stainless Steel<\/h4>\n<table class=\"table product-table\">\n  <thead>\n    <tr>\n      <th>Docking Drawer Part Number<\/th>\n      <th>EB Bradley Part Number<\/th>\n      <th>Outlet Configuration<\/th>\n    <\/tr>\n  <\/thead>\n  <tbody>\n    <tr>\n      <td>Docking Drawer 24 Slim -\t0290-00031S<\/td>\n      <td>DD290-24-SLIM-SS<\/td>\n      <td>2 AC & 2 USB<\/td>\n    <\/tr>\n    <tr>\n      <td>Docking Drawer 24 Slim USB -\t0290-00046S<\/td>\n      <td>DD290-24-SLIM-USB-SS<\/td>\n      <td>4 USB<\/td>\n    <\/tr>\n    <tr>\n      <td>Docking Drawer 21 Slim -\t0290-00030S<\/td>\n      <td>DD290-21-SLIM-SS<\/td>\n      <td>2 AC & 2 USB<\/td>\n    <\/tr>\n    <tr>\n      <td>Docking Drawer 21 Slim USB -\t0290-00045S<\/td>\n      <td>DD290-21-SLIM-USB-SS<\/td>\n      <td>4 USB<\/td>\n    <\/tr>\n    <tr>\n      <td>Docking Drawer 18 Slim -\t0290-00047S<\/td>\n      <td>DD290-18-SLIM-SS<\/td>\n      <td>2 AC & 2 USB<\/td>\n    <\/tr>\n    <tr>\n      <td>Docking Drawer 18 Slim USB -\t0290-00048S<\/td>\n      <td>DD290-18-SLIM-USB-SS<\/td>\n      <td>4 USB<\/td>\n    <\/tr>\n  <\/tbody>\n<\/table>"
+            }
+          },
+          "1512180046104": {
+            "type": "part_ref",
+            "settings": {
+              "bg_color": "#ffffff",
+              "part_type": "​Powering Outlets",
+              "part_name": "Style Drawer Blade Series",
+              "part_image": "shopify:\/\/shop_images\/style-blade.jpg",
+              "part_content": "<h4>Black<\/h4>\n<table class=\"table product-table\">\n  <thead>\n    <tr>\n      <th>Docking Drawer Part Number<\/th>\n      <th>EB Bradley Part Number<\/th>\n      <th>Outlet Configuration<\/th>\n    <\/tr>\n  <\/thead>\n  <tbody>\n    <tr>\n      <td>Style Drawer 24 Blade -\t0290-00324<\/td>\n      <td>DD290-24-STYLE-BLADE-BK<\/td>\n      <td>2 AC GFCI<\/td>\n    <\/tr>\n    <tr>\n      <td>Style Drawer 21 Blade -\t0290-00321<\/td>\n      <td>DD290-21-STYLE-BLADE-BK<\/td>\n      <td>2 AC GFCI<\/td>\n    <\/tr>\n  <\/tbody>\n<\/table>\n\n<h4>White<\/h4>\n<table class=\"table product-table\">\n  <thead>\n    <tr>\n      <th>Docking Drawer Part Number<\/th>\n      <th>EB Bradley Part Number<\/th>\n      <th>Outlet Configuration<\/th>\n    <\/tr>\n  <\/thead>\n  <tbody>\n    <tr>\n      <td>Style Drawer 24 Blade -\t0290-00324W<\/td>\n      <td>DD290-24-STYLE-BLADE-WH<\/td>\n      <td>2 AC GFCI<\/td>\n    <\/tr>\n    <tr>\n      <td>Style Drawer 21 Blade -\t0290-00321W<\/td>\n      <td>DD290-21-STYLE-BLADE-WH<\/td>\n      <td>2 AC GFCI<\/td>\n    <\/tr>\n  <\/tbody>\n<\/table>\n\n<h4>Stainless Steel<\/h4>\n<table class=\"table product-table\">\n  <thead>\n    <tr>\n      <th>Docking Drawer Part Number<\/th>\n      <th>EB Bradley Part Number<\/th>\n      <th>Outlet Configuration<\/th>\n    <\/tr>\n  <\/thead>\n  <tbody>\n    <tr>\n      <td>Style Drawer 24 Blade -\t0290-00324S<\/td>\n      <td>DD290-24-STYLE-BLADE-SS<\/td>\n      <td>2 AC GFCI<\/td>\n    <\/tr>\n    <tr>\n      <td>Style Drawer 21 Blade -\t0290-00321S<\/td>\n      <td>DD290-21-STYLE-BLADE-SS<\/td>\n      <td>2 AC GFCI<\/td>\n    <\/tr>\n  <\/tbody>\n<\/table>"
+            }
+          },
+          "1517421234470": {
+            "type": "part_ref",
+            "settings": {
+              "bg_color": "",
+              "part_type": "Powering Outlets",
+              "part_name": "Style Drawer Flush Seriers",
+              "part_image": "shopify:\/\/shop_images\/style-flush.jpg",
+              "part_content": "<h4>Black<\/h4>\n<table class=\"table product-table\">\n  <thead>\n    <tr>\n      <th>Docking Drawer Part Number<\/th>\n      <th>EB Bradley Part Number<\/th>\n      <th>Outlet Configuration<\/th>\n    <\/tr>\n  <\/thead>\n  <tbody>\n    <tr>\n      <td>Style Drawer 24 Flush -\t0290-00033<\/td>\n      <td>DD290-24-STYLE-BLADE-BK<\/td>\n      <td>2 AC GFCI<\/td>\n    <\/tr>\n    <tr>\n      <td>Style Drawer 21 Flush -\t0290-00032<\/td>\n      <td>DD290-21-STYLE-BLADE-BK<\/td>\n      <td>2 AC GFCI<\/td>\n    <\/tr>\n    <tr>\n      <td>Style Drawer 18 Flush -\t0290-00050<\/td>\n      <td>DD290-18-STYLE-BLADE-BK<\/td>\n      <td>2 AC GFCI<\/td>\n    <\/tr>\n    <tr>\n      <td>Style Drawer 24 Flush Duo -\t0290-00224<\/td>\n      <td>DD290-24-STYLE-FL-DUO-BK<\/td>\n      <td>4 AC GFCI<\/td>\n    <\/tr>\n    <tr>\n      <td>Style Drawer 21 Flush Duo -\t0290-00221<\/td>\n      <td>DD290-21-STYLE-FL-DUO-BK<\/td>\n      <td>4 AC GFCI<\/td>\n    <\/tr>\n    <tr>\n      <td>Style Drawer 18 Flush Duo -\t0290-00218<\/td>\n      <td>DD290-18-STYLE-FL-DUO-BK<\/td>\n      <td>4 AC GFCI<\/td>\n    <\/tr>\n  <\/tbody>\n<\/table>\n\n<h4>White<\/h4>\n<table class=\"table product-table\">\n  <thead>\n    <tr>\n      <th>Docking Drawer Part Number<\/th>\n      <th>EB Bradley Part Number<\/th>\n      <th>Outlet Configuration<\/th>\n    <\/tr>\n  <\/thead>\n  <tbody>\n    <tr>\n      <td>Style Drawer 24 Flush -\t0290-00033W<\/td>\n      <td>DD290-24-STYLE-BLADE-WH<\/td>\n      <td>2 AC GFCI<\/td>\n    <\/tr>\n    <tr>\n      <td>Style Drawer 21 Flush -\t0290-00032W<\/td>\n      <td>DD290-21-STYLE-BLADE-WH<\/td>\n      <td>2 AC GFCI<\/td>\n    <\/tr>\n    <tr>\n      <td>Style Drawer 18 Flush -\t0290-00050W<\/td>\n      <td>DD290-18-STYLE-BLADE-WH<\/td>\n      <td>2 AC GFCI<\/td>\n    <\/tr>\n    <tr>\n      <td>Style Drawer 24 Flush Duo -\t0290-00224W<\/td>\n      <td>DD290-24-STYLE-FL-DUO-WH<\/td>\n      <td>4 AC GFCI<\/td>\n    <\/tr>\n    <tr>\n      <td>Style Drawer 21 Flush Duo -\t0290-00221W<\/td>\n      <td>DD290-21-STYLE-FL-DUO-WH<\/td>\n      <td>4 AC GFCI<\/td>\n    <\/tr>\n    <tr>\n      <td>Style Drawer 18 Flush Duo -\t0290-00218W<\/td>\n      <td>DD290-18-STYLE-FL-DUO-WH<\/td>\n      <td>4 AC GFCI<\/td>\n    <\/tr>\n  <\/tbody>\n<\/table>\n\n<h4>Stainless Steel<\/h4>\n<table class=\"table product-table\">\n  <thead>\n    <tr>\n      <th>Docking Drawer Part Number<\/th>\n      <th>EB Bradley Part Number<\/th>\n      <th>Outlet Configuration<\/th>\n    <\/tr>\n  <\/thead>\n  <tbody>\n    <tr>\n      <td>Style Drawer 24 Flush -\t0290-00033S<\/td>\n      <td>DD290-24-STYLE-BLADE-SS<\/td>\n      <td>2 AC GFCI<\/td>\n    <\/tr>\n    <tr>\n      <td>Style Drawer 21 Flush -\t0290-00032S<\/td>\n      <td>DD290-21-STYLE-BLADE-SS<\/td>\n      <td>2 AC GFCI<\/td>\n    <\/tr>\n    <tr>\n      <td>Style Drawer 18 Flush -\t0290-00050S<\/td>\n      <td>DD290-18-STYLE-BLADE-SS<\/td>\n      <td>2 AC GFCI<\/td>\n    <\/tr>\n    <tr>\n      <td>Style Drawer 24 Flush Duo -\t0290-00224S<\/td>\n      <td>DD290-24-STYLE-FL-DUO-SS<\/td>\n      <td>4 AC GFCI<\/td>\n    <\/tr>\n    <tr>\n      <td>Style Drawer 21 Flush Duo -\t0290-00221S<\/td>\n      <td>DD290-21-STYLE-FL-DUO-SS<\/td>\n      <td>4 AC GFCI<\/td>\n    <\/tr>\n    <tr>\n      <td>Style Drawer 18 Flush Duo -\t0290-00218S<\/td>\n      <td>DD290-18-STYLE-FL-DUO-SS<\/td>\n      <td>4 AC GFCI<\/td>\n    <\/tr>\n  <\/tbody>\n<\/table>"
+            }
+          },
+          "1517421317119": {
+            "type": "part_ref",
+            "settings": {
+              "bg_color": "",
+              "part_type": "Powering Outlets",
+              "part_name": "Style Drawer Series",
+              "part_image": "shopify:\/\/shop_images\/style-series.jpg",
+              "part_content": "<h4>Black<\/h4>\n<table class=\"table product-table\">\n  <thead>\n    <tr>\n      <th>Docking Drawer Part Number<\/th>\n      <th>EB Bradley Part Number<\/th>\n      <th>Outlet Configuration<\/th>\n    <\/tr>\n  <\/thead>\n  <tbody>\n    <tr>\n      <td>Style Drawer 24 -\t0290-00013<\/td>\n      <td>DD290-MIGHTY-BK<\/td>\n      <td>2 AC GFCI<\/td>\n    <\/tr>\n    <tr>\n      <td>Style Drawer 21 -\t0290-00011<\/td>\n      <td>DD290-STYLE-BK<\/td>\n      <td>2 AC GFCI<\/td>\n    <\/tr>\n    <tr>\n      <td>Style Drawer 18 PN# -\t0290-00049<\/td>\n      <td>DD290-18-STYLE-BK<\/td>\n      <td>2 AC GFCI<\/td>\n    <\/tr>\n  <\/tbody>\n<\/table>\n\n<h4>White<\/h4>\n<table class=\"table product-table\">\n  <thead>\n    <tr>\n      <th>Docking Drawer Part Number<\/th>\n      <th>EB Bradley Part Number<\/th>\n      <th>Outlet Configuration<\/th>\n    <\/tr>\n  <\/thead>\n  <tbody>\n    <tr>\n      <td>Style Drawer 24 -\t0290-00013W<\/td>\n      <td>DD290-MIGHTY-WH<\/td>\n      <td>2 AC GFCI<\/td>\n    <\/tr>\n    <tr>\n      <td>Style Drawer 21 -\t0290-00011W<\/td>\n      <td>DD290-STYLE-WH​<\/td>\n      <td>2 AC GFCI<\/td>\n    <\/tr>\n    <tr>\n      <td>Style Drawer 18 -\t0290-00049W<\/td>\n      <td>DD290-18-STYLE-WH<\/td>\n      <td>2 AC GFCI<\/td>\n    <\/tr>\n  <\/tbody>\n<\/table>"
+            }
+          }
+        },
+        "block_order": [
+          "1517085621440",
+          "1512179700682",
+          "1512180046104",
+          "1517421234470",
+          "1517421317119"
+        ],
+        "settings": {
+          "dist_image": "shopify:\/\/shop_images\/9900121.png",
+          "dist_content": "<p>Docking Drawer in-drawer electrical outlets are now available from EB Bradley.  \n​Please contact your local sales representative or customer service agent at - <\/p>\n<ul>\n<li>California & Arizona – 800-533-3030<\/li>\n<li>Oregon – 800- 621-1561<\/li>\n<li>Washington – 800-562-8366<\/li>\n<\/ul>\n<p>Stocking Location: Hayward, CA  Kent, WA  Vernon, CA<\/p>",
+          "header_bg": "#ffffff",
+          "header_color": "",
+          "header": "EB Bradley Part Number Cross-Reference List",
+          "pdf_header": "Docking Drawer EB Bradley Literature",
+          "pdf_link": "",
+          "pdf_image": ""
+        }
+      },
+      "hafele": {
+        "type": "hafele",
+        "blocks": {
+          "1517087990524": {
+            "type": "part_ref",
+            "settings": {
+              "bg_color": "",
+              "part_type": "Charging Outlets",
+              "part_name": "Docking Drawer Blade Series",
+              "part_image": "shopify:\/\/shop_images\/blade-series.jpg",
+              "part_content": "<h4>Black<\/h4>\n<table class=\"table product-table\">\n  <thead>\n    <tr>\n      <th>Docking Drawer Part Number<\/th>\n      <th>Häfele Item Number<\/th>\n      <th>Outlet Configuration<\/th>\n    <\/tr>\n  <\/thead>\n  <tbody>\n    <tr>\n      <td>Docking Drawer Blade 2419 -\t0290-10024<\/td>\n      <td>822.53.106<\/td>\n      <td>2 AC & 2 USB<\/td>\n    <\/tr>\n    <tr>\n      <td>Docking Drawer Blade 2419 USB -\t0290-10124<\/td>\n      <td>822.53.116<\/td>\n      <td>4 USB<\/td>\n    <\/tr>\n    <tr>\n      <td>Docking Drawer Blade 2118 -\t0290-10021<\/td>\n      <td>822.53.103<\/td>\n      <td>2 AC & 2 USB<\/td>\n    <\/tr>\n    <tr>\n      <td>Docking Drawer Blade 2118 USB -\t0290-10121<\/td>\n      <td>822.53.115<\/td>\n      <td>4 USB<\/td>\n    <\/tr>\n    <tr>\n      <td>Docking Drawer Blade 1817 -\t0290-10018<\/td>\n      <td>822.53.100<\/td>\n      <td>2 AC & 2 USB<\/td>\n    <\/tr>\n    <tr>\n      <td>Docking Drawer Blade 1817 USB -\t0290-10118<\/td>\n      <td>822.53.112<\/td>\n      <td>4 USB<\/td>\n    <\/tr>\n    <tr>\n      <td>Docking Drawer Blade 2422 Duo -\t0290-10224<\/td>\n      <td>822.53.124<\/td>\n      <td>2 AC & 6 USB<\/td>\n    <\/tr>\n    <tr>\n      <td>Docking Drawer Blade 2422 Duo USB -\t0290-10324<\/td>\n      <td>822.53.121<\/td>\n      <td>8 USB<\/td>\n    <\/tr>\n    <tr>\n      <td>Docking Drawer Blade 3022 -\t0290-10030<\/td>\n      <td>822.53.109<\/td>\n      <td>2 AC & 2 USB<\/td>\n    <\/tr>\n  <\/tbody>\n<\/table>\n<h4>White<\/h4>\n<table class=\"table product-table\">\n  <thead>\n    <tr>\n      <th>Docking Drawer Part Number<\/th>\n      <th>Häfele Item Number<\/th>\n      <th>Outlet Configuration<\/th>\n    <\/tr>\n  <\/thead>\n  <tbody>\n    <tr>\n      <td>Docking Drawer Blade 2419 -\t0290-10024W<\/td>\n      <td>822.53.107<\/td>\n      <td>2 AC & 2 USB<\/td>\n    <\/tr>\n    <tr>\n      <td>Docking Drawer Blade 2419 USB -\t0290-10124W<\/td>\n      <td>822.53.119<\/td>\n      <td>4 USB<\/td>\n    <\/tr>\n    <tr>\n      <td>Docking Drawer Blade 2118 -\t0290-10021W<\/td>\n      <td>822.53.104<\/td>\n      <td>2 AC & 2 USB<\/td>\n    <\/tr>\n    <tr>\n      <td>Docking Drawer Blade 2118 USB -\t0290-10121W<\/td>\n      <td>822.53.116<\/td>\n      <td>4 USB<\/td>\n    <\/tr>\n    <tr>\n      <td>Docking Drawer Blade 1817 -\t0290-10018W<\/td>\n      <td>822.53.101<\/td>\n      <td>2 AC & 2 USB<\/td>\n    <\/tr>\n    <tr>\n      <td>Docking Drawer Blade 1817 USB -\t0290-10118W<\/td>\n      <td>822.53.113<\/td>\n      <td>4 USB<\/td>\n    <\/tr>\n    <tr>\n      <td>Docking Drawer Blade 2422 Duo -\t0290-10224W<\/td>\n      <td>822.53.125<\/td>\n      <td>2 AC & 6 USB<\/td>\n    <\/tr>\n    <tr>\n      <td>Docking Drawer Blade 2422 Duo USB -\t0290-10324W<\/td>\n      <td>822.53.122<\/td>\n      <td>8 USB<\/td>\n    <\/tr>\n    <tr>\n      <td>Docking Drawer Blade 3022 -\t0290-10030W<\/td>\n      <td>822.53.110<\/td>\n      <td>2 AC & 2 USB<\/td>\n    <\/tr>\n  <\/tbody>\n<\/table>\n<h4>Stainless Steel<\/h4>\n<table class=\"table product-table\">\n  <thead>\n    <tr>\n      <th>Docking Drawer Part Number<\/th>\n      <th>Häfele Item Number<\/th>\n      <th>Outlet Configuration<\/th>\n    <\/tr>\n  <\/thead>\n  <tbody>\n    <tr>\n      <td>Docking Drawer Blade 2419 -\t0290-10024S<\/td>\n      <td>822.53.108<\/td>\n      <td>2 AC & 2 USB<\/td>\n    <\/tr>\n    <tr>\n      <td>Docking Drawer Blade 2419 USB -\t0290-10124S<\/td>\n      <td>822.53.120<\/td>\n      <td>4 USB<\/td>\n    <\/tr>\n    <tr>\n      <td>Docking Drawer Blade 2118 -\t0290-10021S<\/td>\n      <td>822.53.105<\/td>\n      <td>2 AC & 2 USB<\/td>\n    <\/tr>\n    <tr>\n      <td>Docking Drawer Blade 2118 USB -\t0290-10121S<\/td>\n      <td>822.53.117<\/td>\n      <td>4 USB<\/td>\n    <\/tr>\n    <tr>\n      <td>Docking Drawer Blade 1817 -\t0290-10018S<\/td>\n      <td>822.53.102<\/td>\n      <td>2 AC & 2 USB<\/td>\n    <\/tr>\n    <tr>\n      <td>Docking Drawer Blade 1817 USB -\t0290-10118S<\/td>\n      <td>822.53.114<\/td>\n      <td>4 USB<\/td>\n    <\/tr>\n    <tr>\n      <td>Docking Drawer Blade 2422 Duo -\t0290-10224S<\/td>\n      <td>822.53.126<\/td>\n      <td>2 AC & 6 USB<\/td>\n    <\/tr>\n    <tr>\n      <td>Docking Drawer Blade 2422 Duo USB -\t0290-10324S<\/td>\n      <td>822.53.123<\/td>\n      <td>8 USB<\/td>\n    <\/tr>\n    <tr>\n      <td>Docking Drawer Blade 3022 -\t0290-10030S<\/td>\n      <td>822.53.111<\/td>\n      <td>2 AC & 2 USB<\/td>\n    <\/tr>\n  <\/tbody>\n<\/table>"
+            }
+          },
+          "1512182216143": {
+            "type": "part_ref",
+            "settings": {
+              "bg_color": "#ffffff",
+              "part_type": "Charging Outlets",
+              "part_name": "Docking Drawer Slim Series",
+              "part_image": "shopify:\/\/shop_images\/slim-series.jpg",
+              "part_content": "<h4>Black<\/h4>\n<table class=\"table product-table\">\n  <thead>\n    <tr>\n      <th>Docking Drawer Part Number<\/th>\n      <th>Häfele Item Number<\/th>\n      <th>Outlet Configuration<\/th>\n    <\/tr>\n  <\/thead>\n  <tbody>\n    <tr>\n      <td>Docking Drawer 24 Slim -\t0290-00031<\/td>\n      <td>822.53.008<\/td>\n      <td>2 AC & 2 USB<\/td>\n    <\/tr>\n    <tr>\n      <td>Docking Drawer 24 Slim USB -\t0290-00046<\/td>\n      <td>822.53.015<\/td>\n      <td>4 USB<\/td>\n    <\/tr>\n    <tr>\n      <td>Docking Drawer 21 Slim -\t0290-00030<\/td>\n      <td>822.53.006<\/td>\n      <td>2 AC & 2 USB<\/td>\n    <\/tr>\n    <tr>\n      <td>Docking Drawer 21 Slim USB -\t0290-00045<\/td>\n      <td>822.53.013<\/td>\n      <td>4 USB<\/td>\n    <\/tr>\n    <tr>\n      <td>Docking Drawer 18 Slim -\t0290-00047<\/td>\n      <td>822.53.021<\/td>\n      <td>2 AC & 2 USB<\/td>\n    <\/tr>\n    <tr>\n      <td>Docking Drawer 18 Slim USB -\t0290-00048<\/td>\n      <td>822.53.023<\/td>\n      <td>4 USB<\/td>\n    <\/tr>\n  <\/tbody>\n<\/table>\n<h4>White<\/h4>\n<table class=\"table product-table\">\n  <thead>\n    <tr>\n      <th>Docking Drawer Part Number<\/th>\n      <th>Häfele Item Number<\/th>\n      <th>Outlet Configuration<\/th>\n    <\/tr>\n  <\/thead>\n  <tbody>\n    <tr>\n      <td>Docking Drawer 24 Slim -\t0290-00031W<\/td>\n      <td>822.53.009<\/td>\n      <td>2 AC & 2 USB<\/td>\n    <\/tr>\n    <tr>\n      <td>Docking Drawer 24 Slim USB -\t0290-00046W<\/td>\n      <td>822.53.016<\/td>\n      <td>4 USB<\/td>\n    <\/tr>\n    <tr>\n      <td>Docking Drawer 21 Slim -\t0290-00030W<\/td>\n      <td>822.53.007<\/td>\n      <td>2 AC & 2 USB<\/td>\n    <\/tr>\n    <tr>\n      <td>Docking Drawer 21 Slim USB -\t0290-00045W<\/td>\n      <td>822.53.014<\/td>\n      <td>4 USB<\/td>\n    <\/tr>\n    <tr>\n      <td>Docking Drawer 18 Slim -\t0290-00047W<\/td>\n      <td>822.53.022<\/td>\n      <td>2 AC & 2 USB<\/td>\n    <\/tr>\n    <tr>\n      <td>Docking Drawer 18 Slim USB -\t0290-00048W<\/td>\n      <td>822.53.024<\/td>\n      <td>4 USB<\/td>\n    <\/tr>\n  <\/tbody>\n<\/table>\n<h4>Stainless Steel<\/h4>\n<table class=\"table product-table\">\n  <thead>\n    <tr>\n      <th>Docking Drawer Part Number<\/th>\n      <th>Häfele Item Number<\/th>\n      <th>Outlet Configuration<\/th>\n    <\/tr>\n  <\/thead>\n  <tbody>\n    <tr>\n      <td>Docking Drawer 24 Slim -\t0290-00031S<\/td>\n      <td>822.53.061<\/td>\n      <td>2 AC & 2 USB<\/td>\n    <\/tr>\n    <tr>\n      <td>Docking Drawer 24 Slim USB -\t0290-00046S<\/td>\n      <td>822.53.071<\/td>\n      <td>4 USB<\/td>\n    <\/tr>\n    <tr>\n      <td>Docking Drawer 21 Slim -\t0290-00030S<\/td>\n      <td>822.53.060<\/td>\n      <td>2 AC & 2 USB<\/td>\n    <\/tr>\n    <tr>\n      <td>Docking Drawer 21 Slim USB -\t0290-00045S<\/td>\n      <td>822.53.070<\/td>\n      <td>4 USB<\/td>\n    <\/tr>\n    <tr>\n      <td>Docking Drawer 18 Slim -\t0290-00047S<\/td>\n      <td>822.53.050<\/td>\n      <td>2 AC & 2 USB<\/td>\n    <\/tr>\n    <tr>\n      <td>Docking Drawer 18 Slim USB -\t0290-00048S<\/td>\n      <td>822.53.051<\/td>\n      <td>4 USB<\/td>\n    <\/tr>\n  <\/tbody>\n<\/table>"
+            }
+          },
+          "1512182481923": {
+            "type": "part_ref",
+            "settings": {
+              "bg_color": "#ffffff",
+              "part_type": "Charging Outlets",
+              "part_name": "Docking Drawer USB Narrow",
+              "part_image": "shopify:\/\/shop_images\/0290-00078-3d-600_3_orig.png",
+              "part_content": "<h4>Black<\/h4>\n<table class=\"table product-table\">\n  <thead>\n    <tr>\n      <th>Docking Drawer Part Number<\/th>\n      <th>Häfele Item Number<\/th>\n      <th>Outlet Configuration<\/th>\n    <\/tr>\n  <\/thead>\n  <tbody>\n    <tr>\n      <td>Docking Drawer USB Narrow -\t0290-00078<\/td>\n      <td>822.53.080<\/td>\n      <td>4 USB<\/td>\n    <\/tr>\n  <\/tbody>\n<\/table>\n<h4>White<\/h4>\n<table class=\"table product-table\">\n  <thead>\n    <tr>\n      <th>Docking Drawer Part Number<\/th>\n      <th>Häfele Item Number<\/th>\n      <th>Outlet Configuration<\/th>\n    <\/tr>\n  <\/thead>\n  <tbody>\n    <tr>\n      <td>Docking Drawer USB Narrow -\t0290-00078W<\/td>\n      <td>822.53.081<\/td>\n      <td>4 USB<\/td>\n    <\/tr>\n  <\/tbody>\n<\/table>"
+            }
+          },
+          "1512182700256": {
+            "type": "part_ref",
+            "settings": {
+              "bg_color": "#ffffff",
+              "part_type": "Powering Outlets",
+              "part_name": "Style Drawer Blade Series",
+              "part_image": "shopify:\/\/shop_images\/style-blade.jpg",
+              "part_content": "<h4>Black<\/h4>\n<table class=\"table product-table\">\n  <thead>\n    <tr>\n      <th>Docking Drawer Part Number<\/th>\n      <th>Häfele Item Number<\/th>\n      <th>Outlet Configuration<\/th>\n    <\/tr>\n  <\/thead>\n  <tbody>\n    <tr>\n      <td>Style Drawer 24 Blade -\t0290-00324<\/td>\n      <td>822.53.136<\/td>\n      <td>2 AC GFCI<\/td>\n    <\/tr>\n    <tr>\n      <td>Style Drawer 21 Blade -\t0290-00321<\/td>\n      <td>822.53.133<\/td>\n      <td>2 AC GFCI<\/td>\n    <\/tr>\n    <tr>\n      <td>Style Drawer 18 Blade -\t0290-00318<\/td>\n      <td>822.53.130<\/td>\n      <td>2 AC GFCI<\/td>\n    <\/tr>\n    <tr>\n      <td>Style Drawer 30 Blade -\t0290-00330<\/td>\n      <td>822.53.139<\/td>\n      <td>2 AC GFCI<\/td>\n    <\/tr>\n  <\/tbody>\n<\/table>\n<h4>White<\/h4>\n<table class=\"table product-table\">\n  <thead>\n    <tr>\n      <th>Docking Drawer Part Number<\/th>\n      <th>Häfele Item Number<\/th>\n      <th>Outlet Configuration<\/th>\n    <\/tr>\n  <\/thead>\n  <tbody>\n    <tr>\n      <td>Style Drawer 24 Blade -\t0290-00324W<\/td>\n      <td>822.53.137<\/td>\n      <td>2 AC GFCI<\/td>\n    <\/tr>\n    <tr>\n      <td>Style Drawer 21 Blade -\t0290-00321W<\/td>\n      <td>822.53.134<\/td>\n      <td>2 AC GFCI<\/td>\n    <\/tr>\n    <tr>\n      <td>Style Drawer 18 Blade -\t0290-00318W<\/td>\n      <td>822.53.131<\/td>\n      <td>2 AC GFCI<\/td>\n    <\/tr>\n    <tr>\n      <td>Style Drawer 30 Blade -\t0290-00330W<\/td>\n      <td>822.53.140<\/td>\n      <td>2 AC GFCI<\/td>\n    <\/tr>\n  <\/tbody>\n<\/table>\n<h4>Stainless Steel<\/h4>\n<table class=\"table product-table\">\n  <thead>\n    <tr>\n      <th>Docking Drawer Part Number<\/th>\n      <th>Häfele Item Number<\/th>\n      <th>Outlet Configuration<\/th>\n    <\/tr>\n  <\/thead>\n  <tbody>\n    <tr>\n      <td>Style Drawer 24 Blade -\t0290-00324S<\/td>\n      <td>822.53.138<\/td>\n      <td>2 AC GFCI<\/td>\n    <\/tr>\n    <tr>\n      <td>Style Drawer 21 Blade -\t0290-00321S<\/td>\n      <td>822.53.135<\/td>\n      <td>2 AC GFCI<\/td>\n    <\/tr>\n    <tr>\n      <td>Style Drawer 30 Blade -\t0290-00330S<\/td>\n      <td>822.53.141<\/td>\n      <td>2 AC GFCI<\/td>\n    <\/tr>\n  <\/tbody>\n<\/table>"
+            }
+          },
+          "1517583855500": {
+            "type": "part_ref",
+            "settings": {
+              "bg_color": "",
+              "part_type": "Powering Outlets",
+              "part_name": "Style Drawer Flush Series",
+              "part_image": "shopify:\/\/shop_images\/style-flush.jpg",
+              "part_content": "<h4>Black<\/h4>\n<table class=\"table product-table\">\n  <thead>\n    <tr>\n      <th>Docking Drawer Part Number<\/th>\n      <th>Häfele Item Number<\/th>\n      <th>Outlet Configuration<\/th>\n    <\/tr>\n  <\/thead>\n  <tbody>\n    <tr>\n      <td>Style Drawer 24 Flush -\t0290-00033<\/td>\n      <td>822.53.017<\/td>\n      <td>2 AC GFCI<\/td>\n    <\/tr>\n    <tr>\n      <td>Style Drawer 21 Flush -\t0290-00032<\/td>\n      <td>822.53.019<\/td>\n      <td>2 AC GFCI<\/td>\n    <\/tr>\n    <tr>\n      <td>Style Drawer 18 Flush -\t0290-00050<\/td>\n      <td>822.53.027<\/td>\n      <td>2 AC GFCI<\/td>\n    <\/tr>\n    <tr>\n      <td>Style Drawer 24 Flush Duo -\t0290-00224<\/td>\n      <td>822.53.095<\/td>\n      <td>4 AC GFCI<\/td>\n    <\/tr>\n    <tr>\n      <td>Style Drawer 21 Flush Duo -\t0290-00221<\/td>\n      <td>822.53.092<\/td>\n      <td>4 AC GFCI<\/td>\n    <\/tr>\n    <tr>\n      <td>Style Drawer 18 Flush Duo -\t0290-00218<\/td>\n      <td>822.53.089<\/td>\n      <td>4 AC GFCI<\/td>\n    <\/tr>\n    <tr>\n      <td>Style Drawer 30 Flush -\t0290-00077<\/td>\n      <td>822.53.083<\/td>\n      <td>2 AC GFCI<\/td>\n    <\/tr>\n  <\/tbody>\n<\/table>\n<h4>White<\/h4>\n<table class=\"table product-table\">\n  <thead>\n    <tr>\n      <th>Docking Drawer Part Number<\/th>\n      <th>Häfele Item Number<\/th>\n      <th>Outlet Configuration<\/th>\n    <\/tr>\n  <\/thead>\n  <tbody>\n    <tr>\n      <td>Style Drawer 24 Flush -\t0290-00033W<\/td>\n      <td>822.53.018<\/td>\n      <td>2 AC GFCI<\/td>\n    <\/tr>\n    <tr>\n      <td>Style Drawer 21 Flush -\t0290-00032W<\/td>\n      <td>822.53.020<\/td>\n      <td>2 AC GFCI<\/td>\n    <\/tr>\n    <tr>\n      <td>Style Drawer 18 Flush -\t0290-00050W<\/td>\n      <td>822.53.028<\/td>\n      <td>2 AC GFCI<\/td>\n    <\/tr>\n    <tr>\n      <td>Style Drawer 24 Flush Duo -\t0290-00224W<\/td>\n      <td>822.53.096<\/td>\n      <td>4 AC GFCI<\/td>\n    <\/tr>\n    <tr>\n      <td>Style Drawer 21 Flush Duo -\t0290-00221W<\/td>\n      <td>822.53.093<\/td>\n      <td>4 AC GFCI<\/td>\n    <\/tr>\n    <tr>\n      <td>Style Drawer 18 Flush Duo -\t0290-00218W<\/td>\n      <td>822.53.090<\/td>\n      <td>4 AC GFCI<\/td>\n    <\/tr>\n    <tr>\n      <td>Style Drawer 30 Flush -\t0290-00078W<\/td>\n      <td>822.53.084<\/td>\n      <td>2 AC GFCI<\/td>\n    <\/tr>\n  <\/tbody>\n<\/table>\n<h4>Stainless Steel<\/h4>\n<table class=\"table product-table\">\n  <thead>\n    <tr>\n      <th>Docking Drawer Part Number<\/th>\n      <th>Häfele Item Number<\/th>\n      <th>Outlet Configuration<\/th>\n    <\/tr>\n  <\/thead>\n  <tbody>\n    <tr>\n      <td>Style Drawer 24 Flush -\t0290-00033S<\/td>\n      <td>822.53.073<\/td>\n      <td>2 AC GFCI<\/td>\n    <\/tr>\n    <tr>\n      <td>Style Drawer 21 Flush -\t0290-00032S<\/td>\n      <td>822.53.072<\/td>\n      <td>2 AC GFCI<\/td>\n    <\/tr>\n    <tr>\n      <td>Style Drawer 18 Flush -\t0290-00050S<\/td>\n      <td>822.53.053<\/td>\n      <td>2 AC GFCI<\/td>\n    <\/tr>\n    <tr>\n      <td>Style Drawer 24 Flush Duo -\t0290-00224S<\/td>\n      <td>822.53.097<\/td>\n      <td>4 AC GFCI<\/td>\n    <\/tr>\n    <tr>\n      <td>Style Drawer 21 Flush Duo -\t0290-00221S<\/td>\n      <td>822.53.094<\/td>\n      <td>4 AC GFCI<\/td>\n    <\/tr>\n    <tr>\n      <td>Style Drawer 18 Flush Duo -\t0290-00218S<\/td>\n      <td>822.53.091<\/td>\n      <td>4 AC GFCI<\/td>\n    <\/tr>\n    <tr>\n      <td>Style Drawer 30 Flush -\t0290-00330<\/td>\n      <td>822.53.085<\/td>\n      <td>2 AC GFCI<\/td>\n    <\/tr>\n  <\/tbody>\n<\/table>"
+            }
+          },
+          "1517583896216": {
+            "type": "part_ref",
+            "settings": {
+              "bg_color": "",
+              "part_type": "Powering Outlets",
+              "part_name": "Style Drawer Series",
+              "part_image": "shopify:\/\/shop_images\/style-series.jpg",
+              "part_content": "<h4>Black<\/h4>\n<table class=\"table product-table\">\n  <thead>\n    <tr>\n      <th>Docking Drawer Part Number<\/th>\n      <th>Häfele Item Number<\/th>\n      <th>Outlet Configuration<\/th>\n    <\/tr>\n  <\/thead>\n  <tbody>\n    <tr>\n      <td>Style Drawer 24 -\t0290-00013<\/td>\n      <td>822.53.004<\/td>\n      <td>2 AC GFCI<\/td>\n    <\/tr>\n    <tr>\n      <td>Style Drawer 21 -\t0290-00011<\/td>\n      <td>822.53.003<\/td>\n      <td>2 AC GFCI<\/td>\n    <\/tr>\n    <tr>\n      <td>Style Drawer 18 -\t0290-00049<\/td>\n      <td>822.53.025<\/td>\n      <td>2 AC GFCI<\/td>\n    <\/tr>\n  <\/tbody>\n<\/table>\n<h4>White<\/h4>\n<table class=\"table product-table\">\n  <thead>\n    <tr>\n      <th>Docking Drawer Part Number<\/th>\n      <th>Häfele Item Number<\/th>\n      <th>Outlet Configuration<\/th>\n    <\/tr>\n  <\/thead>\n  <tbody>\n    <tr>\n      <td>Style Drawer 24 -\t0290-00013W<\/td>\n      <td>822.53.012<\/td>\n      <td>2 AC GFCI<\/td>\n    <\/tr>\n    <tr>\n      <td>Style Drawer 21 -\t0290-00011W<\/td>\n      <td>822.53.010<\/td>\n      <td>2 AC GFCI<\/td>\n    <\/tr>\n    <tr>\n      <td>Style Drawer 18 -\t0290-00049W<\/td>\n      <td>822.53.026<\/td>\n      <td>2 AC GFCI<\/td>\n    <\/tr>\n  <\/tbody>\n<\/table>"
+            }
+          }
+        },
+        "block_order": [
+          "1517087990524",
+          "1512182216143",
+          "1512182481923",
+          "1512182700256",
+          "1517583855500",
+          "1517583896216"
+        ],
+        "settings": {
+          "dist_image": "shopify:\/\/shop_images\/4151766_orig.png",
+          "dist_content": "<p>Docking Drawer in-drawer electrical outlets are available from Häfele. Please contact your local sales representative or customer service agent to order.<\/p>\n<p>Stocking Location: Archdale, NC  Mechanicsberg, PA  Torrance, CA<\/p>",
+          "header_bg": "#ffffff",
+          "header_color": "",
+          "header": "Häfele Part Number Cross-Reference List",
+          "pdf_header": "Docking Drawer Häfele Literature",
+          "pdf_link": "",
+          "pdf_image": ""
+        }
+      },
+      "hafele-canada": {
+        "type": "hafele-canada",
+        "blocks": {
+          "1512608584539": {
+            "type": "part_ref",
+            "settings": {
+              "bg_color": "#ffffff",
+              "part_type": "Charging Outlets",
+              "part_name": "Blade Series",
+              "part_image": "shopify:\/\/shop_images\/blade-usb_1.jpg",
+              "part_content": "<h4>Black<\/h4>\n<p>Blade 2419 USB PN# - 0290-10124 - ​Häfele Item Number - 822.53.118<\/p>\n<p>Blade 2118 USB PN# - 0290-10121 - Häfele Item Number - 822.53.115​<\/p>\n<p>Blade 1816 USB PN# - 0290-10118 - Häfele Item Number - 822.53.112<\/p>\n<h4>White<\/h4>\n<p>Blade 2419 USB PN# - 0290-10124W - ​Häfele Item Number - 822.53.119<\/p>\n<p>Blade 2118 USB PN# - 0290-10121W - Häfele Item Number - 822.53.116​<\/p>\n<p>Blade 1816 USB PN# - 0290-10118W - Häfele Item Number - 822.53.113<\/p>\n<h4>Stainless Steel<\/h4>\n<p>Blade 2419 USB PN# - 0290-10124S - ​Häfele Item Number - 822.53.120<\/p>\n<p>Blade 2118 USB PN# - 0290-10121S - Häfele Item Number - 822.53.117<\/p>\n<p>Blade 1816 USB PN# - 0290-10118S - Häfele Item Number - 822.53.114<\/p>"
+            }
+          },
+          "1512608810513": {
+            "type": "part_ref",
+            "settings": {
+              "bg_color": "#ffffff",
+              "part_type": "",
+              "part_name": "",
+              "part_image": "shopify:\/\/shop_images\/0290-10324_1.png",
+              "part_content": "<h4>Black<\/h4>\n<p>Blade 2422 Duo USB PN# - 0290-10324 - ​Häfele Item Number - 822.53.121<\/p>\n<h4>White<\/h4>\n<p>Blade 2422 Duo USB PN# - 0290-10324W - ​Häfele Item Number - 822.53.122<\/p>\n<h4>Stainless Steel<\/h4>\n<p>Blade 2422 Duo USB PN# - 0290-10324S - ​Häfele Item Number - 822.53.123<\/p>"
+            }
+          },
+          "1512608898974": {
+            "type": "part_ref",
+            "settings": {
+              "bg_color": "#ffffff",
+              "part_type": "Charging Outlets",
+              "part_name": "Slim USB Series",
+              "part_image": "shopify:\/\/shop_images\/docking-drawer-slim-usb-series-white-1_11.jpg",
+              "part_content": "<h4>Black<\/h4>\n<p>Docking Drawer 24 Slim USB PN# - 0290-00046 - ​Häfele Item Number - 822.53.015​<\/p>\n<p>Docking Drawer 21 Slim USB PN# - 0290-00045 - Häfele Item Number - 822.53.013​<\/p>\n<p>Docking Drawer 18 Slim USB PN# - 0290-00048 - Häfele Item Number - 822.53.023<\/p>\n<h4>White<\/h4>\n<p>Docking Drawer 24 Slim USB(White) PN# - 0290-00046W - Häfele Item Number - 822.53.016​​<\/p>\n<p>Docking Drawer 21 Slim USB(White) PN# - 0290-00045W - Häfele Item Number - 822.53.014​<\/p>\n<p>Docking Drawer 18 Slim USB(White) PN# - 0290-00048W - Häfele Item Number - 822.53.024<\/p>"
+            }
+          },
+          "1512609040627": {
+            "type": "part_ref",
+            "settings": {
+              "bg_color": "#ffffff",
+              "part_type": "Charging Outlets",
+              "part_name": "USB Narrow",
+              "part_image": "shopify:\/\/shop_images\/0290-00078-3d-600_1_orig.png",
+              "part_content": "<h4>Black<\/h4>\n<p>USB Narrow PN# - 0290-00078 - ​Häfele Item Number - 822.53.080<\/p>\n<h4>White<\/h4>\n<p>USB Narrow PN# - 0290-00078W - ​Häfele Item Number - 822.53.081<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "1512608584539",
+          "1512608810513",
+          "1512608898974",
+          "1512609040627"
+        ],
+        "settings": {
+          "dist_image": "shopify:\/\/shop_images\/4151766_orig.png",
+          "dist_content": "CSA-22.2 approved Docking Drawer in-drawer electrical outlets are now available from Häfele Canada. Please contact your local sales representative or customer service agent to order.",
+          "header_bg": "#ffffff",
+          "header_color": "",
+          "header": "Häfele Part Number Cross-Reference List",
+          "pdf_header": "Docking Drawer Häfele Canada Literature",
+          "pdf_link_english": "",
+          "pdf_link_french": "",
+          "pdf_image": ""
+        }
+      },
+      "holdahl": {
+        "type": "holdahl",
+        "blocks": {
+          "1512609920722": {
+            "type": "part_ref",
+            "settings": {
+              "bg_color": "#ffffff",
+              "part_type": "Charging Outlets",
+              "part_name": "Docking Drawer Slim Series",
+              "part_image": "shopify:\/\/shop_images\/docking-drawer-slim-series-white-1_13.jpg",
+              "part_content": "<h4>Black<\/h4>\n<p>Docking Drawer 24 Slim PN# - 0290-00031 - Holdahl PN# - DD DD24 SLIM B<\/p>\n<p>Docking Drawer 21 Slim PN# - 0290-00030 - Holdahl PN# - DD DD21 SLIM B<\/p>\n<p>Docking Drawer 18 Slim PN# - 0290-00047 - Holdahl PN# - DD DD18 SLIM B<\/p>\n<h4>White<\/h4>\n<p>Docking Drawer 24 Slim (White) PN# - 0290-00031W - Holdahl PN# - DD DD24 SLIM W<\/p>\n<p>Docking Drawer 21 Slim (White) PN# - 0290-00030W - Holdahl PN# - DD DD21 SLIM W​<\/p>\n<p>Docking Drawer 18 Slim (White) PN# - 0290-00047W - Holdahl PN# - DD DD18 SLIM W<\/p>"
+            }
+          },
+          "1512610033187": {
+            "type": "part_ref",
+            "settings": {
+              "bg_color": "#ffffff",
+              "part_type": "Charging Outlets",
+              "part_name": "Docking Drawer Slim USB Series",
+              "part_image": "shopify:\/\/shop_images\/docking-drawer-slim-usb-series-white-1_10.jpg",
+              "part_content": "<h4>Black<\/h4>\n<p>Docking Drawer 24 Slim USB PN# - 0290-00046 - ​Holdahl PN# - DD SLIM USB 24 B<\/p>\n<p>Docking Drawer 21 Slim USB PN# - 0290-00045 - Holdahl PN# - DD SLIM USB 21 B<\/p>\n<p>Docking Drawer 18 Slim USB PN# - 0290-00048 - Holdahl PN# - DD SLIM USB 18 B<\/p>\n<h4>White<\/h4>\n<p>Docking Drawer 24 Slim USB (White) PN# - 0290-00046W - Holdahl PN# - DD SLIM USB 24 W<\/p>\n<p>Docking Drawer 21 Slim USB (White) PN# - 0290-00045W - Holdahl PN# - DD SLIM USB 21 W​<\/p>\n<p>Docking Drawer 18 Slim USB (White) PN# - 0290-00048W - Holdahl PN# - DD SLIM USB 18 W<\/p>"
+            }
+          },
+          "1512610144924": {
+            "type": "part_ref",
+            "settings": {
+              "bg_color": "#ffffff",
+              "part_type": "Powering Outlets",
+              "part_name": "Style Drawer Series",
+              "part_image": "shopify:\/\/shop_images\/style-drawer-series-white_10.jpg",
+              "part_content": "<h4>Black<\/h4>\n<p>Style Drawer 24 PN# - 0290-00013 - Holdahl PN# - DD MIGHTY DR B<\/p>\n<p>​Style Drawer 21 PN# - 0290-00011 ​- Holdahl PN# - DD STYLE DR B<\/p>\n<p>Style Drawer 18 PN# - 0290-00049 - ​​Holdahl PN# - DD STYLE DR 18 W<\/p>\n<h4>White<\/h4>\n<p>Style Drawer 24 PN# - 0290-00013W - ​Holdahl PN# - DD MIGHTY DR W​<\/p>\n<p>Style Drawer 21 PN# - 0290-00011W - ​Holdahl PN# - DD STYLE DR W<\/p>\n<p>Style Drawer 18 PN# - 0290-00049W - ​​​Holdahl PN# - DD STYLE DR 18 W​<\/p>"
+            }
+          },
+          "1512610254243": {
+            "type": "part_ref",
+            "settings": {
+              "bg_color": "#ffffff",
+              "part_type": "Powering Outlets",
+              "part_name": "Style Drawer Flush Series",
+              "part_image": "shopify:\/\/shop_images\/style-drawer-flush-series-white-1_10_orig.jpg",
+              "part_content": "<h4>Black<\/h4>\n<p>Style Drawer 24 Flush PN# - 0290-00033 - Holdahl PN# - DD STYLE FL 21 B​​<\/p>\n<p>​Style Drawer 21 Flush PN# - 0290-00032 ​- Holdahl PN# - DD STYLE FL 21 B​<\/p>\n<p>Style Drawer 18 Flush PN# - 0290-00050 - ​Holdahl PN# - DD STYLE FL 18 B​<\/p>\n<h4>White<\/h4>\n<p>Style Drawer 24 Flush PN# - 0290-00033W - Holdahl PN# - DD STYLE FL 24 W​<\/p>\n<p>Style Drawer 21 Flush PN# - 0290-00032W - ​Holdahl PN# - DD STYLE FL 21 W​​<\/p>\n<p>Style Drawer 18 Flush PN# - 0290-00050W - ​​Holdahl PN# - DD STYLE FL 18 W​<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "1512609920722",
+          "1512610033187",
+          "1512610144924",
+          "1512610254243"
+        ],
+        "settings": {
+          "dist_image": "shopify:\/\/shop_images\/2663745.png",
+          "dist_content": "<p>Docking Drawer in-drawer electrical outlets are now in stock and available from Holdahl Company.  Please contact your local sales representative or customer service agent at - <\/p>\n<ul>\n<li>Phone - 800-777-8992<\/li>\n<li>Email - sales@holdahl.com<\/li>\n<\/ul>\n<p>Stocking Location: Minnesota, MN<\/p>",
+          "header_bg": "#ffffff",
+          "header_color": "",
+          "header": "Holdahl Part Number Cross-Reference List",
+          "pdf_header": "Docking Drawer Holdahl Literature",
+          "pdf_link": "https:\/\/cdn.shopify.com\/s\/files\/1\/2349\/7495\/files\/holdahl_4page_brochure_061516_rs.pdf?17876000983832521639",
+          "pdf_image": "shopify:\/\/shop_images\/507577.png"
+        }
+      },
+      "hardware-hut": {
+        "type": "hardware-hut",
+        "blocks": {
+          "1512949540299": {
+            "type": "part_ref",
+            "settings": {
+              "bg_color": "#ffffff",
+              "part_type": "Charging Outlets",
+              "part_name": "Docking Drawer Slim Series",
+              "part_image": "shopify:\/\/shop_images\/docking-drawer-slim-series-white-1_12.jpg",
+              "part_content": "<h4>Black<\/h4>\n<p>Docking Drawer 24 Slim PN# - 0290-00031 - Hardware Hut PN# - DOC-DD24SLIM-BLACK​<\/p>\n<p>Docking Drawer 21 Slim PN# - 0290-00030 - Hardware Hut PN# - DOC-DD21SLIM-BLACK<\/p>\n<p>Docking Drawer 18 Slim PN# - 0290-00047 - Hardware Hut PN# - DOC-DD18SLIM-BLACK<\/p>\n<h4>White<\/h4>\n<p>Docking Drawer 24 Slim (White) PN# - 0290-00031W - Hardware Hut PN# - DOC-DD24SLIM-WHITE<\/p>\n<p>Docking Drawer 21 Slim (White) PN# - 0290-00030W - Hardware Hut PN# - DOC-DD21SLIM-WHITE<\/p>\n<p>Docking Drawer 18 Slim (White) PN# - 0290-00047W - Hardware Hut PN# - DOC-DD18SLIM-WHITE<\/p><p><\/p>"
+            }
+          },
+          "1512949731497": {
+            "type": "part_ref",
+            "settings": {
+              "bg_color": "#ffffff",
+              "part_type": "Charging Outlets",
+              "part_name": "Docking Drawer Slim USB Series",
+              "part_image": "shopify:\/\/shop_images\/docking-drawer-slim-usb-series-white-1_9.jpg",
+              "part_content": "<h4>Black<\/h4>\n<p>Docking Drawer 24 Slim USB PN# - 0290-00046 - ​Hardware Hut PN# - DOC-DD24SLIM-USB-BLACK<\/p>\n<p>Docking Drawer 21 Slim USB PN# - 0290-00045 - Hardware Hut PN# - DOC-DD21SLIM-USB-BLACK<\/p>\n<p>Docking Drawer 18 Slim USB PN# - 0290-00048 - Hardware Hut PN# - DOC-DD18SLIM-USB-BLACK<\/p>\n<h4>White<\/h4>\n<p>Docking Drawer 24 Slim USB(White) - 0290-00046W - Hardware Hut PN# - DOC-DD24SLIM-USB-WHITE<\/p>\n<p>Docking Drawer 21 Slim USB(White) - 0290-00045W - Hardware Hut PN# - DOC-DD21SLIM-USB-WHITE<\/p>\n<p>Docking Drawer 18 Slim USB(White) - 0290-00045W - Hardware Hut PN# - DOC-DD18SLIM-USB-WHITE<\/p>"
+            }
+          },
+          "1512949826400": {
+            "type": "part_ref",
+            "settings": {
+              "bg_color": "#ffffff",
+              "part_type": "Charging Outlets",
+              "part_name": "Other Docking Drawer Charging Outlets",
+              "part_image": "shopify:\/\/shop_images\/0290-00015-3d_2.jpg",
+              "part_content": "<h4>Black<\/h4>\n<p>Docking Drawer 24 PN# - 0290-00016 - ​Hardware Hut PN# - DOC-DD24-BLACK<\/p>\n<p>Docking Drawer 18 PN# - 0290-00015 - Hardware Hut PN# - DOC-DD18-BLACK<\/p>\n<p>Docking Drawer Slim USB PN# - 0290-00012 - Hardware Hut PN# - DOC-DDSUSB-BLACK<\/p>\n<h4>White<\/h4>\n<p>Docking Drawer 24 (White) PN# - 0290-00016W - Hardware Hut PN# - DOC-DD24-WHITE<\/p>\n<p>Docking Drawer 18 (White) PN# - 0290-00015W - Hardware Hut PN# - DOC-DD18-WHITE<\/p>"
+            }
+          },
+          "1512949968633": {
+            "type": "part_ref",
+            "settings": {
+              "bg_color": "#ffffff",
+              "part_type": "Powering Outlets",
+              "part_name": "Style Drawer Series",
+              "part_image": "shopify:\/\/shop_images\/style-drawer-series-white_9.jpg",
+              "part_content": "<h4>Black<\/h4>\n<p>Style Drawer 24 PN# - 0290-00013 - Hardware Hut PN# - DOC-DDMD-BLACK<\/p>\n<p>​Style Drawer 21 PN# - 0290-00011 ​- Hardware Hut PN# - DOC-SD-BLACK<\/p>\n<p>Style Drawer 18 PN# - 0290-00049 - ​Hardware Hut PN# - DOC-DDSD-18-BLACK<\/p>\n<h4>White<\/h4>\n<p>Style Drawer 24 PN# - 0290-00013W - Hardware Hut PN# - DOC-DDMD-WHITE<\/p>\n<p>​Style Drawer 21 PN# - 0290-00011W - ​Hardware Hut PN# - DOC-SD-WHITE<\/p>\n<p>Style Drawer 18 PN# - 0290-00049W - ​​Hardware Hut PN# - DOC-DDSD-18-WHITE<\/p>"
+            }
+          },
+          "1512950072765": {
+            "type": "part_ref",
+            "settings": {
+              "bg_color": "#ffffff",
+              "part_type": "Powering Outlets",
+              "part_name": "Style Drawer Flush Series",
+              "part_image": "shopify:\/\/shop_images\/style-drawer-flush-series-white-1_9_orig.jpg",
+              "part_content": "<h4>Black<\/h4>\n<p>Style Drawer 24 Flush PN# - 0290-00033 - Hardware Hut PN# - DOC-DDSD-24-FLUSH-BLACK<\/p>\n<p>​Style Drawer 21 Flush PN# - 0290-00032 ​- Hardware Hut PN# - DOC-DDSD-21-FLUSH-BLACK<\/p>\n<p>Style Drawer 18 Flush PN# - 0290-00050 - ​Hardware Hut PN# - DOC-DDSD-18-FLUSH-BLACK<\/p>\n<h4>White<\/h4>\n<p>Style Drawer 24 Flush PN# - 0290-00033W - Hardware Hut PN# - DOC-DDSD-24-FLUSH-WHITE<\/p>\n<p>Style Drawer 21 Flush PN# - 0290-00032W - ​Hardware Hut PN# - DOC-DDSD-21-FLUSH-WHITE​<\/p>\n<p>Style Drawer 18 Flush PN# - 0290-00050W - ​​Hardware Hut PN# - DOC-DDSD-18-FLUSH-WHITE<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "1512949540299",
+          "1512949731497",
+          "1512949826400",
+          "1512949968633",
+          "1512950072765"
+        ],
+        "settings": {
+          "dist_image": "shopify:\/\/shop_images\/9254121.png",
+          "dist_content": "<p>Docking Drawer in-drawer electrical outlets are now available from Hardware Hut.  Please contact Carson Axtman at <\/p>\n<ul>\n<li>Phone (800) 708-6649<\/li> \n<li>Email carson@spokanehardware.com.<\/li>\n<\/ul>\n<p>Stocking Location: Spokane, WA<\/p>",
+          "header_bg": "#ffffff",
+          "header_color": "",
+          "header": "Hardware Hut Part Number Cross-Reference List"
+        }
+      },
+      "hardware-hgh": {
+        "type": "hardware-hgh",
+        "blocks": {
+          "1513110480047": {
+            "type": "part_ref",
+            "settings": {
+              "bg_color": "#ffffff",
+              "part_type": "Charging Outlets",
+              "part_name": "Slim Series",
+              "part_image": "shopify:\/\/shop_images\/1265421.png",
+              "part_content": "<p>Docking Drawer 24 Slim PN# - 0290-00031 (Black)\nHGH PN# - 0290-00031<\/p>\n<p>Docking Drawer 24 Slim PN# - 0290-00031W (White)\nHGH PN# - ​0290-00031W<\/p>\n<p>Docking Drawer 21 Slim PN# - 0290-00030 (Black)\n​HGH PN# - 0290-00030<\/p>\n<p>Docking Drawer 21 Slim PN# - 0290-00030W (White)\n​HGH PN# - ​0290-00030W<\/p>\n<p>Docking Drawer 18 Slim PN# - 0290-00047 (Black)\n​HGH PN# - 0290-00047<\/p>\n<p>Docking Drawer 18 Slim PN# - 0290-00047W (White)\n​HGH PN# - ​0290-00047W<\/p>"
+            }
+          },
+          "1513110596957": {
+            "type": "part_ref",
+            "settings": {
+              "bg_color": "#ffffff",
+              "part_type": "Charging Outlets",
+              "part_name": "Slim USB Series",
+              "part_image": "shopify:\/\/shop_images\/515456780.jpg",
+              "part_content": "<p>Docking Drawer 24 Slim USB PN# - 0290-00046 (Black)\n​HGH PN# - 0290-00046<\/p>\n<p>Docking Drawer 24 Slim USB PN# - 0290-00046W (White)\nHGH PN# - 0290-00046W<\/p>\n<p>Docking Drawer 21 Slim USB PN# - 0290-00045 (Black)\n​HGH PN# - 0290-00045<\/p>\n<p>Docking Drawer 21 Slim USB PN# - 0290-00045W (White)\n​HGH PN# - 0290-00045W<\/p>\n<p>Docking Drawer 18 Slim USB PN# - 0290-00048 (Black)\n​HGH PN# - 0290-00048<\/p>\n<p>Docking Drawer 18 Slim USB PN# - 0290-00048W (White)\n​HGH PN# - 0290-00048W<\/p>"
+            }
+          },
+          "1513110745009": {
+            "type": "part_ref",
+            "settings": {
+              "bg_color": "#ffffff",
+              "part_type": "Charging Outlets",
+              "part_name": "Other Charging Outlets",
+              "part_image": "shopify:\/\/shop_images\/558318648.jpg",
+              "part_content": "<p>Docking Drawer 24 PN# - 0290-00016 (Black)\nHGH PN# - 0290-00016<\/p>\n<p>Docking Drawer 24 PN# - 0290-00016W (White)\nHGH PN# - ​0290-00016W<\/p>\n<p>Docking Drawer 18 PN# - 0290-00015 (Black)\nHGH PN# - 0290-00015<\/p>\n<p>Docking Drawer 18 PN# - 0290-00015W (White)\nHGH PN# - ​0290-00015W<\/p>\n<p>Docking Drawer Slim USB PN# - 0290-00012 (Black)\nHGH PN# - ​0290-00012<\/p>"
+            }
+          },
+          "1513110844602": {
+            "type": "part_ref",
+            "settings": {
+              "bg_color": "#ffffff",
+              "part_type": "Powering Outlets",
+              "part_name": "Style Drawer Series",
+              "part_image": "shopify:\/\/shop_images\/836457350.jpg",
+              "part_content": "<p>Style Drawer 24 (Formerly Mighty Drawer) PN# - 0290-00013 (Black)\nHGH PN# - 0290-00013<\/p>\n<p>Style Drawer 21 PN# - 0290-00011 (Black)\nHGH PN# - ​0290-00011<\/p>\n<p>Style Drawer 21 PN# - 0290-00011W (White)\nHGH PN# - ​0290-00011W<\/p>\n<p>Style Drawer 18 PN# - 0290-00049 (Black)\nHGH PN# - ​0290-00049<\/p>\n<p>Style Drawer 18 PN# - 0290-00049W (White)\nHGH PN# - ​0290-00049W<\/p>"
+            }
+          },
+          "1513110961979": {
+            "type": "part_ref",
+            "settings": {
+              "bg_color": "#ffffff",
+              "part_type": "Powering Outlets",
+              "part_name": "Style Drawer Flush Series",
+              "part_image": "shopify:\/\/shop_images\/337803031.png",
+              "part_content": "<p>Style Drawer 24 Flush PN# - 0290-00033 (Black)\nHGH PN# - ​0290-00033<\/p>\n<p>​Style Drawer 24 Flush PN# - 0290-00033W (White)\nHGH PN# - ​0290-00033W​<\/p>\n<p>Style Drawer 21 Flush PN# - 0290-00032 (Black)\nHGH PN# - ​0290-00032<\/p>\n<p>​Style Drawer 21 Flush PN# - 0290-00032W (White)\nHGH PN# - ​0290-00032W​<\/p>\n<p>Style Drawer 18 Flush PN# - 0290-00050 (Black)\nHGH PN# - ​0290-00050<\/p>\n<p>​Style Drawer 18 Flush PN# - 0290-00050W (White)\nHGH PN# - ​0290-00050W​<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "1513110480047",
+          "1513110596957",
+          "1513110745009",
+          "1513110844602",
+          "1513110961979"
+        ],
+        "settings": {
+          "dist_image": "shopify:\/\/shop_images\/7372040.png",
+          "dist_content": "<p>Docking Drawer in-drawer electrical outlets are now available from HGH Hardware Supply.  Please contact customer service at<\/p>\n<ul>\n<li>(800) 277-8888<\/li>\n<\/ul>",
+          "header_bg": "#ffffff",
+          "header_color": "",
+          "header": "HGH Part Number Cross-Reference List"
+        }
+      },
+      "powering-outlet-banner": {
+        "type": "powering-outlet-banner",
+        "settings": {
+          "banner_image": "shopify:\/\/shop_images\/DD_WebBanner_Powering_011818.jpg",
+          "banner_heading_2": "Smart. Simple. Safe.",
+          "banner_paragraph_1": "Powering outlets are ideal for hair dryers, curling irons, and anything requiring up to 20 amps of current. Outlets feature a UL Listed thermostat that cuts power to the outlet in the event that the surrounding temperature exceeds 120˚F.",
+          "banner_paragraph_2": "<strong>Only need to charge your technology?<\/strong> Our <a href=\"https:\/\/dockingdrawer.com\/pages\/charging-outlets\">charging outlets<\/a> are designed for kitchen cabinets spaces, deliver 3 amps of current and are perfect for just charging cell phones, tablets, and laptops..",
+          "banner_paragraph_3": "",
+          "banner_icons": "shopify:\/\/shop_images\/icons-powering-2.png"
+        }
+      },
+      "powering-outlet-type": {
+        "type": "powering-outlet-type",
+        "blocks": {
+          "1513454873031": {
+            "type": "outlet_type",
+            "settings": {
+              "outlet_name": "Style Drawer Series",
+              "outlet_image": "shopify:\/\/shop_images\/style-drawer-outlets_2.png",
+              "outlet_content": "<ul>\n<li>4 Models to choose from - Blade, Flush, Surface Mount, Duo<\/li>\n<li>Sized by cabinet depth to ensure the outlet offers enough extension for the drawer to open completely\n<\/li>\n<li>Finishes - Black, White, Stainless Steel\n<\/li>\n<li>Outlet Specifications - 20 Amp, 125 Volt Receptacle\/Outlet 20 Amp Feed-Through, Tamper-Resistant, Self-test SmartlockPro Slim GFCI\n<\/li>\n<li>Electrical Connection - Hardwired<\/li>\n<li>Mounts left or right and horizontally or vertically.<\/li>\n<li>Works with side-mount, under-mount and soft closing glides.\n<\/li>\n<li>​Most specified powering in-drawer outlet is Style Drawer 21 Flush series outlets<\/li>\n<\/ul>"
+            }
+          }
+        },
+        "block_order": [
+          "1513454873031"
+        ],
+        "settings": {
+          "bg_color": "#54585c"
+        }
+      },
+      "powering-outlet-specify": {
+        "type": "powering-outlet-specify",
+        "blocks": {
+          "1513454942001": {
+            "type": "specify_block",
+            "settings": {
+              "specify_image": "shopify:\/\/shop_images\/specify-step1_orig.png",
+              "details": "Start your project by measuring the cabinets depth."
+            }
+          },
+          "1513454983137": {
+            "type": "specify_block",
+            "settings": {
+              "specify_image": "shopify:\/\/shop_images\/specify-step2_orig.png",
+              "details": "Measure the width of the space behind drawer box."
+            }
+          },
+          "1513455002708": {
+            "type": "specify_block",
+            "settings": {
+              "specify_image": "shopify:\/\/shop_images\/specify-step3_orig.png",
+              "details": "Then measure space available behind the drawer box."
+            }
+          }
+        },
+        "block_order": [
+          "1513454942001",
+          "1513454983137",
+          "1513455002708"
+        ],
+        "settings": {
+          "heading": "How to Specify​",
+          "sub_heading": "Style Drawer in-drawer powering outlets come in a variety of sizes offering different ranges of extensions.  Here is how to find the size that works for your project."
+        }
+      },
+      "cabinet-manufacturers": {
+        "type": "cabinet-manufacturers",
+        "blocks": {
+          "1514830454060": {
+            "type": "manufacturer",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/bellmont.png",
+              "logo_link": "https:\/\/bellmontcabinets.com\/"
+            }
+          },
+          "1514830542987": {
+            "type": "manufacturer",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/wood-mode.png",
+              "logo_link": "https:\/\/www.wood-mode.com\/"
+            }
+          },
+          "1514830579118": {
+            "type": "manufacturer",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/dura-supreme.png",
+              "logo_link": "http:\/\/www.durasupreme.com\/"
+            }
+          },
+          "1514830624200": {
+            "type": "manufacturer",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/cabico.png",
+              "logo_link": "http:\/\/cabico.com\/"
+            }
+          },
+          "1514830803031": {
+            "type": "manufacturer",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/plato.png",
+              "logo_link": "https:\/\/www.platowoodwork.com\/"
+            }
+          },
+          "1514830831608": {
+            "type": "manufacturer",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/greenfield.png",
+              "logo_link": "http:\/\/www.greenfieldcabinetry.com\/"
+            }
+          },
+          "1514830862201": {
+            "type": "manufacturer",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/huntwood.png",
+              "logo_link": "http:\/\/www.huntwood.com\/"
+            }
+          },
+          "1514830892871": {
+            "type": "manufacturer",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/siteline.png",
+              "logo_link": "http:\/\/sitelinecabinetry.com\/"
+            }
+          },
+          "1514830923212": {
+            "type": "manufacturer",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/wellborn.png",
+              "logo_link": "https:\/\/www.wellborn.com\/"
+            }
+          },
+          "1514830950932": {
+            "type": "manufacturer",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/signature.png",
+              "logo_link": "http:\/\/www.signaturecustomcabinetry.com\/"
+            }
+          },
+          "1514830979786": {
+            "type": "manufacturer",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/rockwood.png",
+              "logo_link": "https:\/\/www.houzz.com\/pro\/rockwood-cabinetry\/__public"
+            }
+          },
+          "1514831009500": {
+            "type": "manufacturer",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/showplace.png",
+              "logo_link": "http:\/\/www.showplacekitchens.com\/"
+            }
+          },
+          "1514831033233": {
+            "type": "manufacturer",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/northwood.png",
+              "logo_link": "http:\/\/www.northwoodcabinets.com\/"
+            }
+          },
+          "1514831057099": {
+            "type": "manufacturer",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/sollid.png",
+              "logo_link": "http:\/\/sollidcabinetry.com\/"
+            }
+          },
+          "1514831081529": {
+            "type": "manufacturer",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/bentwood.png",
+              "logo_link": "https:\/\/www.bentwoodkitchens.com\/"
+            }
+          },
+          "1514831105086": {
+            "type": "manufacturer",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/crystal.png",
+              "logo_link": "http:\/\/crystalcabinets.com\/"
+            }
+          }
+        },
+        "block_order": [
+          "1514830454060",
+          "1514830542987",
+          "1514830579118",
+          "1514830624200",
+          "1514830803031",
+          "1514830831608",
+          "1514830862201",
+          "1514830892871",
+          "1514830923212",
+          "1514830950932",
+          "1514830979786",
+          "1514831009500",
+          "1514831033233",
+          "1514831057099",
+          "1514831081529",
+          "1514831105086"
+        ],
+        "settings": {
+          "banner_image": "shopify:\/\/shop_images\/DD_WebBanner_CabinetManufacturers_011818.jpg",
+          "heading": "Cabinet Manufacturers offering Docking Drawer outlets:"
+        }
+      },
+      "electrical-distributors": {
+        "type": "electrical-distributors",
+        "blocks": {
+          "1514833964760": {
+            "type": "large_distributor",
+            "settings": {
+              "large_image": "shopify:\/\/shop_images\/ced.png",
+              "vendor_number": "",
+              "large_logo_link": "https:\/\/cedcareers.com\/"
+            }
+          },
+          "1514834002366": {
+            "type": "large_distributor",
+            "settings": {
+              "large_image": "shopify:\/\/shop_images\/city.png",
+              "vendor_number": "",
+              "large_logo_link": "https:\/\/cityelectricsupply.com\/"
+            }
+          },
+          "1514834032855": {
+            "type": "large_distributor",
+            "settings": {
+              "large_image": "shopify:\/\/shop_images\/platt.png",
+              "vendor_number": "Vendor Code #036291",
+              "large_logo_link": "https:\/\/www.platt.com\/Default.aspx"
+            }
+          },
+          "1514834052572": {
+            "type": "large_distributor",
+            "settings": {
+              "large_image": "shopify:\/\/shop_images\/graybar.png",
+              "vendor_number": "Vendor Code# 60049130",
+              "large_logo_link": "https:\/\/www.graybar.com\/"
+            }
+          },
+          "1514832281147": {
+            "type": "distributor",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/bayshore.png",
+              "vendor_number": "",
+              "logo_link": "https:\/\/www.bayshoresupply.com\/"
+            }
+          },
+          "1514832330699": {
+            "type": "distributor",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/central.png",
+              "vendor_number": "",
+              "logo_link": "http:\/\/www.centralsupplycompany.com\/"
+            }
+          },
+          "1514832356335": {
+            "type": "distributor",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/crawford.png",
+              "vendor_number": "",
+              "logo_link": "https:\/\/www.crawfordelectricsupply.com\/"
+            }
+          },
+          "1514832379865": {
+            "type": "distributor",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/dsg.png",
+              "vendor_number": "",
+              "logo_link": "https:\/\/www.dakotasupplygroup.com\/"
+            }
+          },
+          "1514832405246": {
+            "type": "distributor",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/edges.png",
+              "vendor_number": "",
+              "logo_link": "https:\/\/www.edgesgroup.com\/"
+            }
+          },
+          "1514832442329": {
+            "type": "distributor",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/ese.png",
+              "vendor_number": "",
+              "logo_link": "https:\/\/www.elliottelectric.com\/"
+            }
+          },
+          "1514832465917": {
+            "type": "distributor",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/gescan.png",
+              "vendor_number": "",
+              "logo_link": "https:\/\/www.gescan.com\/"
+            }
+          },
+          "1514832506701": {
+            "type": "distributor",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/main-electric.png",
+              "vendor_number": "",
+              "logo_link": "http:\/\/www.mainelectricsupply.com\/"
+            }
+          },
+          "1514832530454": {
+            "type": "distributor",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/stoneway.png",
+              "vendor_number": "",
+              "logo_link": "http:\/\/www.stoneway.com\/"
+            }
+          },
+          "1514832556891": {
+            "type": "distributor",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/summit.png",
+              "vendor_number": "",
+              "logo_link": ""
+            }
+          }
+        },
+        "block_order": [
+          "1514833964760",
+          "1514834002366",
+          "1514834032855",
+          "1514834052572",
+          "1514832281147",
+          "1514832330699",
+          "1514832356335",
+          "1514832379865",
+          "1514832405246",
+          "1514832442329",
+          "1514832465917",
+          "1514832506701",
+          "1514832530454",
+          "1514832556891"
+        ],
+        "settings": {
+          "banner_image": "shopify:\/\/shop_images\/DD_WebBanner_ElectricalDistributors_011818.jpg",
+          "heading": "Electrical Distributors​ offering Docking Drawer ​​outlets:"
+        }
+      },
+      "charging-outlets-table": {
+        "type": "charging-outlets-table",
+        "blocks": {
+          "1514850318281": {
+            "type": "table_product",
+            "settings": {
+              "product_name": "Blade 2419",
+              "product_link": "shopify:\/\/products\/blade-series",
+              "cabinet_depth": "24\"",
+              "width": "19\"",
+              "space": "2\"",
+              "configuration": "2 AC & 2 USB or 4 USB"
+            }
+          },
+          "1514850431659": {
+            "type": "table_product",
+            "settings": {
+              "product_name": "Blade Duo 2422",
+              "product_link": "shopify:\/\/products\/blade-series",
+              "cabinet_depth": "24\"",
+              "width": "22\"",
+              "space": "2\"",
+              "configuration": "2 AC & 6 USB"
+            }
+          },
+          "1514850475065": {
+            "type": "table_product",
+            "settings": {
+              "product_name": "Slim 24",
+              "product_link": "shopify:\/\/products\/slim-series",
+              "cabinet_depth": "24\"",
+              "width": "17.5\"",
+              "space": "3\"",
+              "configuration": "2 AC & 2 USB or 4 USB"
+            }
+          },
+          "1514850526390": {
+            "type": "table_product",
+            "settings": {
+              "product_name": "USB Narrow",
+              "product_link": "shopify:\/\/products\/narrow-series",
+              "cabinet_depth": "24\"",
+              "width": "12\"",
+              "space": "5\"",
+              "configuration": "4 USB"
+            }
+          }
+        },
+        "block_order": [
+          "1514850318281",
+          "1514850431659",
+          "1514850475065",
+          "1514850526390"
+        ],
+        "settings": {
+          "heading": "Our Most Popular Outlets for 24” Deep Cabinets",
+          "sub_heading": "<strong>Pro Tip<\/strong> - Always specify a <strong>Blade 2419<\/strong> or <strong>Slim 24<\/strong> if the outlet fits into your project.",
+          "details": "All Outlets have a NEMA 5-15P Electrical Connection. Maximum current for charging outlets is 3 amps."
+        }
+      },
+      "powering-outlets-table": {
+        "type": "powering-outlets-table",
+        "blocks": {
+          "1514851069488": {
+            "type": "table_product",
+            "settings": {
+              "product_name": "Style Drawer 21 Blade",
+              "product_link": "shopify:\/\/products\/style-drawer",
+              "cabinet_depth": "21\"",
+              "width": "16\"",
+              "space": "2\"",
+              "configuration": "2 AC\/GFCI"
+            }
+          },
+          "1514850952645": {
+            "type": "table_product",
+            "settings": {
+              "product_name": "Style Drawer 21 Flush",
+              "product_link": "shopify:\/\/products\/style-drawer",
+              "cabinet_depth": "21\"",
+              "width": "12\"",
+              "space": "5\"",
+              "configuration": "2 AC\/GFCI"
+            }
+          },
+          "1514851026138": {
+            "type": "table_product",
+            "settings": {
+              "product_name": "Style Drawer 21 Duo",
+              "product_link": "shopify:\/\/products\/style-drawer",
+              "cabinet_depth": "21\"",
+              "width": "12\"",
+              "space": "5\"",
+              "configuration": "4 AC\/GFCI"
+            }
+          },
+          "1514850992638": {
+            "type": "table_product",
+            "settings": {
+              "product_name": "Style Drawer 21",
+              "product_link": "shopify:\/\/products\/style-drawer",
+              "cabinet_depth": "21\"",
+              "width": "12\"",
+              "space": "4\"",
+              "configuration": "2 AC\/GFCI"
+            }
+          }
+        },
+        "block_order": [
+          "1514851069488",
+          "1514850952645",
+          "1514851026138",
+          "1514850992638"
+        ],
+        "settings": {
+          "heading": "Our Most Popular Outlets for 21” Deep Cabinets",
+          "sub_heading": "<strong>Pro Tip<\/strong> - Specify the greatest amount of extension that fits your project.",
+          "details": "All Outlets are ETL Listed to UL962a. Maximum current for powering outlets is 20 amps."
+        }
+      },
+      "more-charging-outlets": {
+        "type": "more-charging-outlets",
+        "blocks": {
+          "1514851849721": {
+            "type": "outlet",
+            "settings": {
+              "button_text": "Blade Series Outlets",
+              "button_link": "shopify:\/\/products\/blade-series"
+            }
+          },
+          "1514851870874": {
+            "type": "outlet",
+            "settings": {
+              "button_text": "Slim Series Outlets",
+              "button_link": "shopify:\/\/products\/slim-series"
+            }
+          },
+          "1514851888160": {
+            "type": "outlet",
+            "settings": {
+              "button_text": "USB Narrow Series",
+              "button_link": "shopify:\/\/products\/narrow-series"
+            }
+          }
+        },
+        "block_order": [
+          "1514851849721",
+          "1514851870874",
+          "1514851888160"
+        ],
+        "settings": {
+          "heading_bg": "#000000",
+          "heading_color": "#ffffff",
+          "heading": "For more sizes and to purchase outlets, visit the following in-drawer outlet series pages."
+        }
+      },
+      "more-powering-outlets": {
+        "type": "more-powering-outlets",
+        "blocks": {
+          "1514852137786": {
+            "type": "powering_outlet",
+            "settings": {
+              "button_text": "Style Drawer Series Outlets",
+              "button_link": "shopify:\/\/products\/style-drawer"
+            }
+          }
+        },
+        "block_order": [
+          "1514852137786"
+        ],
+        "settings": {
+          "heading_bg": "#000000",
+          "heading_color": "#ffffff",
+          "heading": "For more sizes and to purchase outlets, visit our Style Drawer series page."
+        }
+      },
+      "idea-library": {
+        "type": "idea-library",
+        "blocks": {
+          "1515371817818": {
+            "type": "slide_image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/docking-drawer-slim-series-kitchen-studio-dearborn-2-orig_2.jpg"
+            }
+          },
+          "1515371860174": {
+            "type": "slide_image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/docking-drawer-slim-series-kitchen-studio-dearborn-1-1-orig_1.jpg"
+            }
+          },
+          "1515371872696": {
+            "type": "slide_image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/blade-3-orig-orig_1.jpg"
+            }
+          },
+          "1515371883141": {
+            "type": "slide_image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/blade-5-orig_1.jpg"
+            }
+          },
+          "1515371892912": {
+            "type": "slide_image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/3-4-orig_1.jpg"
+            }
+          },
+          "1515371903353": {
+            "type": "slide_image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/dd2-orig_1.jpg"
+            }
+          },
+          "1515371914997": {
+            "type": "slide_image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/dduplcose-orig_1.jpg"
+            }
+          },
+          "1515371924328": {
+            "type": "slide_image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/dduplcose-orig3_1.jpg"
+            }
+          },
+          "1515371934705": {
+            "type": "slide_image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/dduplcose-orig-2_1.jpg"
+            }
+          },
+          "1515371943368": {
+            "type": "slide_image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/3billington-photo-3-1-orig_1.jpg"
+            }
+          },
+          "1515371954229": {
+            "type": "slide_image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/3billington-photo-3-1-orig2_3.jpg"
+            }
+          }
+        },
+        "block_order": [
+          "1515371817818",
+          "1515371860174",
+          "1515371872696",
+          "1515371883141",
+          "1515371892912",
+          "1515371903353",
+          "1515371914997",
+          "1515371924328",
+          "1515371934705",
+          "1515371943368",
+          "1515371954229"
+        ],
+        "settings": {
+          "banner_image": "shopify:\/\/shop_images\/DD_WebBanner_IdeaLibrary_011818.jpg",
+          "banner_text": "Idea Library",
+          "header_bg": "#3e3f40",
+          "header_color": "#ffffff",
+          "heading_1": "In-Drawer Outlet Inspiration",
+          "heading_details": "See how others are using Docking Drawer in-drawer electrical outlets to improve efficiency and organization in the home. We hope these project and product images provide you with ideas and inspiration on where and how to install and use your in-drawer power and charging outlets from Docking Drawer.",
+          "content": "<p>\nCourtesy of <a href=\"http:\/\/www.studiodearborn.com\/\" target=\"_blank\">Studio Dearborn<\/a>, these projects feature our Docking Drawer Charging Outlets which are specifically designed to charge today's technology and feature a built-in circuit breaker preventing high power devices such as hair dryers from being used. ​<\/p>",
+          "content_link": "shopify:\/\/pages\/charging-outlets",
+          "content_button": "Go To Charging Outlets"
+        }
+      },
+      "idea-gallery": {
+        "type": "idea-gallery",
+        "blocks": {
+          "1515374259873": {
+            "type": "charging",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/img-4695-orig_1.jpg"
+            }
+          },
+          "1515374276122": {
+            "type": "charging",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/img-4694-orig_1.jpg"
+            }
+          },
+          "1515374288515": {
+            "type": "charging",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/img-2576-orig_1.jpg"
+            }
+          },
+          "1515374299614": {
+            "type": "charging",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Docking-Drawer-Blade-from-Hafele-_1.jpg"
+            }
+          },
+          "1515374312520": {
+            "type": "charging",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/img-3510-a-orig_1.jpg"
+            }
+          },
+          "1515374328055": {
+            "type": "charging",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/bentwood-1000-orig_1.jpg"
+            }
+          },
+          "1515374340060": {
+            "type": "charging",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/p1000251-orig_1.png"
+            }
+          },
+          "1515374354695": {
+            "type": "charging",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/dura-charging-station-1-orig_1.jpg"
+            }
+          },
+          "1515374367775": {
+            "type": "charging",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/20161110-124947-orig_1.jpg"
+            }
+          },
+          "1515374378342": {
+            "type": "charging",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/20161110-124845-orig_1.jpg"
+            }
+          },
+          "1515374388520": {
+            "type": "charging",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/dsc-0111-orig_1.jpg"
+            }
+          },
+          "1515374399210": {
+            "type": "charging",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/3billington-photo-3-orig_1.jpg"
+            }
+          },
+          "1515374411432": {
+            "type": "charging",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/3billington-photo-3-1-orig2_2.jpg"
+            }
+          },
+          "1515374425065": {
+            "type": "charging",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/lr-0035-orig_1.jpg"
+            }
+          },
+          "1515374435714": {
+            "type": "charging",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/lr-0032-orig_1.jpg"
+            }
+          },
+          "1515374448332": {
+            "type": "charging",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/dd-blade-duo.jpg"
+            }
+          },
+          "1515374458834": {
+            "type": "charging",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/duo-image-2-orig_1.jpg"
+            }
+          },
+          "1515374471585": {
+            "type": "charging",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/blade-3-orig_2.jpg"
+            }
+          },
+          "1515375429778": {
+            "type": "powering",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/fb-img-1509473597730.jpg"
+            }
+          },
+          "1515375441626": {
+            "type": "powering",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/lr-0027-orig_1.jpg"
+            }
+          },
+          "1515375451815": {
+            "type": "powering",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/lr-0023-orig_1.jpg"
+            }
+          },
+          "1515375462775": {
+            "type": "powering",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/lr-0020-orig_1.jpg"
+            }
+          },
+          "1515375473969": {
+            "type": "powering",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/lr-0017-orig_1.jpg"
+            }
+          },
+          "1515375484894": {
+            "type": "powering",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/lr-0016-orig_1.jpg"
+            }
+          },
+          "1515375499312": {
+            "type": "powering",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/lr-0014-orig_1.jpg"
+            }
+          },
+          "1515375509312": {
+            "type": "powering",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/lr-0013-orig_1.jpg"
+            }
+          },
+          "1515375520615": {
+            "type": "powering",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/img-0463-ph-orig_1.jpg"
+            }
+          },
+          "1515375533603": {
+            "type": "powering",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/img-8817-orig_1.jpg"
+            }
+          },
+          "1515375546649": {
+            "type": "powering",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/img-2878-orig_1.jpg"
+            }
+          },
+          "1515375558353": {
+            "type": "powering",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/rockwood-sd-orig_1.jpg"
+            }
+          },
+          "1515375568324": {
+            "type": "powering",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/weston-bathroom1000-orig_1.jpg"
+            }
+          },
+          "1515375579748": {
+            "type": "powering",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/weston-bathroom-1000-orig_1.jpg"
+            }
+          },
+          "1515375590794": {
+            "type": "powering",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/img-4170-orig_1.jpg"
+            }
+          },
+          "1515375601726": {
+            "type": "powering",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/img-4167-orig_1.jpg"
+            }
+          },
+          "1515375613009": {
+            "type": "powering",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/10-orig_1.jpg"
+            }
+          },
+          "1515375624110": {
+            "type": "powering",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/9-orig_1.jpg"
+            }
+          }
+        },
+        "block_order": [
+          "1515374259873",
+          "1515374276122",
+          "1515374288515",
+          "1515374299614",
+          "1515374312520",
+          "1515374328055",
+          "1515374340060",
+          "1515374354695",
+          "1515374367775",
+          "1515374378342",
+          "1515374388520",
+          "1515374399210",
+          "1515374411432",
+          "1515374425065",
+          "1515374435714",
+          "1515374448332",
+          "1515374458834",
+          "1515374471585",
+          "1515375429778",
+          "1515375441626",
+          "1515375451815",
+          "1515375462775",
+          "1515375473969",
+          "1515375484894",
+          "1515375499312",
+          "1515375509312",
+          "1515375520615",
+          "1515375533603",
+          "1515375546649",
+          "1515375558353",
+          "1515375568324",
+          "1515375579748",
+          "1515375590794",
+          "1515375601726",
+          "1515375613009",
+          "1515375624110"
+        ],
+        "settings": {
+          "heading_bg": "#000000",
+          "heading_color": "#ffffff",
+          "heading": "Project Gallery",
+          "charging_heading": "Charging Outlet Projects",
+          "powering_heading": "Powering Outlet Projects"
+        }
+      },
+      "idea-videos": {
+        "type": "idea-videos",
+        "settings": {
+          "video_bg": "#666666",
+          "header_bg": "#000000",
+          "header_color": "#ffffff",
+          "left_poster": "shopify:\/\/shop_images\/pirates-cove-still.jpg",
+          "left_video": "https:\/\/cdn.shopify.com\/s\/files\/1\/2349\/7495\/files\/850PiratesCoveNew.mp4?3543305726842999986",
+          "left_details": "Take a peek inside the Pirate's Cove kitchen with Docking Drawer",
+          "youtube_video": "<iframe width=\"560\" height=\"315\" src=\"https:\/\/www.youtube.com\/embed\/XI0alj1-1y4\" frameborder=\"0\" gesture=\"media\" allow=\"encrypted-media\" allowfullscreen=\"\"><\/iframe>",
+          "youtube_details": "John Brush of Bellmont Cabinets explains the benefits of Docking Drawer outlets",
+          "right_poster": "shopify:\/\/shop_images\/barry-still.jpg",
+          "right_video": "https:\/\/cdn.shopify.com\/s\/files\/1\/2349\/7495\/files\/313sBarryVideo.mp4?6580293606867752493",
+          "right_details": "See our stainless steel Blade outlet in action in the Barry kitchen",
+          "possibilities_heading": "Now that you've seen the possibilities, get started on your project today.",
+          "charging_link": "shopify:\/\/pages\/charging-outlets",
+          "charging_button": "Go To Charging Outlets",
+          "powering_link": "shopify:\/\/pages\/powering-outlets",
+          "powering_button": "Go To Powering Outlets"
+        }
+      },
+      "contact": {
+        "type": "contact",
+        "settings": {
+          "banner": "shopify:\/\/shop_images\/DD_WebBanner_Contact_011818.jpg",
+          "sub_heading": "Need help? Have questions? Please call or fill out the form and we will reach out to you as soon as we can.",
+          "phone": "(530) 205-3625",
+          "address": "12893 Alcosta Blvd, Suite M<br>\nSan Ramon, CA 94583",
+          "email": "sales@dockingdrawer.com",
+          "exchange_content": "<p>Docking Drawer wants you to be happy with your order. If for some reason an outlet needs to be exchanged to another outlet series or size, Docking Drawer will happily accept exchanges. To initiate an exchange, please complete the Contact Us form. Once reviewed, a EGA form will be emailed with instructions on how to successfully return your order.<\/p>",
+          "return_content": "<p>Docking Drawer wants you to be happy with your order. If for some reason however an outlet needs to be returned, Docking Drawer will happily accept returns. To initiate a return, please complete the Contact Us form. Once reviewed, an RGA form will be emailed with instructions on how to successfully return your order. <\/p>\n\n<p>Remember, Docking Drawer waives the restocking fee for exchanges.<\/p>\n​\n<h6>Docking Drawer Return Policy - <\/h6>\n\n<p>A 0% restocking fee applies to exchanges. <br>\nA 15% restocking fee applies to returns within 30 days.<br>\nA 25% restocking fee applies to returns within 30 - 60 days.<br>\nNo returns will be accepted after 60 days.<\/p>\n\n<p>​Defective products will be replaced at no cost to the customer.<\/p>\n\n<p>For returns or exchanges, the customer is responsible for paying return shipping. Shipping costs are non-refundable.<\/p>"
+        }
+      },
+      "cabinet-hardware-distributors": {
+        "type": "cabinet-hardware-distributors",
+        "blocks": {
+          "1515640179614": {
+            "type": "distributor",
+            "settings": {
+              "logo": "shopify:\/\/shop_images\/hafele.jpg",
+              "link": "shopify:\/\/pages\/hafele"
+            }
+          },
+          "1515640214959": {
+            "type": "distributor",
+            "settings": {
+              "logo": "shopify:\/\/shop_images\/hafele-ca.jpg",
+              "link": "shopify:\/\/pages\/hafele-canada"
+            }
+          },
+          "1515640244775": {
+            "type": "distributor",
+            "settings": {
+              "logo": "shopify:\/\/shop_images\/ebb-co.jpg",
+              "link": "shopify:\/\/pages\/eb-bradley"
+            }
+          },
+          "1515640268021": {
+            "type": "distributor",
+            "settings": {
+              "logo": "shopify:\/\/shop_images\/h-hut.jpg",
+              "link": "https:\/\/www.thehardwarehut.com\/search-product-result.php?search_prod_no=docking+drawer&searchb=Search&mfr=433"
+            }
+          },
+          "1515640299751": {
+            "type": "distributor",
+            "settings": {
+              "logo": "shopify:\/\/shop_images\/csh.jpg",
+              "link": "http:\/\/www.cshardware.com\/"
+            }
+          },
+          "1515640323219": {
+            "type": "distributor",
+            "settings": {
+              "logo": "shopify:\/\/shop_images\/cornerstone.jpg",
+              "link": "http:\/\/www.cabinethardware.com\/Docking-Drawer-s\/489.htm"
+            }
+          },
+          "1515640344785": {
+            "type": "distributor",
+            "settings": {
+              "logo": "shopify:\/\/shop_images\/hgh.jpg",
+              "link": "https:\/\/www.hghhardware.com\/itemLevelFilterPage.action?codeId=124248&gallery=0&manfId=%24manfId&sortBy=externalhitsort_desc&keyWordTxt=&attrFilterList=attr_brand%3A%22Docking+Drawer%22&resultPage=12"
+            }
+          },
+          "1515640366261": {
+            "type": "distributor",
+            "settings": {
+              "logo": "shopify:\/\/shop_images\/holdahl.jpg",
+              "link": "http:\/\/www.holdahlcompany.com\/"
+            }
+          }
+        },
+        "block_order": [
+          "1515640179614",
+          "1515640214959",
+          "1515640244775",
+          "1515640268021",
+          "1515640299751",
+          "1515640323219",
+          "1515640344785",
+          "1515640366261"
+        ],
+        "settings": {
+          "banner": "shopify:\/\/shop_images\/banner-chd.jpg",
+          "banner_text": "Cabinet Hardware Distributors",
+          "heading_1": "Cabinet Hardware Distributors​ offering Docking Drawer ​​outlets",
+          "sub_heading": "Choose a Distributor to View Their Part Number Cross-Reference List:"
+        }
+      },
+      "rest-of-world-banner": {
+        "type": "rest-of-world-banner",
+        "settings": {
+          "banner_image": "shopify:\/\/shop_images\/DD_WebBanner_RestofWorld_011818.jpg",
+          "banner_paragraph_1": "Docking Drawer is manufacturing 2 series of outlets: Docking Drawer Duo Charging and Style Drawer Trio Powering outlets.",
+          "banner_paragraph_2": "Focused on the following countries:",
+          "banner_paragraph_3": "<ul> \n<li>UK<\/li>\n<li>Germany<\/li>\n<li>France<\/li>\n<li>Italy<\/li>\n<li>Switzerland<\/li>\n<\/ul>",
+          "banner_paragraph_4": "<ul>\n<li>Austria<\/li>\n<li>Sweden<\/li>\n<li>Australia<\/li>\n<li>New Zealand<\/li>\n<\/ul>"
+        }
+      },
+      "row-types": {
+        "type": "row-types",
+        "blocks": {
+          "1516242396275": {
+            "type": "row_type",
+            "settings": {
+              "type_bg": "#54585c",
+              "type_heading": "Docking Drawer Duo Charging Outlets",
+              "type_image": "shopify:\/\/shop_images\/duo-610.png",
+              "type_details": "<ul>\n<li>Ideal for charging today’s USB technology such as cell phones, tablets, fitness trackers and more.<\/li>\n<li>Max Current: 1.5A @ 5VDC per port<\/li>\n<li>2\" - The least amount of space needed behind the drawer box<\/li>\n<li>Eliminate the need to shorten drawer boxes<\/li>\n<li>Ideal for wider drawers<\/li>\n<li>Able to charge up to 4 devices at a time<\/li>\n<li>Can be specified during any phase of the project, whether it be at the beginning, middle or end.<\/li>\n<li>2 Year Warranty<\/li>\n<li>Charging outlet part numbers - 0290-20610W-UK, 0290-20610W-EUR, 0290-20610W-AUS<\/li>\n<li>One outlet assembly consists of (2) 45mm modules:<\/li>\n<ul>\n<li>Module #1 contains (2) USB-A outlets<\/li>\n<li>Module #2 contains (2) USB-A outlets<\/li>\n<\/ul>\n<li>(1) Country specific patch cord included.<\/li>\n<\/ul>",
+              "link_url": "shopify:\/\/collections\/rest-of-world-outlets",
+              "link_text": "Shop Docking Drawer Duo"
+            }
+          },
+          "1516242685441": {
+            "type": "row_type",
+            "settings": {
+              "type_bg": "#3d4042",
+              "type_heading": "Style Drawer Trio Powering Outlets",
+              "type_image": "shopify:\/\/shop_images\/trio-533.png",
+              "type_details": "<ul>\n<li>Ideal for powering hair dryers, curling irons and anything requiring 20 amps of service while also providing USB ports to charge today’s USB technology.<\/li>\n<li>Interlocking safety feature - Thermostatic Shut Off. Cuts power to the outlet if the temperature rises over 50 degrees celsius<\/li>\n<li>Max Current: AC - 10A per outlet @ 240 VAC combined\n  USB - 1.5A @ 5VDC per port<\/li>\n<li>May require the drawer to be stepped down a drawer box size or shorted to make room for the outlet<\/li>\n<li>Able to charge up to 4 devices at a time<\/li>\n<li>Typically specified in the beginning or middle phase of a project<\/li>\n<li>2 Year Warranty<\/li>\n<li>Powering outlet part numbers - 0290-20533W-UK, 0290-20533W-EUR, 0290-20533W-AUS<\/li>\n<li>One outlet assembly consists of (3) 45mm modules:<\/li>\n<ul>\n<li>Module #1 contains (2) USB-A outlets<\/li>\n<li>Module #2 contains (1) country specific outlet<\/li>\n<li>Module #3 contains (1) country specific outlet<\/li>\n<\/ul>\n<li>(1) Country specific patch cord included.<\/li>\n<\/ul>",
+              "link_url": "shopify:\/\/collections\/rest-of-world-outlets",
+              "link_text": "Shop Docking Drawer Trio"
+            }
+          }
+        },
+        "block_order": [
+          "1516242396275",
+          "1516242685441"
+        ],
+        "settings": {
+          "header_bg": "#000000",
+          "header_color": "#ffffff",
+          "top_heading": "Choose the Best Outlet for Your Project",
+          "bottom_heading": "Visit our online store to inquiry or order your outlet",
+          "button_link": "shopify:\/\/collections",
+          "button_text": "Visit Store Now"
+        }
+      },
+      "cabinet-distributor-banner": {
+        "type": "cabinet-distributor-banner",
+        "settings": {
+          "banner": "shopify:\/\/shop_images\/DD_WebBanner_EBBradley_011818.jpg"
+        }
+      },
+      "collections-banner": {
+        "type": "collections-banner",
+        "settings": {
+          "banner": "shopify:\/\/shop_images\/DD_WebBanner_Collections_011818.jpg",
+          "banner_text": "Docking Drawer Store"
+        }
+      },
+      "blade-series": {
+        "type": "blade-series",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/blade-series.png",
+          "type": "Charging Outlet",
+          "series": "Blade Series",
+          "button_link": "shopify:\/\/products\/blade-series",
+          "button_text": "View Now"
+        }
+      },
+      "style-drawer-series": {
+        "type": "style-drawer-series",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/style-drawer-series.png",
+          "type": "Powering Outlet",
+          "series": "Style Drawer Series",
+          "button_link": "shopify:\/\/products\/style-drawer",
+          "button_text": "View Now"
+        }
+      },
+      "slim-series": {
+        "type": "slim-series",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/slim-series.png",
+          "type": "Charging Outlet",
+          "series": "Slim Series",
+          "button_link": "shopify:\/\/products\/slim-series",
+          "button_text": "View Now"
+        }
+      },
+      "usb-narrow": {
+        "type": "usb-narrow",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/usb-narrow.png",
+          "type": "Charging Outlet",
+          "series": "USB Narrow",
+          "button_link": "shopify:\/\/products\/narrow-series",
+          "button_text": "View Now"
+        }
+      },
+      "row-series": {
+        "type": "row-series",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/rest-of-world.png",
+          "type": "Charging & Powering Outlets",
+          "series": "International Outlets",
+          "button_link": "shopify:\/\/collections\/rest-of-world-outlets",
+          "button_text": "View Now"
+        }
+      },
+      "accessories": {
+        "type": "accessories",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/accessories_1024x1024_028f7c4f-35ca-402d-9eaf-75b3855e4baf.jpg",
+          "type": "",
+          "series": "Accessories",
+          "button_link": "shopify:\/\/collections\/accessories",
+          "button_text": "View Now"
+        }
+      },
+      "hafele-banner": {
+        "type": "hafele-banner",
+        "settings": {
+          "banner": "shopify:\/\/shop_images\/DD_WebBanner_Hafele_011818.jpg"
+        }
+      },
+      "hafele-canada-banner": {
+        "type": "hafele-canada-banner",
+        "settings": {
+          "banner": "shopify:\/\/shop_images\/DD_WebBanner_HafeleCanada_011818.jpg"
+        }
+      },
+      "hidden-spec": {
+        "type": "hidden-spec",
+        "settings": {
+          "heading_bg": "#000000",
+          "heading_color": "#ffffff",
+          "ho_bg": "#d1d8de",
+          "banner": "shopify:\/\/shop_images\/banner-spec-library.jpg",
+          "sub_heading": "All of the Resources You Need to Start Your In-Drawer Outlet Project",
+          "content": "Planning an in-drawer outlet installation is easy using our technical resources. Use mounting diagrams to specify and plan installations, download DXF or STEP files to model projects, or use Submittal Documents to communicate your specification to the trades. Use our Electrical planning guide to plan and locate an in-cabinet electrical supply, Installation Manual for mounting and electrical connection details, and Pro Tips for customers seeking deeper knowledge of Docking Drawer solutions.",
+          "ho_heading": "Homeowner Resources",
+          "ho_sub_heading": "Homeowners Start Here:",
+          "ho_heading_3": "Documents for Your Contractors",
+          "ho_content": "Not the handy type? Leave the technical talk to us. <br>\n- Share our <a href=\"https:\/\/cdn2.hubspot.net\/hubfs\/2646953\/resources\/Specification%20Library%20Files\/How%20to%20Size%20-%20PDF%20for%20Web.pdf\" target=\"_blank\">How to Size<\/a> an Outlet to select the right outlet for your project with your designer.<br>\n- Share our most popular outlets’ <a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/2349\/7495\/files\/DD_MountingDiagrams_Homeowner_011818.pdf?1563474513181034146\" target=\"_blank\">Mounting Diagrams<\/a> with the contractor who is making your cabinets. <br>\n- Share our <a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/2349\/7495\/files\/DD_Electrical_Planning_Guide_010618.pdf?3369264872444407078\" target=\"_blank\">Electrical Planning Guide<\/a> with the contractor who is roughing in the electrical for your in-drawer outlet."
+        }
+      },
+      "installer-resources": {
+        "type": "installer-resources",
+        "blocks": {
+          "1516759023015": {
+            "type": "installer_resource",
+            "settings": {
+              "resource_bg": "#c5cbd1",
+              "hubspot_link": "<!--HubSpot Call-to-Action Code --><span class=\"hs-cta-wrapper\" id=\"hs-cta-wrapper-42c9dcd4-cdee-44fe-968a-315d4171f16e\"><span class=\"hs-cta-node hs-cta-42c9dcd4-cdee-44fe-968a-315d4171f16e\" id=\"hs-cta-42c9dcd4-cdee-44fe-968a-315d4171f16e\"><!--[if lte IE 8]><div id=\"hs-cta-ie-element\"><\/div><![endif]--><a href=\"https:\/\/cta-redirect.hubspot.com\/cta\/redirect\/2646953\/42c9dcd4-cdee-44fe-968a-315d4171f16e\" target=\"_blank\"><img class=\"hs-cta-img\" id=\"hs-cta-img-42c9dcd4-cdee-44fe-968a-315d4171f16e\" style=\"border-width:0px;\" height=\"209\" width=\"400\" src=\"https:\/\/no-cache.hubspot.com\/cta\/default\/2646953\/42c9dcd4-cdee-44fe-968a-315d4171f16e.png\" alt=\"Electrical Planning\"><\/a><\/span><script charset=\"utf-8\" src=\"https:\/\/js.hscta.net\/cta\/current.js\"><\/script><script type=\"text\/javascript\"> hbspt.cta.load(2646953, '42c9dcd4-cdee-44fe-968a-315d4171f16e', {}); <\/script><\/span><!-- end HubSpot Call-to-Action Code -->",
+              "heading": "How to Size an Outlet",
+              "content": "Here is a simple step by step guide to sizing an in-drawer outlet for your projects."
+            }
+          },
+          "1516759164421": {
+            "type": "installer_resource",
+            "settings": {
+              "resource_bg": "#d1d8de",
+              "hubspot_link": "<!--HubSpot Call-to-Action Code --><span class=\"hs-cta-wrapper\" id=\"hs-cta-wrapper-45e7d677-4c40-4061-a5dc-f3a7568a5f5f\"><span class=\"hs-cta-node hs-cta-45e7d677-4c40-4061-a5dc-f3a7568a5f5f\" id=\"hs-cta-45e7d677-4c40-4061-a5dc-f3a7568a5f5f\"><!--[if lte IE 8]><div id=\"hs-cta-ie-element\"><\/div><![endif]--><a href=\"https:\/\/cta-redirect.hubspot.com\/cta\/redirect\/2646953\/45e7d677-4c40-4061-a5dc-f3a7568a5f5f\" target=\"_blank\"><img class=\"hs-cta-img\" id=\"hs-cta-img-45e7d677-4c40-4061-a5dc-f3a7568a5f5f\" style=\"border-width:0px;\" height=\"209\" width=\"400\" src=\"https:\/\/no-cache.hubspot.com\/cta\/default\/2646953\/45e7d677-4c40-4061-a5dc-f3a7568a5f5f.png\" alt=\"Electrical Planning\"><\/a><\/span><script charset=\"utf-8\" src=\"https:\/\/js.hscta.net\/cta\/current.js\"><\/script><script type=\"text\/javascript\"> hbspt.cta.load(2646953, '45e7d677-4c40-4061-a5dc-f3a7568a5f5f', {}); <\/script><\/span><!-- end HubSpot Call-to-Action Code -->",
+              "heading": "Electrical Planning Guide",
+              "content": "Designed to provide steps for roughing-in an electrical supply for your outlet installation."
+            }
+          },
+          "1516759265142": {
+            "type": "installer_resource",
+            "settings": {
+              "resource_bg": "#c5cbd1",
+              "hubspot_link": "<!--HubSpot Call-to-Action Code --><span class=\"hs-cta-wrapper\" id=\"hs-cta-wrapper-736eafc8-b419-4b93-8d47-9dff43f73ab3\"><span class=\"hs-cta-node hs-cta-736eafc8-b419-4b93-8d47-9dff43f73ab3\" id=\"hs-cta-736eafc8-b419-4b93-8d47-9dff43f73ab3\"><!--[if lte IE 8]><div id=\"hs-cta-ie-element\"><\/div><![endif]--><a href=\"https:\/\/cta-redirect.hubspot.com\/cta\/redirect\/2646953\/736eafc8-b419-4b93-8d47-9dff43f73ab3\"><img class=\"hs-cta-img\" id=\"hs-cta-img-736eafc8-b419-4b93-8d47-9dff43f73ab3\" style=\"border-width:0px;\" height=\"209\" width=\"400\" src=\"https:\/\/no-cache.hubspot.com\/cta\/default\/2646953\/736eafc8-b419-4b93-8d47-9dff43f73ab3.png\" alt=\"Electrical Planning\"><\/a><\/span><script charset=\"utf-8\" src=\"https:\/\/js.hscta.net\/cta\/current.js\"><\/script><script type=\"text\/javascript\"> hbspt.cta.load(2646953, '736eafc8-b419-4b93-8d47-9dff43f73ab3', {}); <\/script><\/span><!-- end HubSpot Call-to-Action Code -->",
+              "heading": "Pro Tips",
+              "content": "We share best practices and installation tips to make your installation go as smooth as possible."
+            }
+          }
+        },
+        "block_order": [
+          "1516759023015",
+          "1516759164421",
+          "1516759265142"
+        ],
+        "settings": {
+          "heading_bg": "#000000",
+          "heading_color": "#ffffff",
+          "heading": "Installer Resources"
+        }
+      },
+      "north-america-spec": {
+        "type": "north-america-spec",
+        "blocks": {
+          "1516760678245": {
+            "type": "na_outlet",
+            "settings": {
+              "na_bg": "#c5cbd1",
+              "na_link": "shopify:\/\/products\/blade-series",
+              "na_button_text": "Buy Blade",
+              "na_image": "shopify:\/\/shop_images\/blade-series_c2e118b8-9aea-4d9f-9d8c-1e92c3990753.png",
+              "heading": "Docking Drawer Blade Series",
+              "hubspot_links": "<!--HubSpot Call-to-Action Code --><span class=\"hs-cta-wrapper\" id=\"hs-cta-wrapper-4779fb4b-159f-44d3-a483-ad639407436f\"><span class=\"hs-cta-node hs-cta-4779fb4b-159f-44d3-a483-ad639407436f\" id=\"hs-cta-4779fb4b-159f-44d3-a483-ad639407436f\"><!--[if lte IE 8]><div id=\"hs-cta-ie-element\"><\/div><![endif]--><a href=\"https:\/\/cta-redirect.hubspot.com\/cta\/redirect\/2646953\/4779fb4b-159f-44d3-a483-ad639407436f\" target=\"_blank\"><img class=\"hs-cta-img\" id=\"hs-cta-img-4779fb4b-159f-44d3-a483-ad639407436f\" style=\"border-width:0px;\" src=\"https:\/\/no-cache.hubspot.com\/cta\/default\/2646953\/4779fb4b-159f-44d3-a483-ad639407436f.png\" alt=\"Mounting Diagrams\"><\/a><\/span><script charset=\"utf-8\" src=\"https:\/\/js.hscta.net\/cta\/current.js\"><\/script><script type=\"text\/javascript\"> hbspt.cta.load(2646953, '4779fb4b-159f-44d3-a483-ad639407436f', {}); <\/script><\/span><!-- end HubSpot Call-to-Action Code -->\n\n<!--HubSpot Call-to-Action Code --><span class=\"hs-cta-wrapper\" id=\"hs-cta-wrapper-01b4049f-424a-4394-bb09-f73d0f4cc9bf\"><span class=\"hs-cta-node hs-cta-01b4049f-424a-4394-bb09-f73d0f4cc9bf\" id=\"hs-cta-01b4049f-424a-4394-bb09-f73d0f4cc9bf\"><!--[if lte IE 8]><div id=\"hs-cta-ie-element\"><\/div><![endif]--><a href=\"https:\/\/cta-redirect.hubspot.com\/cta\/redirect\/2646953\/01b4049f-424a-4394-bb09-f73d0f4cc9bf\"><img class=\"hs-cta-img\" id=\"hs-cta-img-01b4049f-424a-4394-bb09-f73d0f4cc9bf\" style=\"border-width:0px;\" src=\"https:\/\/no-cache.hubspot.com\/cta\/default\/2646953\/01b4049f-424a-4394-bb09-f73d0f4cc9bf.png\" alt=\"Cut Out Template\"><\/a><\/span><script charset=\"utf-8\" src=\"https:\/\/js.hscta.net\/cta\/current.js\"><\/script><script type=\"text\/javascript\"> hbspt.cta.load(2646953, '01b4049f-424a-4394-bb09-f73d0f4cc9bf', {}); <\/script><\/span><!-- end HubSpot Call-to-Action Code -->\n\n<!--HubSpot Call-to-Action Code --><span class=\"hs-cta-wrapper\" id=\"hs-cta-wrapper-c451dd88-f3d2-4e2d-92b6-fca222dba1b2\"><span class=\"hs-cta-node hs-cta-c451dd88-f3d2-4e2d-92b6-fca222dba1b2\" id=\"hs-cta-c451dd88-f3d2-4e2d-92b6-fca222dba1b2\"><!--[if lte IE 8]><div id=\"hs-cta-ie-element\"><\/div><![endif]--><a href=\"https:\/\/cta-redirect.hubspot.com\/cta\/redirect\/2646953\/c451dd88-f3d2-4e2d-92b6-fca222dba1b2\"><img class=\"hs-cta-img\" id=\"hs-cta-img-c451dd88-f3d2-4e2d-92b6-fca222dba1b2\" style=\"border-width:0px;\" src=\"https:\/\/no-cache.hubspot.com\/cta\/default\/2646953\/c451dd88-f3d2-4e2d-92b6-fca222dba1b2.png\" alt=\"Installation Manual\"><\/a><\/span><script charset=\"utf-8\" src=\"https:\/\/js.hscta.net\/cta\/current.js\"><\/script><script type=\"text\/javascript\"> hbspt.cta.load(2646953, 'c451dd88-f3d2-4e2d-92b6-fca222dba1b2', {}); <\/script><\/span><!-- end HubSpot Call-to-Action Code -->\n\n<!--HubSpot Call-to-Action Code --><span class=\"hs-cta-wrapper\" id=\"hs-cta-wrapper-c0d293f7-396c-4a9b-8a35-3ff7625818ff\"><span class=\"hs-cta-node hs-cta-c0d293f7-396c-4a9b-8a35-3ff7625818ff\" id=\"hs-cta-c0d293f7-396c-4a9b-8a35-3ff7625818ff\"><!--[if lte IE 8]><div id=\"hs-cta-ie-element\"><\/div><![endif]--><a href=\"https:\/\/cta-redirect.hubspot.com\/cta\/redirect\/2646953\/c0d293f7-396c-4a9b-8a35-3ff7625818ff\"><img class=\"hs-cta-img\" id=\"hs-cta-img-c0d293f7-396c-4a9b-8a35-3ff7625818ff\" style=\"border-width:0px;\" src=\"https:\/\/no-cache.hubspot.com\/cta\/default\/2646953\/c0d293f7-396c-4a9b-8a35-3ff7625818ff.png\" alt=\"Files (DXF, STEP)\"><\/a><\/span><script charset=\"utf-8\" src=\"https:\/\/js.hscta.net\/cta\/current.js\"><\/script><script type=\"text\/javascript\"> hbspt.cta.load(2646953, 'c0d293f7-396c-4a9b-8a35-3ff7625818ff', {}); <\/script><\/span><!-- end HubSpot Call-to-Action Code -->",
+              "content": "<strong>Blade Series Cabinet Specifications: <\/strong>\n<ul>\n<li>≥ 2\" clearance behind the drawer box<\/li>\n<li>Recommended ≥ 3\"drawer height<\/li>\n<\/ul>"
+            }
+          },
+          "1516761604901": {
+            "type": "na_outlet",
+            "settings": {
+              "na_bg": "#d1d8de",
+              "na_link": "shopify:\/\/products\/slim-series",
+              "na_button_text": "Buy Slim",
+              "na_image": "shopify:\/\/shop_images\/slim-series_3e50e639-4ad2-441b-95f0-59c18e138ba8.png",
+              "heading": "Docking Drawer Slim Series",
+              "hubspot_links": "<!--HubSpot Call-to-Action Code --><span class=\"hs-cta-wrapper\" id=\"hs-cta-wrapper-e96a1eea-3e0f-4f12-9c47-6cb91b3a5dc4\"><span class=\"hs-cta-node hs-cta-e96a1eea-3e0f-4f12-9c47-6cb91b3a5dc4\" id=\"hs-cta-e96a1eea-3e0f-4f12-9c47-6cb91b3a5dc4\"><!--[if lte IE 8]><div id=\"hs-cta-ie-element\"><\/div><![endif]--><a href=\"https:\/\/cta-redirect.hubspot.com\/cta\/redirect\/2646953\/e96a1eea-3e0f-4f12-9c47-6cb91b3a5dc4\" target=\"_blank\"><img class=\"hs-cta-img\" id=\"hs-cta-img-e96a1eea-3e0f-4f12-9c47-6cb91b3a5dc4\" style=\"border-width:0px;\" src=\"https:\/\/no-cache.hubspot.com\/cta\/default\/2646953\/e96a1eea-3e0f-4f12-9c47-6cb91b3a5dc4.png\" alt=\"Mounting Diagrams\"><\/a><\/span><script charset=\"utf-8\" src=\"https:\/\/js.hscta.net\/cta\/current.js\"><\/script><script type=\"text\/javascript\"> hbspt.cta.load(2646953, 'e96a1eea-3e0f-4f12-9c47-6cb91b3a5dc4', {}); <\/script><\/span><!-- end HubSpot Call-to-Action Code -->\n\n<!--HubSpot Call-to-Action Code --><span class=\"hs-cta-wrapper\" id=\"hs-cta-wrapper-01b4049f-424a-4394-bb09-f73d0f4cc9bf\"><span class=\"hs-cta-node hs-cta-01b4049f-424a-4394-bb09-f73d0f4cc9bf\" id=\"hs-cta-01b4049f-424a-4394-bb09-f73d0f4cc9bf\"><!--[if lte IE 8]><div id=\"hs-cta-ie-element\"><\/div><![endif]--><a href=\"https:\/\/cta-redirect.hubspot.com\/cta\/redirect\/2646953\/01b4049f-424a-4394-bb09-f73d0f4cc9bf\"><img class=\"hs-cta-img\" id=\"hs-cta-img-01b4049f-424a-4394-bb09-f73d0f4cc9bf\" style=\"border-width:0px;\" src=\"https:\/\/no-cache.hubspot.com\/cta\/default\/2646953\/01b4049f-424a-4394-bb09-f73d0f4cc9bf.png\" alt=\"Cut Out Template\"><\/a><\/span><script charset=\"utf-8\" src=\"https:\/\/js.hscta.net\/cta\/current.js\"><\/script><script type=\"text\/javascript\"> hbspt.cta.load(2646953, '01b4049f-424a-4394-bb09-f73d0f4cc9bf', {}); <\/script><\/span><!-- end HubSpot Call-to-Action Code -->\n\n<!--HubSpot Call-to-Action Code --><span class=\"hs-cta-wrapper\" id=\"hs-cta-wrapper-c451dd88-f3d2-4e2d-92b6-fca222dba1b2\"><span class=\"hs-cta-node hs-cta-c451dd88-f3d2-4e2d-92b6-fca222dba1b2\" id=\"hs-cta-c451dd88-f3d2-4e2d-92b6-fca222dba1b2\"><!--[if lte IE 8]><div id=\"hs-cta-ie-element\"><\/div><![endif]--><a href=\"https:\/\/cta-redirect.hubspot.com\/cta\/redirect\/2646953\/c451dd88-f3d2-4e2d-92b6-fca222dba1b2\"><img class=\"hs-cta-img\" id=\"hs-cta-img-c451dd88-f3d2-4e2d-92b6-fca222dba1b2\" style=\"border-width:0px;\" src=\"https:\/\/no-cache.hubspot.com\/cta\/default\/2646953\/c451dd88-f3d2-4e2d-92b6-fca222dba1b2.png\" alt=\"Installation Manual\"><\/a><\/span><script charset=\"utf-8\" src=\"https:\/\/js.hscta.net\/cta\/current.js\"><\/script><script type=\"text\/javascript\"> hbspt.cta.load(2646953, 'c451dd88-f3d2-4e2d-92b6-fca222dba1b2', {}); <\/script><\/span><!-- end HubSpot Call-to-Action Code -->\n\n<!--HubSpot Call-to-Action Code --><span class=\"hs-cta-wrapper\" id=\"hs-cta-wrapper-ee3c167d-6fe4-40ff-b90c-65ce11358fec\"><span class=\"hs-cta-node hs-cta-ee3c167d-6fe4-40ff-b90c-65ce11358fec\" id=\"hs-cta-ee3c167d-6fe4-40ff-b90c-65ce11358fec\"><!--[if lte IE 8]><div id=\"hs-cta-ie-element\"><\/div><![endif]--><a href=\"https:\/\/cta-redirect.hubspot.com\/cta\/redirect\/2646953\/ee3c167d-6fe4-40ff-b90c-65ce11358fec\"><img class=\"hs-cta-img\" id=\"hs-cta-img-ee3c167d-6fe4-40ff-b90c-65ce11358fec\" style=\"border-width:0px;\" src=\"https:\/\/no-cache.hubspot.com\/cta\/default\/2646953\/ee3c167d-6fe4-40ff-b90c-65ce11358fec.png\" alt=\"Files (DXF, STEP)\"><\/a><\/span><script charset=\"utf-8\" src=\"https:\/\/js.hscta.net\/cta\/current.js\"><\/script><script type=\"text\/javascript\"> hbspt.cta.load(2646953, 'ee3c167d-6fe4-40ff-b90c-65ce11358fec', {}); <\/script><\/span><!-- end HubSpot Call-to-Action Code -->",
+              "content": "<strong>Slim Series Cabinet Specifications: <\/strong>\n<ul>\n<li>≥ 3\" clearance behind the drawer box<\/li>\n<li>Recommended ​≥ 3\" drawer height<\/li>\n<\/ul>"
+            }
+          },
+          "1516761999990": {
+            "type": "na_outlet",
+            "settings": {
+              "na_bg": "#c5cbd1",
+              "na_link": "shopify:\/\/products\/style-drawer",
+              "na_button_text": "Buy Style Drawer",
+              "na_image": "shopify:\/\/shop_images\/style-series.png",
+              "heading": "Style Drawer Series",
+              "hubspot_links": "<!--HubSpot Call-to-Action Code --><span class=\"hs-cta-wrapper\" id=\"hs-cta-wrapper-7a965d65-b2ac-4527-9d12-0f07112a3ed9\"><span class=\"hs-cta-node hs-cta-7a965d65-b2ac-4527-9d12-0f07112a3ed9\" id=\"hs-cta-7a965d65-b2ac-4527-9d12-0f07112a3ed9\"><!--[if lte IE 8]><div id=\"hs-cta-ie-element\"><\/div><![endif]--><a href=\"https:\/\/cta-redirect.hubspot.com\/cta\/redirect\/2646953\/7a965d65-b2ac-4527-9d12-0f07112a3ed9\" target=\"_blank\"><img class=\"hs-cta-img\" id=\"hs-cta-img-7a965d65-b2ac-4527-9d12-0f07112a3ed9\" style=\"border-width:0px;\" src=\"https:\/\/no-cache.hubspot.com\/cta\/default\/2646953\/7a965d65-b2ac-4527-9d12-0f07112a3ed9.png\" alt=\"Mounting Diagrams\"><\/a><\/span><script charset=\"utf-8\" src=\"https:\/\/js.hscta.net\/cta\/current.js\"><\/script><script type=\"text\/javascript\"> hbspt.cta.load(2646953, '7a965d65-b2ac-4527-9d12-0f07112a3ed9', {}); <\/script><\/span><!-- end HubSpot Call-to-Action Code -->\n\n<!--HubSpot Call-to-Action Code --><span class=\"hs-cta-wrapper\" id=\"hs-cta-wrapper-01b4049f-424a-4394-bb09-f73d0f4cc9bf\"><span class=\"hs-cta-node hs-cta-01b4049f-424a-4394-bb09-f73d0f4cc9bf\" id=\"hs-cta-01b4049f-424a-4394-bb09-f73d0f4cc9bf\"><!--[if lte IE 8]><div id=\"hs-cta-ie-element\"><\/div><![endif]--><a href=\"https:\/\/cta-redirect.hubspot.com\/cta\/redirect\/2646953\/01b4049f-424a-4394-bb09-f73d0f4cc9bf\"><img class=\"hs-cta-img\" id=\"hs-cta-img-01b4049f-424a-4394-bb09-f73d0f4cc9bf\" style=\"border-width:0px;\" src=\"https:\/\/no-cache.hubspot.com\/cta\/default\/2646953\/01b4049f-424a-4394-bb09-f73d0f4cc9bf.png\" alt=\"Cut Out Template\"><\/a><\/span><script charset=\"utf-8\" src=\"https:\/\/js.hscta.net\/cta\/current.js\"><\/script><script type=\"text\/javascript\"> hbspt.cta.load(2646953, '01b4049f-424a-4394-bb09-f73d0f4cc9bf', {}); <\/script><\/span><!-- end HubSpot Call-to-Action Code -->\n\n<!--HubSpot Call-to-Action Code --><span class=\"hs-cta-wrapper\" id=\"hs-cta-wrapper-e8eccdd3-e3f4-4d9f-aaa6-334b016ddbcb\"><span class=\"hs-cta-node hs-cta-e8eccdd3-e3f4-4d9f-aaa6-334b016ddbcb\" id=\"hs-cta-e8eccdd3-e3f4-4d9f-aaa6-334b016ddbcb\"><!--[if lte IE 8]><div id=\"hs-cta-ie-element\"><\/div><![endif]--><a href=\"https:\/\/cta-redirect.hubspot.com\/cta\/redirect\/2646953\/e8eccdd3-e3f4-4d9f-aaa6-334b016ddbcb\"><img class=\"hs-cta-img\" id=\"hs-cta-img-e8eccdd3-e3f4-4d9f-aaa6-334b016ddbcb\" style=\"border-width:0px;\" src=\"https:\/\/no-cache.hubspot.com\/cta\/default\/2646953\/e8eccdd3-e3f4-4d9f-aaa6-334b016ddbcb.png\" alt=\"Installation Manual\"><\/a><\/span><script charset=\"utf-8\" src=\"https:\/\/js.hscta.net\/cta\/current.js\"><\/script><script type=\"text\/javascript\"> hbspt.cta.load(2646953, 'e8eccdd3-e3f4-4d9f-aaa6-334b016ddbcb', {}); <\/script><\/span><!-- end HubSpot Call-to-Action Code -->\n\n<!--HubSpot Call-to-Action Code --><span class=\"hs-cta-wrapper\" id=\"hs-cta-wrapper-b93a3a73-f2d8-4227-b4ff-c52404350760\"><span class=\"hs-cta-node hs-cta-b93a3a73-f2d8-4227-b4ff-c52404350760\" id=\"hs-cta-b93a3a73-f2d8-4227-b4ff-c52404350760\"><!--[if lte IE 8]><div id=\"hs-cta-ie-element\"><\/div><![endif]--><a href=\"https:\/\/cta-redirect.hubspot.com\/cta\/redirect\/2646953\/b93a3a73-f2d8-4227-b4ff-c52404350760\"><img class=\"hs-cta-img\" id=\"hs-cta-img-b93a3a73-f2d8-4227-b4ff-c52404350760\" style=\"border-width:0px;\" src=\"https:\/\/no-cache.hubspot.com\/cta\/default\/2646953\/b93a3a73-f2d8-4227-b4ff-c52404350760.png\" alt=\"Files (DXF, STEP)\"><\/a><\/span><script charset=\"utf-8\" src=\"https:\/\/js.hscta.net\/cta\/current.js\"><\/script><script type=\"text\/javascript\"> hbspt.cta.load(2646953, 'b93a3a73-f2d8-4227-b4ff-c52404350760', {}); <\/script><\/span><!-- end HubSpot Call-to-Action Code -->",
+              "content": "<strong>Style Drawer Series Cabinet Specifications: <\/strong>\n<ul>\n<li>≥ 2\" clearance behind the drawer box for Style Drawer Blade Series<\/li>\n<li>≥ 5\" clearance behind the drawer box for Style Drawer Flush Series<\/li>\n<li>≥ 4\" clearance behind the drawer box for Style Drawer Series (Surface Mounted)<\/li>\n<\/ul>"
+            }
+          }
+        },
+        "block_order": [
+          "1516760678245",
+          "1516761604901",
+          "1516761999990"
+        ],
+        "settings": {
+          "heading_bg": "#000000",
+          "heading_color": "#ffffff",
+          "heading": "North American Outlet Resources"
+        }
+      },
+      "international-spec": {
+        "type": "international-spec",
+        "blocks": {
+          "1516847278915": {
+            "type": "ina_outlet",
+            "settings": {
+              "ina_bg": "#d1d8de",
+              "ina_link": "shopify:\/\/collections\/rest-of-world-outlets",
+              "ina_button_text": "Buy Duo",
+              "ina_image": "shopify:\/\/shop_images\/duo-series.png",
+              "heading": "Duo Charging Series",
+              "hubspot_links": "<!--HubSpot Call-to-Action Code --><span class=\"hs-cta-wrapper\" id=\"hs-cta-wrapper-02268507-31a6-4a8b-a6c7-46e2a63e1fa1\"><span class=\"hs-cta-node hs-cta-02268507-31a6-4a8b-a6c7-46e2a63e1fa1\" id=\"hs-cta-02268507-31a6-4a8b-a6c7-46e2a63e1fa1\"><!--[if lte IE 8]><div id=\"hs-cta-ie-element\"><\/div><![endif]--><a href=\"https:\/\/cta-redirect.hubspot.com\/cta\/redirect\/2646953\/02268507-31a6-4a8b-a6c7-46e2a63e1fa1\" target=\"_blank\"><img class=\"hs-cta-img\" id=\"hs-cta-img-02268507-31a6-4a8b-a6c7-46e2a63e1fa1\" style=\"border-width:0px;\" src=\"https:\/\/no-cache.hubspot.com\/cta\/default\/2646953\/02268507-31a6-4a8b-a6c7-46e2a63e1fa1.png\" alt=\"Mounting Diagrams\"><\/a><\/span><script charset=\"utf-8\" src=\"https:\/\/js.hscta.net\/cta\/current.js\"><\/script><script type=\"text\/javascript\"> hbspt.cta.load(2646953, '02268507-31a6-4a8b-a6c7-46e2a63e1fa1', {}); <\/script><\/span><!-- end HubSpot Call-to-Action Code -->\n\n<!--HubSpot Call-to-Action Code --><span class=\"hs-cta-wrapper\" id=\"hs-cta-wrapper-b06920c4-2abd-459e-ab64-d2a2bd78e04a\"><span class=\"hs-cta-node hs-cta-b06920c4-2abd-459e-ab64-d2a2bd78e04a\" id=\"hs-cta-b06920c4-2abd-459e-ab64-d2a2bd78e04a\"><!--[if lte IE 8]><div id=\"hs-cta-ie-element\"><\/div><![endif]--><a href=\"https:\/\/cta-redirect.hubspot.com\/cta\/redirect\/2646953\/b06920c4-2abd-459e-ab64-d2a2bd78e04a\"><img class=\"hs-cta-img\" id=\"hs-cta-img-b06920c4-2abd-459e-ab64-d2a2bd78e04a\" style=\"border-width:0px;\" src=\"https:\/\/no-cache.hubspot.com\/cta\/default\/2646953\/b06920c4-2abd-459e-ab64-d2a2bd78e04a.png\" alt=\"Cutout Template\"><\/a><\/span><script charset=\"utf-8\" src=\"https:\/\/js.hscta.net\/cta\/current.js\"><\/script><script type=\"text\/javascript\"> hbspt.cta.load(2646953, 'b06920c4-2abd-459e-ab64-d2a2bd78e04a', {}); <\/script><\/span><!-- end HubSpot Call-to-Action Code --> \n\n<!--HubSpot Call-to-Action Code --><span class=\"hs-cta-wrapper\" id=\"hs-cta-wrapper-a320b3b2-6781-4e79-8e35-560dc83f1ff6\"><span class=\"hs-cta-node hs-cta-a320b3b2-6781-4e79-8e35-560dc83f1ff6\" id=\"hs-cta-a320b3b2-6781-4e79-8e35-560dc83f1ff6\"><!--[if lte IE 8]><div id=\"hs-cta-ie-element\"><\/div><![endif]--><a href=\"https:\/\/cta-redirect.hubspot.com\/cta\/redirect\/2646953\/a320b3b2-6781-4e79-8e35-560dc83f1ff6\"><img class=\"hs-cta-img\" id=\"hs-cta-img-a320b3b2-6781-4e79-8e35-560dc83f1ff6\" style=\"border-width:0px;\" src=\"https:\/\/no-cache.hubspot.com\/cta\/default\/2646953\/a320b3b2-6781-4e79-8e35-560dc83f1ff6.png\" alt=\"Installation Manual\"><\/a><\/span><script charset=\"utf-8\" src=\"https:\/\/js.hscta.net\/cta\/current.js\"><\/script><script type=\"text\/javascript\"> hbspt.cta.load(2646953, 'a320b3b2-6781-4e79-8e35-560dc83f1ff6', {}); <\/script><\/span><!-- end HubSpot Call-to-Action Code -->\n\n<!--HubSpot Call-to-Action Code --><span class=\"hs-cta-wrapper\" id=\"hs-cta-wrapper-7f582d06-7059-44b7-859a-bfaeb89aa4ad\"><span class=\"hs-cta-node hs-cta-7f582d06-7059-44b7-859a-bfaeb89aa4ad\" id=\"hs-cta-7f582d06-7059-44b7-859a-bfaeb89aa4ad\"><!--[if lte IE 8]><div id=\"hs-cta-ie-element\"><\/div><![endif]--><a href=\"https:\/\/cta-redirect.hubspot.com\/cta\/redirect\/2646953\/7f582d06-7059-44b7-859a-bfaeb89aa4ad\"><img class=\"hs-cta-img\" id=\"hs-cta-img-7f582d06-7059-44b7-859a-bfaeb89aa4ad\" style=\"border-width:0px;\" src=\"https:\/\/no-cache.hubspot.com\/cta\/default\/2646953\/7f582d06-7059-44b7-859a-bfaeb89aa4ad.png\" alt=\"Files (DXF, STEP)\"><\/a><\/span><script charset=\"utf-8\" src=\"https:\/\/js.hscta.net\/cta\/current.js\"><\/script><script type=\"text\/javascript\"> hbspt.cta.load(2646953, '7f582d06-7059-44b7-859a-bfaeb89aa4ad', {}); <\/script><\/span><!-- end HubSpot Call-to-Action Code -->",
+              "content": "<strong>Duo Series Cabinet Specifications: <\/strong>\n<ul>\n<li>≥ 51mm clearance behind the drawer box<\/li>\n<li>Recommended ≥ 58mm drawer height<\/li>\n<\/ul>"
+            }
+          },
+          "1516847482996": {
+            "type": "ina_outlet",
+            "settings": {
+              "ina_bg": "#c5cbd1",
+              "ina_link": "shopify:\/\/collections\/rest-of-world-outlets",
+              "ina_button_text": "Buy Trio",
+              "ina_image": "shopify:\/\/shop_images\/trio-series.png",
+              "heading": "Trio Powering Series",
+              "hubspot_links": "<!--HubSpot Call-to-Action Code --><span class=\"hs-cta-wrapper\" id=\"hs-cta-wrapper-400fbf67-cc04-44c1-a47a-2d2303dd188b\"><span class=\"hs-cta-node hs-cta-400fbf67-cc04-44c1-a47a-2d2303dd188b\" id=\"hs-cta-400fbf67-cc04-44c1-a47a-2d2303dd188b\"><!--[if lte IE 8]><div id=\"hs-cta-ie-element\"><\/div><![endif]--><a href=\"https:\/\/cta-redirect.hubspot.com\/cta\/redirect\/2646953\/400fbf67-cc04-44c1-a47a-2d2303dd188b\" target=\"_blank\"><img class=\"hs-cta-img\" id=\"hs-cta-img-400fbf67-cc04-44c1-a47a-2d2303dd188b\" style=\"border-width:0px;\" src=\"https:\/\/no-cache.hubspot.com\/cta\/default\/2646953\/400fbf67-cc04-44c1-a47a-2d2303dd188b.png\" alt=\"Mounting Diagrams\"><\/a><\/span><script charset=\"utf-8\" src=\"https:\/\/js.hscta.net\/cta\/current.js\"><\/script><script type=\"text\/javascript\"> hbspt.cta.load(2646953, '400fbf67-cc04-44c1-a47a-2d2303dd188b', {}); <\/script><\/span><!-- end HubSpot Call-to-Action Code -->\n\n<!--HubSpot Call-to-Action Code --><span class=\"hs-cta-wrapper\" id=\"hs-cta-wrapper-b06920c4-2abd-459e-ab64-d2a2bd78e04a\"><span class=\"hs-cta-node hs-cta-b06920c4-2abd-459e-ab64-d2a2bd78e04a\" id=\"hs-cta-b06920c4-2abd-459e-ab64-d2a2bd78e04a\"><!--[if lte IE 8]><div id=\"hs-cta-ie-element\"><\/div><![endif]--><a href=\"https:\/\/cta-redirect.hubspot.com\/cta\/redirect\/2646953\/b06920c4-2abd-459e-ab64-d2a2bd78e04a\"><img class=\"hs-cta-img\" id=\"hs-cta-img-b06920c4-2abd-459e-ab64-d2a2bd78e04a\" style=\"border-width:0px;\" src=\"https:\/\/no-cache.hubspot.com\/cta\/default\/2646953\/b06920c4-2abd-459e-ab64-d2a2bd78e04a.png\" alt=\"Cutout Template\"><\/a><\/span><script charset=\"utf-8\" src=\"https:\/\/js.hscta.net\/cta\/current.js\"><\/script><script type=\"text\/javascript\"> hbspt.cta.load(2646953, 'b06920c4-2abd-459e-ab64-d2a2bd78e04a', {}); <\/script><\/span><!-- end HubSpot Call-to-Action Code -->\n\n<!--HubSpot Call-to-Action Code --><span class=\"hs-cta-wrapper\" id=\"hs-cta-wrapper-149e75f5-dead-437b-947b-3594d097edf3\"><span class=\"hs-cta-node hs-cta-149e75f5-dead-437b-947b-3594d097edf3\" id=\"hs-cta-149e75f5-dead-437b-947b-3594d097edf3\"><!--[if lte IE 8]><div id=\"hs-cta-ie-element\"><\/div><![endif]--><a href=\"https:\/\/cta-redirect.hubspot.com\/cta\/redirect\/2646953\/149e75f5-dead-437b-947b-3594d097edf3\"><img class=\"hs-cta-img\" id=\"hs-cta-img-149e75f5-dead-437b-947b-3594d097edf3\" style=\"border-width:0px;\" src=\"https:\/\/no-cache.hubspot.com\/cta\/default\/2646953\/149e75f5-dead-437b-947b-3594d097edf3.png\" alt=\"Installation Manual\"><\/a><\/span><script charset=\"utf-8\" src=\"https:\/\/js.hscta.net\/cta\/current.js\"><\/script><script type=\"text\/javascript\"> hbspt.cta.load(2646953, '149e75f5-dead-437b-947b-3594d097edf3', {}); <\/script><\/span><!-- end HubSpot Call-to-Action Code -->\n\n<!--HubSpot Call-to-Action Code --><span class=\"hs-cta-wrapper\" id=\"hs-cta-wrapper-93cbedd9-afc8-4db0-9686-00050e09e41c\"><span class=\"hs-cta-node hs-cta-93cbedd9-afc8-4db0-9686-00050e09e41c\" id=\"hs-cta-93cbedd9-afc8-4db0-9686-00050e09e41c\"><!--[if lte IE 8]><div id=\"hs-cta-ie-element\"><\/div><![endif]--><a href=\"https:\/\/cta-redirect.hubspot.com\/cta\/redirect\/2646953\/93cbedd9-afc8-4db0-9686-00050e09e41c\"><img class=\"hs-cta-img\" id=\"hs-cta-img-93cbedd9-afc8-4db0-9686-00050e09e41c\" style=\"border-width:0px;\" src=\"https:\/\/no-cache.hubspot.com\/cta\/default\/2646953\/93cbedd9-afc8-4db0-9686-00050e09e41c.png\" alt=\"Files (DXF, STEP)\"><\/a><\/span><script charset=\"utf-8\" src=\"https:\/\/js.hscta.net\/cta\/current.js\"><\/script><script type=\"text\/javascript\"> hbspt.cta.load(2646953, '93cbedd9-afc8-4db0-9686-00050e09e41c', {}); <\/script><\/span><!-- end HubSpot Call-to-Action Code -->",
+              "content": "<strong>Trio Series Cabinet Specifications:<\/strong>\n<ul>\n<li>≥ 51mm clearance behind the drawer box<\/li>\n<li>Recommended ≥ 58mm drawer height<\/li>\n<\/ul>"
+            }
+          }
+        },
+        "block_order": [
+          "1516847278915",
+          "1516847482996"
+        ],
+        "settings": {
+          "heading_bg": "#000000",
+          "heading_color": "#ffffff",
+          "heading": "International Outlet Resources"
+        }
+      },
+      "product": {
+        "type": "product",
+        "settings": {
+          "show_share_buttons": false
+        }
+      }
+    },
+    "content_for_index": [
+      "1511315858642",
+      "1511233268541",
+      "1511235384091"
+    ]
+  },
   "presets": {
     "Default": {
       "sections": {
@@ -7,20 +2112,24 @@
           "type": "collection-list",
           "blocks": {
             "collection-list-0": {
-              "type": "collection"
+              "type": "collection",
+              "settings": {}
             },
             "collection-list-1": {
-              "type": "collection"
+              "type": "collection",
+              "settings": {}
             },
             "collection-list-2": {
-              "type": "collection"
+              "type": "collection",
+              "settings": {}
             }
           },
           "block_order": [
             "collection-list-0",
             "collection-list-1",
             "collection-list-2"
-          ]
+          ],
+          "settings": {}
         },
         "featured-collection": {
           "type": "featured-collection",
@@ -29,7 +2138,8 @@
           }
         },
         "featured-product": {
-          "type": "featured-product"
+          "type": "featured-product",
+          "settings": {}
         }
       },
       "content_for_index": [

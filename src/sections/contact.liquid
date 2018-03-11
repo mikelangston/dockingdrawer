@@ -34,9 +34,9 @@
   </div>
   <div class="col-md-3 col-md-pull-8">
     <ul class="info">
-      <li><i class="fa fa-phone"></i>{{ section.settings.phone }}</li>
-      <li><i class="fa fa-home"></i>{{ section.settings.address }}</li>
-      <li><i class="fa fa-envelope"></i>{{ section.settings.email }}</li>
+      <li><i class="fa fa-phone"></i>{{ shop.phone }}</li>
+      <li><i class="fa fa-home"></i>{{ shop.address.street }} <br> {{ shop.address.city }}, {{ shop.address.state }}</li>
+      <li><i class="fa fa-envelope"></i>{{ shop.email }}</li>
     </ul>
     <a href="#" class="blk-btn block exchange-btn"><i class="fa fa-refresh"></i>Make an Exchange</a>
     <a href="#" class="blk-btn block return-btn"><i class="fa fa-sign-in"></i>Make a Return</a>
