@@ -39,7 +39,7 @@
       <li><i class="fa fa-envelope"></i>{{ shop.email }}</li>
     </ul>
     <a href="#" class="blk-btn block exchange-btn"><i class="fa fa-refresh"></i>Make an Exchange</a>
-    <a href="https://returns.aftership.com/dockingdrawer.com" class="blk-btn block"><i class="fa fa-sign-in"></i>Make a Return</a>
+    <a href="{{ section.settings.return_url }}" class="blk-btn block"><i class="fa fa-sign-in"></i>Make a Return</a>
   </div>
 </section>
 
@@ -81,6 +81,12 @@
         "type": "textarea",
         "id": "return_content",
         "label": "Return Content"
+      },
+      {
+        "type": "text",
+        "id": "return_url",
+        "label": "Return URL",
+        "default": "http://returns.dockingdrawer.com"
       }
     ]
   }
