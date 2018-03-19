@@ -1,0 +1,85 @@
+{% assign resource_list = section.settings.resource_list | split: "," %}
+
+<style>
+    #literature-resources {
+        background: url('{{ section.settings.background_image.src | img_url:"2048x" }}');
+        color: {{ section.settings.text_color }}
+    }
+    #literature-resources #hubspot-custom .cta_button {
+        background: {{ section.settings.cta_background }};
+        color: {{ section.settings.cta_color }};
+    }
+</style>
+
+<div id="literature-resources">
+    <div id="literature-resources__content" class="grid">
+        <div class="grid__container">
+            <div class="grid__item">
+                <h3>{{ section.settings.section_title }}</h3>
+                <p>{{ section.settings.section_body }}</p>
+                <ul>
+                    {% for item in resource_list %}
+                        <li>{{ item }}</li>
+                    {% endfor %}
+                </ul>
+                <div class="hubspot-button" id="hubspot-custom">
+                    {{ section.settings.hubspot }}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% schema %}
+{
+    "name": "Literature Resources",
+    "settings": [
+      {
+        "type": "color",
+        "id": "text_color",
+        "label": "Font Color",
+        "default": "#fff"
+      },
+      {
+        "type": "text",
+        "id": "section_title",
+        "label": "Section Title",
+        "default": "Resources"
+      },
+      {
+        "type": "textarea",
+        "id": "section_body",
+        "label": "Section Body",
+        "default": "Seeking details to plan out a project? Visit our detailed specification library for measurements and diagrams of all our outlet products."
+      },
+      {
+        "type": "textarea",
+        "id": "resource_list",
+        "label": "Resources List",
+        "default": "Mounting Diagrams, Cut Out Templates, Electrical Planning Guide, Installation Manuals, DXF & Step Files"
+      },
+      {
+        "type": "image_picker",
+        "id": "background_image",
+        "label": "Background Image"
+      },
+      {
+        "type": "color",
+        "id": "cta_color",
+        "label": "CTA Font Color",
+        "default": "#fff"
+      },
+      {
+        "type": "color",
+        "id": "cta_background",
+        "label": "CTA Background Color",
+        "default": "#949799"
+      },
+      {
+        "type": "html",
+        "id": "hubspot",
+        "label": "Hubspot CTA"
+      }
+    ]
+}
+{% endschema %}

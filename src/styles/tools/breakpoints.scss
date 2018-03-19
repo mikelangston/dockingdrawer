@@ -1,11 +1,16 @@
 // Breakpoints
 $screen-xs-min: 480px;
-$screen-sm-min: 768px;
+$screen-sm-min: 750px;
 $screen-xs-max: ($screen-sm-min - 1);
 $screen-md-min: 992px;
 $screen-sm-max: ($screen-md-min - 1);
 $screen-lg-min: 1200px;
 $screen-md-max: ($screen-lg-min - 1);
+
+.grid__container {
+  max-width: 1170px;
+  margin: 0 auto;
+}
 
 @mixin mobile-large {
   @media (min-width: #{$screen-xs-min}) {
