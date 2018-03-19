@@ -1,0 +1,23 @@
+<div id="literature-hero">
+  <img src='{{ section.settings.hero_image | img_url: "2048x" }}'>
+  <h1>{{ section.settings.hero_text }}</h1>
+</div>
+
+{% schema %}
+  {
+    "name": "Literature Header",
+    "settings": [
+      {
+        "type": "text",
+        "id": "hero_text",
+        "label": "Hero Image Text",
+        "default": "Literature Library"
+      },
+      {
+        "type": "image_picker",
+        "id": "hero_image",
+        "label": "Hero Image"
+      }
+    ]
+  }
+{% endschema %}

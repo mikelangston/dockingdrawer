@@ -1,0 +1,134 @@
+<style>
+    #literature-supplemental .hubspot img {
+        max-height: {{ section.settings.max_height }}px;
+        object-fit: {{ section.settings.fit }};
+    }
+</style>
+
+<div id="literature-supplemental" class="grid">
+    <div class="literature-title grid__item one_whole"
+         style="background: {{ section.settings.text_background }};
+                color: {{ section.settings.text_color }};">
+        <div class="grid__container">
+            {% unless section.settings.section_title  == blank %}
+                <h3>{{ section.settings.section_title }}</h3>
+            {% endunless %}
+
+            {% unless section.settings.description == blank %}
+                <p>{{ section.settings.description }}</p>
+            {% endunless %}
+        </div>
+    </div>
+
+    <div class="literature-blocks" style="padding: 0 {{ section.settings.row_padding }}%">
+        <div class="grid__container">
+        {% for block in section.blocks %}
+            {% case block.type %}
+                {% when 'call_to_action' %}
+                <div class="grid__item {{ section.settings.cta_width }}">
+                    <h3 class="h3">{{ block.settings.title }}</h3>
+                    <div class="rte">{{ block.settings.sub_title }}</div>
+                    <div class="hubspot">{{ block.settings.hubspot }}</div>
+                </div>
+            {% endcase %}
+        {% endfor %}
+        </div>
+    </div>
+</div>
+
+
+{% schema %}
+  {
+    "name": "Literature Supplemental",
+    "settings": [
+      {
+        "type": "text",
+        "id": "section_title",
+        "label": "Section Title",
+        "default": "Literature Supplemental"
+      },
+      {
+        "type": "textarea",
+        "id": "description",
+        "label": "Description"
+      },
+      {
+         "type":      "color",
+         "id":        "text_color",
+         "label":     "Title Color",
+         "default":   "#fff"
+      },
+      {
+         "type":      "color",
+         "id":        "text_background",
+         "label":     "Title Background Color",
+         "default":   "#000"
+      },
+      {
+           "type": "select",
+           "id": "cta_width",
+           "options": [
+              { "value": "medium-up--one-half", "label": "50%"},
+              { "value": "medium-up--one-third", "label": "33%"},
+              { "value": "medium-up--one-fourth", "label": "25%"}
+           ],
+            "label": "CTA column width",
+            "default": "medium-up--one-half"
+      },
+      {
+           "type": "select",
+           "id": "fit",
+           "options": [
+              { "value": "contain", "label": "Contain Image"},
+              { "value": "cover", "label": "Cover Image"},
+              { "value": "fit", "label": "Fit Image"}
+           ],
+            "label": "Image Fit",
+            "default": "contain"
+      },
+      {
+            "type":   "range",
+            "id":     "row_padding",
+            "min":       0,
+            "max":       20,
+            "step":      1,
+            "unit":      "%",
+            "label":     "Row Padding",
+            "default":   10
+      },
+      {
+            "type":   "range",
+            "id":     "max_height",
+            "min":       150,
+            "max":       600,
+            "step":      10,
+            "unit":      "px",
+            "label":     "Max CTA Image Height",
+            "default":   250
+      }
+    ],
+    "blocks": [
+      {
+        "type": "call_to_action",
+        "name": "Call To Action",
+        "settings": [
+          {
+            "id": "title",
+            "type": "text",
+            "label": "Title"
+          },
+          {
+            "id": "sub_title",
+            "type": "text",
+            "label": "Sub Title"
+          },
+          {
+            "id": "hubspot",
+            "type": "html",
+            "label": "Hubspot Code"
+          }
+        ]
+      }
+    ]
+  }
+{% endschema %}

@@ -1,16 +1,120 @@
-.literature-block{
-  padding: 150px 30px;
-  min-height: 460px;
-  text-align: center;
-  @include prefix(background-size, cover, spec webkit moz);
-  h3{
-    font-weight: 700;
-    font-size: 40px;
-    margin-bottom: 30px;
+#literature-hero {
+  position: relative;
+
+  h1, h2, h3, h4, h5 {
+    position: absolute;
+    top: 50%;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    letter-spacing: 1.5px;
   }
-  .blk-btn{
-    display: block !important;
-    width: 300px;
-    margin: 3px auto;
+}
+
+.literature-title {
+  text-align: center;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  letter-spacing: 1.5px;
+  margin-bottom: 2em;
+
+  h1, h2, h3, h4, h4, p, span {
+    margin: 0;
+    padding: 0;
+  }
+
+  p {
+    margin-top: 1em;
+  }
+}
+
+.literature-blocks {
+  text-align: center;
+  div {
+    background: #fff;
+    margin-bottom: 2em;
+  }
+  h3 {
+
+  }
+  .rte {
+    margin-bottom: 2em;
+  }
+  .hubspot {
+    .cta_button {
+      padding: 0;
+      border: none;
+      background: none;
+    }
+    img {
+      height: unset;
+      width: unset;
+    }
+  }
+}
+#main-literature {
+  margin-top: -32px;
+}
+
+#literature-resources {
+  padding: 3em 0;
+  @include tablet {
+    padding: 0;
+  }
+  #literature-resources__content {
+    letter-spacing: 1px;
+    text-align: center;
+    padding: 0 1em;
+
+    h3 {
+      margin-top: 0;
+    }
+    p {
+      font-size: 12px;
+      @include tablet {
+        line-height: 1.8;
+        font-size: 15px;
+      }
+    }
+    .grid__item {
+
+      @include tablet {
+        padding: 4em 20% 4em 30px;;
+        text-align: left;
+      }
+    }
+    ul {
+      text-align: left;
+      margin-left: -20px;
+
+      @include tablet {
+        column-count: 2;
+        column-gap: 20px;
+        column-fill: auto;
+        list-style-position: inside;
+        margin-left: -40px;
+        margin-bottom: 2em;
+      }
+      li {
+        font-size: 16px;
+        @include tablet {
+          font-size: 19px;
+        }
+      }
+    }
+    // Override for CTA Button styling, this may need to be replaced.
+    #hubspot-custom {
+      .cta_button {
+        border: none;
+        line-height: 1.5em;
+        padding: 6px 23px;
+        font-weight: normal;
+        transition: all 0.5s linear;
+        text-shadow: none;
+        &:hover {
+          background-color: #fff !important;
+        }
+      }
+    }
   }
 }
