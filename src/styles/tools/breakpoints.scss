@@ -7,11 +7,6 @@ $screen-sm-max: ($screen-md-min - 1);
 $screen-lg-min: 1200px;
 $screen-md-max: ($screen-lg-min - 1);
 
-.grid__container {
-  max-width: 1170px;
-  margin: 0 auto;
-}
-
 @mixin mobile-large {
   @media (min-width: #{$screen-xs-min}) {
     @content;
@@ -33,5 +28,15 @@ $screen-md-max: ($screen-lg-min - 1);
 @mixin desktop {
   @media (min-width: #{$screen-lg-min}) {
     @content;
+  }
+}
+
+.grid__container {
+  margin: 0 auto;
+  @include tablet {
+    max-width: 750px;
+  }
+  @include laptop {
+    max-width: 1170px;
   }
 }
